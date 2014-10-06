@@ -1,0 +1,92 @@
+<?php $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/'; ?>
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <?php print $head; ?>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+       
+        <title><?php print $head_title; ?></title>
+
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <!--<link rel="shortcut icon" href="../favicon.ico">-->
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
+
+        <!-- Google fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+        <!-- Optional theme -->
+        <link href="<?=$theme_path?>css/styles.css" rel="stylesheet" media="screen">
+
+
+        <?php print $scripts; ?>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+          <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+        <![endif]-->
+
+        <!--[if gte IE 9]>
+          <style type="text/css">
+            .gradient {
+               filter: none;
+            }
+          </style>
+        <![endif]-->
+
+
+
+
+    </head>
+
+    <body class="homepage <?php print $classes; ?>"<?php print $attributes; ?>>
+
+
+        <h1>TEST</h1>
+
+        <?php print $page_top; ?>
+        <?php print $page; ?>
+        <?php print $page_bottom; ?>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
+            <!-- carousel CSS -->
+        <link rel="stylesheet" type="text/css" href="<?=$theme_path?>js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />
+
+        <!-- lib -->
+
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery.ui.widget.js"></script>
+        <!-- if using touch -->
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery.event.drag.js"></script>
+        <!-- if using touch and translate3d -->
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery.translate3d.js"></script>
+
+        <!-- carousel core -->
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>
+
+        <!-- carousel extensions (optional) -->
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
+        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master//js/jquery.rs.carousel-touch.js"></script>
+
+
+        <!-- double tap navigation -->
+        <script src="<?=$theme_path?>js/double-tap/main.js"></script>
+        <script src="<?=$theme_path?>js/double-tap/doubletaptogo.js"></script>
+
+
+    </body>
+</html>
