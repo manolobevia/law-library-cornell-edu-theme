@@ -72,7 +72,7 @@
  *
  * @ingroup themeable
  */
-
+<h1>PAGE</h1>
 
 <?php print render($page['content']); ?>
 

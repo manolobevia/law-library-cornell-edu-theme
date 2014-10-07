@@ -77,5 +77,9 @@
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
-<?php print render($page['content']); ?>
+<h1>HOMEPAGE</h1>
+
+<?php print //render($page['content']); ?>
+
+<?php print //render($page['footer']); ?>
 

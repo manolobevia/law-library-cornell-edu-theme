@@ -24,8 +24,8 @@
         <!-- Optional theme -->
         <link href="<?=$theme_path?>css/styles.css" rel="stylesheet" media="screen">
 
-
-        <?php print $scripts; ?>
+        <?php print $styles; ?>
+        
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -34,22 +34,15 @@
         <![endif]-->
 
         <!--[if gte IE 9]>
-          <style type="text/css">
-            .gradient {
-               filter: none;
-            }
-          </style>
         <![endif]-->
 
+        <?php print $scripts; ?>
 
 
 
     </head>
 
-    <body class="homepage <?php print $classes; ?>"<?php print $attributes; ?>>
-
-
-        <h1>TEST</h1>
+    <body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
 
         <?php print $page_top; ?>
         <?php print $page; ?>
