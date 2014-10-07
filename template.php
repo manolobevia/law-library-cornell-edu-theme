@@ -3,8 +3,6 @@
 /**
  * @file
  * template.php
- *
- *
  */
 
 function law_library_bootstrap_js_alter(&$js)
