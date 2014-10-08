@@ -430,6 +430,7 @@ footer.row {
 
 .breadcrumb {
     background-color: #fff;
+    padding-left: 0;
 }
 
 .page-content {
@@ -438,7 +439,7 @@ footer.row {
     padding-right: 54px;
 
     .main-content {
-        
+        padding: 0;
     }
 
     .sidebar-nav {

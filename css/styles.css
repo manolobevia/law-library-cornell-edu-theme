@@ -5450,11 +5450,14 @@ footer.row {
     float: left; }
 
 .breadcrumb {
-  background-color: #fff; }
+  background-color: #fff;
+  padding-left: 0; }
 
 .page-content {
   padding-left: 54px;
   padding-right: 54px; }
+  .page-content .main-content {
+    padding: 0; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
