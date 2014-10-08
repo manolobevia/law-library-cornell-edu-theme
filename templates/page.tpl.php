@@ -112,7 +112,7 @@
         <strong>Our Space</strong>
     </nav>  
 
-    <div class="main-content col-xs-12 col-sm-12 col-md-9 col-lg-9">
+    <div class="main-content col-xs-12 col-sm-12 col-md-10 col-lg-10">
 
         <header>
             <h2 class="title-content"><?php print $title; ?></h2>
@@ -121,7 +121,7 @@
 		<?php print render($page['content']); ?>
 	</div>
 
-    <sidebar class="sidebar-nav col-xs-12 col-sm-12 col-md-3 col-lg-3">
+    <sidebar class="sidebar-nav col-xs-12 col-sm-12 col-md-2 col-lg-2">
         
         <h4>OTHER AREAS</h4>
 
