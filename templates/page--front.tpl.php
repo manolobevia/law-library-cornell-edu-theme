@@ -378,10 +378,10 @@
 
     
         <footer>
-            <div class="row">
-              <?php print render($page['footer']); ?>
-            </div>
-        </footer>
+    <div class="row">
+      <?php print render($page['footer']); ?>
+    </div>
+</footer>
 
 
         <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->

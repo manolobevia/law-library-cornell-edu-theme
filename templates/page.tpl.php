@@ -140,11 +140,11 @@
 
         </section>
 
-<footer>
-    <div class="row">
-      <?php print render($page['footer']); ?>
-    </div>
-</footer>
+		<footer>
+		    <div class="row">
+		      <?php print render($page['footer']); ?>
+		    </div>
+		</footer>
 
-<?php print render($page['bottom']); ?>
+		
         
