@@ -442,6 +442,10 @@ h2 {
 .title-content {
     text-transform: uppercase;
     border-bottom: 1px solid #c6c7c8;
+
+    span {
+       border-bottom: 5px solid #c6c7c8; 
+    }
 }
 
 h3 {
