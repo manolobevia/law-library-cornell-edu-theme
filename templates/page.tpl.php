@@ -73,7 +73,6 @@
  * @ingroup themeable
  */
 ?>
-<body class="page">
 
     <!-- col-xs- mobile / col-sm- tablet / col-md- desktop / col-lg-  large -->
 
@@ -121,8 +120,8 @@
             <h2>STUDY AREAS</h2>
 
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-<?php print render($page['content']); ?>
-</div>
+				<?php print render($page['content']); ?>
+			</div>
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 
