@@ -1,5 +1,3 @@
-<?php $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/'; ?>
-<?=$theme_path?>
 <!DOCTYPE html>
 
 <html lang="en">
@@ -22,7 +20,7 @@
         <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
         <!-- Optional theme -->
-        <link href="<?=$theme_path?>css/styles.css" rel="stylesheet" media="screen">
+        <!--<link href="css/styles.css" rel="stylesheet" media="screen">-->
 
         <?php print $styles; ?>
         

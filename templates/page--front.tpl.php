@@ -72,10 +72,6 @@
  *
  * @ingroup themeable
  */
-
-
-$theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
-<?=$theme_path?>
 ?>
 
 <!-- CUL BRANDING -->
