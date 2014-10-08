@@ -85,28 +85,7 @@ a:hover {
     
 }
 
-p {
-  font-size: 18px;
-  font-family: $fontBody;
-  color: $colorBody;
-}
 
-h2 {
-  font-size: 40px;
-  font-family: $fontBody;
-  color: $cornellRed;
-  font-weight: bold;
-}
-
-h3 {
-  font-size: 18px;
-  font-family: $fontBody;
-  color: $cornellRed;
-  font-weight: bold;
-}
-a {
-    color: $lickColor;
-}
 
 
 /////////////////////////
@@ -436,6 +415,35 @@ footer.row {
     background-color: #fff;
     padding-left: 0;
 }
+
+
+p {
+  font-size: 18px;
+  font-family: $fontBody;
+  color: $colorBody;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: $fontBody;
+  color: $cornellRed;
+  font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: $fontBody;
+  color: $cornellRed;
+  font-weight: bold;
+}
+a {
+    color: $lickColor;
+}
+
 
 .page-content {
 

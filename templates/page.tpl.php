@@ -111,7 +111,7 @@
         <strong>Our Space</strong>
     </nav>  
 
-    <h2><?php print $title; ?></h2>
+    <h2 class="uppercase"><?php print $title; ?></h2>
 
     <div class="main-content col-xs-12 col-sm-12 col-md-9 col-lg-9">
 		<?php print render($page['content']); ?>
