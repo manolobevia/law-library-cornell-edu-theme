@@ -100,7 +100,7 @@
 
         </header>
 
-        <?php print render($page['Superfish 4 (Superfish)']); ?>
+        <?php print render($page['Navigation']); ?>
 
         <!-- HEADER IMAGE -->
 
