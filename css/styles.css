@@ -5452,12 +5452,9 @@ footer.row {
 .breadcrumb {
   background-color: #fff; }
 
-.content {
-  border: 1px solid red;
+.page-content {
   padding-left: 54px;
   padding-right: 54px; }
-  .content .main-content {
-    border: 1px solid blue; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

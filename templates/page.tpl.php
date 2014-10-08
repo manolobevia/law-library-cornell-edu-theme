@@ -104,7 +104,7 @@
 </section>
 
 <!-- CONTENT -->
-<section class="row content">
+<section class="row page-content">
 
     <nav class="breadcrumb">
         <a href="#">About</a> /
