@@ -5435,7 +5435,7 @@ footer.row {
   background-color: #fff;
   padding-left: 0;
   font-size: 17px;
-  padding-top: 20px; }
+  padding-top: 30px; }
   .breadcrumb .separator {
     font-family: "HeroRegular";
     font-size: 17px; }
@@ -5451,8 +5451,9 @@ h2 {
   color: #b11d22;
   font-weight: bold; }
 
-.uppercase {
-  text-transform: uppercase; }
+.title-content {
+  text-transform: uppercase;
+  border-bottom: 1px solid #c6c7c8; }
 
 h3 {
   font-size: 18px;
