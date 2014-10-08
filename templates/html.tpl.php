@@ -1,5 +1,5 @@
 <?php $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/'; ?>
-
+<?=$theme_path?>
 <!DOCTYPE html>
 
 <html lang="en">
