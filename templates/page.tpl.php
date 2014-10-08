@@ -113,11 +113,11 @@
 
     <h2><?php print $title; ?></h2>
 
-    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+    <div class="main-content col-xs-12 col-sm-12 col-md-9 col-lg-9">
 		<?php print render($page['content']); ?>
 	</div>
 
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+    <sidebar class="sidebar-nav col-xs-12 col-sm-12 col-md-3 col-lg-3">
         
         <h4>OTHER AREAS</h4>
 
@@ -129,7 +129,7 @@
 
         <h4><a href="#">RESERVE A ROOM</a></h4>
 
-    </div>
+    </sidebar>
 
 </section>
 
