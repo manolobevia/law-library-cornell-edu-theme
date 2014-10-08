@@ -5430,8 +5430,9 @@ footer.row {
   height: 77px;
   background-color: #fff;
   margin: 0 auto;
-  padding-top: 30px; }
-  footer.row .address-copyright {
+  padding-top: 30px;
+  border-top: 1px solid #f0f0f0; }
+  footer.row .address-copyright p {
     font-weight: 12px;
     color: #242424; }
   footer.row .navigation {

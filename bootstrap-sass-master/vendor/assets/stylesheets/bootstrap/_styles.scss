@@ -387,11 +387,14 @@ footer.row {
     background-color: #fff;
     margin: 0 auto;
     padding-top: 30px;
+    border-top: 1px solid #f0f0f0;
 
 
     .address-copyright {
-        font-weight: 12px;
-        color: #242424;
+        p {
+            font-weight: 12px;
+            color: #242424;
+        }
     }
 
     .navigation {
