@@ -42,48 +42,41 @@
 
     <body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
 
-        <?php print $page_top; ?>
-        <?php print $page; ?>
-        <?php print $page_bottom; ?>
+    <?php print $page_top; ?>
+    <?php print $page; ?>
+    <?php print $page_bottom; ?>
 
 
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-        <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
-            <!-- carousel CSS -->
-        <link rel="stylesheet" type="text/css" href="<?=$theme_path?>js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />
+    <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
+        <!-- carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />
 
-        <!-- lib -->
+    <!-- lib -->
 
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery.ui.widget.js"></script>
-        <!-- if using touch -->
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery.event.drag.js"></script>
-        <!-- if using touch and translate3d -->
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery.translate3d.js"></script>
+    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
+    <!-- if using touch -->
+    <script type="text/javascript" src="js/jquery.event.drag.js"></script>
+    <!-- if using touch and translate3d -->
+    <script type="text/javascript" src="js/jquery.translate3d.js"></script>
 
-        <!-- carousel core -->
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>
+    <!-- carousel core -->
+    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>
 
-        <!-- carousel extensions (optional) -->
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-        <script type="text/javascript" src="<?=$theme_path?>js/jquery-ui-carousel-master//js/jquery.rs.carousel-touch.js"></script>
+    <!-- carousel extensions (optional) -->
+    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-carousel-master//js/jquery.rs.carousel-touch.js"></script>
 
 
-        <!-- double tap navigation -->
-        <script src="<?=$theme_path?>js/double-tap/main.js"></script>
-        <script src="<?=$theme_path?>js/double-tap/doubletaptogo.js"></script>
-
-        <?php 
-            $path = drupal_get_path('theme', 'LAW-LIBRARY');
-            //$image_path = $path . '/images/image.jpg';
-            print $path;
-        ?>
-
+    <!-- double tap navigation -->
+    <script src="js/double-tap/main.js"></script>
+    <script src="js/double-tap/doubletaptogo.js"></script>
 
     </body>
 </html>
