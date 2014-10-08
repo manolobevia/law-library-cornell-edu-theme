@@ -2,6 +2,9 @@
 //
 
 $cornellRed: #b11d22;
+$lickColor: #129792;
+$linkColorNav: #1199C3;
+$colorBody: #64686a;
 $activeLinkColor: #95d8fe;
 $fontMainNav: 'HeroRegular';
 
@@ -18,7 +21,6 @@ $fontBody: 'Montserrat', sans-serif;
     //margin-left: -15px;
     //margin-right: -15px;
 }
-
 
 
 ul {
@@ -52,10 +54,6 @@ body {
 
 }
 
-a {
-    color: #1199C3;
-}
-
 a:hover {
     text-decoration: none;
 }
@@ -86,6 +84,32 @@ a:hover {
     margin-left: 3px;
     
 }
+
+p {
+  font-size: 18px;
+  font-family: $fontBody;
+  color: $colorBody;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: $fontBody;
+  color: $cornellRed;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: $fontBody;
+  color: $cornellRed;
+  font-weight: bold;
+}
+a {
+    color: $lickColor;
+}
+
+
+/////////////////////////
 
 .cul-branding {
 
@@ -265,9 +289,6 @@ a:hover {
     }
 }
 
-
-
-
 .media {
 
     background-color: #252525;
@@ -360,10 +381,6 @@ a:hover {
 
 }
 
-
-
-
-
 footer.row {
 
     height: 77px;
@@ -411,11 +428,10 @@ footer.row {
 }
 
 
-// OVERRIDES
-
 .breadcrumb {
-    background-color: none;
+    background-color: #fff;
 }
+
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

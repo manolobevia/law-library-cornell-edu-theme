@@ -74,73 +74,68 @@
  */
 ?>
 
-    <!-- col-xs- mobile / col-sm- tablet / col-md- desktop / col-lg-  large -->
+<!-- CUL BRANDING -->
+<section class="cul-branding">
+        <img class="cu-logo" src="/sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
+</section>
 
-        <!-- CUL BRANDING -->
-        <section class="cul-branding">
-                <img class="cu-logo" src="/sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
-        </section>
+<!-- LAW BRANDING + MAIN NAVIGATION-->
+<header class="main-nav">
 
-        <!-- LAW BRANDING + MAIN NAVIGATION-->
-        <header class="main-nav">
+    <h1>
+        <img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" />
+    </h1>
+    
+    <ul>
+        <li><a class="active" href="/" title="">HOME</a> /</li>
+        <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
+        <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
+        <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
+        <li><a href="#" title="">EXPLORE</a></li>
+        <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
+        <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
+    </ul>
 
-            <h1>
-                <img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" />
-            </h1>
-            
-            <ul>
-                <li><a class="active" href="/" title="">HOME</a> /</li>
-                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">EXPLORE</a></li>
-                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
-            </ul>
+</header>
 
-        </header>
+<!-- HEADER IMAGE -->
+<section class="">
+    <img src="/sites/all/themes/law_library_bootstrap/images/header-interior.jpg" />
+</section>
 
-        <!-- HEADER IMAGE -->
+<!-- CONTENT -->
+<section class="row content">
 
-        <section class="">
-            <img src="/sites/all/themes/law_library_bootstrap/images/header-interior.jpg" />
-        </section>
+    <nav class="breadcrumb">
+        <a href="#">About</a> /
+        <strong>Our Space</strong>
+    </nav>  
 
-        <!-- CONTENT -->
+    <h2><?php print $title; ?></h2>
 
-        <section class="row content">
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+		<?php print render($page['content']); ?>
+	</div>
 
-            <nav class="breadcrumb">
-                <a href="#">About</a> /
-                <strong>Our Space</strong>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        
+        <h4>OTHER AREAS</h4>
 
-            </nav>  
+        <ul>
+            <li><a href="#">Reading Room ></a></li>
+            <li><a href="#">Squash Court ></a></li>
+            <li><a href="#">Law Library Map ></a></li>
+        </ul>
 
-            <h2><?php print $title; ?></h2>
+        <h4><a href="#">RESERVE A ROOM</a></h4>
 
-            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
-				<?php print render($page['content']); ?>
-			</div>
+    </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                
-                <h4>OTHER AREAS</h4>
+</section>
 
-                <ul>
-                    <li><a href="#">Reading Room ></a></li>
-                    <li><a href="#">Squash Court ></a></li>
-                    <li><a href="#">Law Library Map ></a></li>
-                </ul>
-
-                <h4><a href="#">RESERVE A ROOM</a></h4>
-
-            </div>
-
-        </section>
-
-		<footer class="row">
-		      <?php print render($page['footer']); ?>
-		</footer>
+<footer class="row">
+      <?php print render($page['footer']); ?>
+</footer>
 
 		
         

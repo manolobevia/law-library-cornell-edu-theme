@@ -5218,9 +5218,6 @@ ul {
 body {
   font-family: "Montserrat", sans-serif; }
 
-a {
-  color: #1199C3; }
-
 a:hover {
   text-decoration: none; }
 
@@ -5239,6 +5236,26 @@ a:hover {
   /* Modern */
   transform: rotate(90deg);
   margin-left: 3px; }
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #64686a; }
+
+h2 {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  color: #b11d22;
+  font-weight: bold; }
+
+h3 {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #b11d22;
+  font-weight: bold; }
+
+a {
+  color: #129792; }
 
 .cul-branding {
   height: 45px;
@@ -5434,11 +5451,6 @@ footer.row {
 
 .breadcrumb {
   background-color: #fff; }
-
-p {
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: #64686a; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
