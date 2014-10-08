@@ -5435,6 +5435,11 @@ footer.row {
 .breadcrumb {
   background-color: none; }
 
+p {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: #64686a; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
