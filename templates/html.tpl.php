@@ -78,8 +78,11 @@
         <script src="<?=$theme_path?>js/double-tap/main.js"></script>
         <script src="<?=$theme_path?>js/double-tap/doubletaptogo.js"></script>
 
-        <?php theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/'; ?>
-        <?php print($theme_path) ?>
+        <?php 
+            $path = drupal_get_path('theme', 'LAW-LIBRARY');
+            //$image_path = $path . '/images/image.jpg';
+            print $path;
+        ?>
 
 
     </body>
