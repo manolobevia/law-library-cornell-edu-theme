@@ -377,10 +377,10 @@
         </section>
 
     
-        <footer class="row">
-
-           
-
+        <footer>
+            <div class="row">
+              <?php print render($page['footer']); ?>
+            </div>
         </footer>
 
 

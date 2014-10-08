@@ -73,9 +73,72 @@
  * @ingroup themeable
  */
 ?>
+<body class="page">
 
+    <!-- col-xs- mobile / col-sm- tablet / col-md- desktop / col-lg-  large -->
+
+        <!-- CUL BRANDING -->
+        <section class="cul-branding">
+                <img class="cu-logo" src="/sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
+        </section>
+
+        <!-- LAW BRANDING + MAIN NAVIGATION-->
+        <header class="main-nav">
+
+            <h1>
+                <img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" />
+            </h1>
+            
+            <ul>
+                <li><a class="active" href="#" title="">HOME</a> /</li>
+                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">EXPLORE</a></li>
+                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
+            </ul>
+
+        </header>
+
+
+
+        <!-- HEADER IMAGE -->
+
+        <section class="">
+            <img src="/sites/all/themes/law_library_bootstrap/images/header-interior.jpg" />
+        </section>
+
+        <!-- CONTENT -->
+
+        <section class="row content">
+
+            <nav class="breadcrumb">
+                <a href="#">About</a> /
+                <strong>Our Space</strong>
+            </nav>  
+
+            <h2>STUDY AREAS</h2>
+
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 <?php print render($page['content']); ?>
+</div>
 
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                
+                <h3>OTHER AREAS</h3>
+
+                <ul>
+                    <li><a href="#">Reading Room ></a></li>
+                    <li><a href="#">Squash Court ></a></li>
+                    <li><a href="#">Law Library Map ></a></li>
+                </ul>
+
+                <h3>RESERVE A ROOM</h3>
+
+            </div>
+
+        </section>
 
 <footer>
     <div class="row">
