@@ -98,8 +98,6 @@
 
         </header>
 
-        <?php print render($page['Navigation']); ?>
-
         <!-- HERO CAROUSEL-->
 
         <section class="hero">

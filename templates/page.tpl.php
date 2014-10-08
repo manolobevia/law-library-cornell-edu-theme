@@ -100,8 +100,6 @@
 
         </header>
 
-        <?php print render($page['Navigation']); ?>
-
         <!-- HEADER IMAGE -->
 
         <section class="">
@@ -115,6 +113,7 @@
             <nav class="breadcrumb">
                 <a href="#">About</a> /
                 <strong>Our Space</strong>
+                <?php print $breadcrumb; ?> 
             </nav>  
 
             <h2>STUDY AREAS</h2>
