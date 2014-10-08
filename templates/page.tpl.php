@@ -113,10 +113,10 @@
             <nav class="breadcrumb">
                 <a href="#">About</a> /
                 <strong>Our Space</strong>
-             
+
             </nav>  
 
-            <h2>STUDY AREAS</h2>
+            <h2><?php print $title; ?></h2>
 
             <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
 				<?php print render($page['content']); ?>
