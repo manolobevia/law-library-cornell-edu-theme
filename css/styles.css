@@ -5432,6 +5432,9 @@ footer.row {
     padding-right: 8px;
     float: left; }
 
+.breadcrumb {
+  background-color: none; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*

@@ -124,7 +124,7 @@
 
             <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 
-                <h3>OTHER AREAS</h3>
+                <h4>OTHER AREAS</h4>
 
                 <ul>
                     <li><a href="#">Reading Room ></a></li>
@@ -132,7 +132,7 @@
                     <li><a href="#">Law Library Map ></a></li>
                 </ul>
 
-                <h3>RESERVE A ROOM</h3>
+                <h4><a href="#">RESERVE A ROOM</a></h4>
 
             </div>
 
