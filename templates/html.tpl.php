@@ -55,30 +55,11 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-    <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
-        <!-- carousel CSS -->
-    <link rel="stylesheet" type="text/css" href="js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />
-
-    <!-- lib -->
-
-    <script type="text/javascript" src="js/jquery.ui.widget.js"></script>
-    <!-- if using touch -->
-    <script type="text/javascript" src="js/jquery.event.drag.js"></script>
-    <!-- if using touch and translate3d -->
-    <script type="text/javascript" src="js/jquery.translate3d.js"></script>
-
-    <!-- carousel core -->
-    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>
-
-    <!-- carousel extensions (optional) -->
-    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-carousel-master//js/jquery.rs.carousel-touch.js"></script>
-
+    
 
     <!-- double tap navigation -->
-    <script src="js/double-tap/main.js"></script>
-    <script src="js/double-tap/doubletaptogo.js"></script>
+    <script src="/sites/all/themes/law_library_bootstrap/js/double-tap/main.js"></script>
+    <script src="/sites/all/themes/law_library_bootstrap/js/double-tap/doubletaptogo.js"></script>
 
     </body>
 </html>
