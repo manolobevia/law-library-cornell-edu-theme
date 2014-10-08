@@ -439,13 +439,15 @@ h2 {
   font-weight: bold;
 }
 
-.title-content {
-    text-transform: uppercase;
-    border-bottom: 1px solid #c6c7c8;
-    padding-bottom: 0;
+header {
 
-    span {
-       border-bottom: 5px solid #c6c7c8; 
+    border-bottom: 1px solid #c6c7c8;
+
+    .title-content {
+
+        display: inline-block;
+        text-transform: uppercase;
+        border-bottom: 5px solid #c6c7c8; 
     }
 }
 

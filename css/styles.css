@@ -5451,11 +5451,11 @@ h2 {
   color: #b11d22;
   font-weight: bold; }
 
-.title-content {
-  text-transform: uppercase;
-  border-bottom: 1px solid #c6c7c8;
-  padding-bottom: 0; }
-  .title-content span {
+header {
+  border-bottom: 1px solid #c6c7c8; }
+  header .title-content {
+    display: inline-block;
+    text-transform: uppercase;
     border-bottom: 5px solid #c6c7c8; }
 
 h3 {

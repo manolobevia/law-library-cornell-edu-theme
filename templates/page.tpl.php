@@ -114,7 +114,9 @@
 
     <div class="main-content col-xs-12 col-sm-12 col-md-9 col-lg-9">
 
-        <h2 class="title-content"><span><?php print $title; ?></span></h2>
+        <header>
+            <h2 class="title-content"><?php print $title; ?></h2>
+        </header>
 
 		<?php print render($page['content']); ?>
 	</div>
