@@ -107,7 +107,7 @@
 <section class="row page-content">
 
     <nav class="breadcrumb">
-        <a href="#">About</a> /
+        <a href="#">About</a> <span class="separator">></span>
         <strong>Our Space</strong>
     </nav>  
 

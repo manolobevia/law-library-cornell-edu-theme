@@ -416,7 +416,14 @@ footer.row {
     padding-left: 0;
     font-size: 17px;
     padding-top: 20px;
+
+    .separator {
+        font-family: $fontHero;
+        font-size: 17px;
+    }
 }
+
+
 
 
 p {
