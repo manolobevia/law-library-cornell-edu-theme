@@ -379,30 +379,7 @@
     
         <footer class="row">
 
-            <div class="address-copyright col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                </address> Myron Taylor Hall, Ithaca, NY 14853. 607-255-7236</address> <br />
-                <small>©2014 Cornell University</small>
-            </div>
-
-            <ul class="navigation col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                <li><a class="active" href="#" title="">Home</a> /</li>
-                <li><a href="#" title="">CUL</a> /</li>
-                <li><a href="#" title="">Law School</a> /</li>
-                <li><a href="#" title="">Library Maps</a> /</li>
-                <li><a href="#" title="">Location</a> /</li>
-                <li><a href="#" title="">Contact Us</a> /</li>
-                <li><a href="#" title="">Webmaster</a> /</li>
-                <li><a href="#" title="">Staff login</a></li>
-            </ul>
-
-
-             <ul class="social-media col-xs-12 col-sm-12 col-md-3 col-lg-3">
-                <li><a href="#" title=""><img src="/sites/all/themes/law_library_bootstrap/images/social-facebook.png" /></a></li>
-                <li><a href="#" title=""><img src="/sites/all/themes/law_library_bootstrap/images/social-twitter.png" /></a></li>
-                <li><a href="#" title=""><img src="/sites/all/themes/law_library_bootstrap/images/social-youtube.png" /></a></li>
-                <li><a href="#" title=""><img src="/sites/all/themes/law_library_bootstrap/images/social-flicker.png" /></a></li>
-
-            </ul>
+           
 
         </footer>
 

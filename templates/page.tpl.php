@@ -74,8 +74,14 @@
  */
 ?>
 
-<h1>PAGE</h1>
-
 <?php print render($page['content']); ?>
 
+
+<footer>
+    <div class="row">
+      <?php print render($page['footer']); ?>
+    </div>
+</footer>
+
+<?php print render($page['bottom']); ?>
         
