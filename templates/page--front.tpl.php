@@ -83,7 +83,7 @@
         <header class="main-nav">
 
             <h1>
-                <img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" />
+                <a href="/"><img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" /></a>
             </h1>
             
             <ul>
