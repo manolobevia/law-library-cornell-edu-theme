@@ -87,7 +87,7 @@
             </h1>
             
             <ul>
-                <li><a class="active" href="#" title="">HOME</a> /</li>
+                <li><a class="active" href="/" title="">HOME</a> /</li>
                 <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
                 <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
                 <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
@@ -98,7 +98,7 @@
 
         </header>
 
-
+        <?php print render($page['Superfish 4 (Superfish)']); ?>
 
         <!-- HERO CAROUSEL-->
 
