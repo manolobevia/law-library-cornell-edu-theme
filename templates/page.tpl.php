@@ -113,7 +113,7 @@
             <nav class="breadcrumb">
                 <a href="#">About</a> /
                 <strong>Our Space</strong>
-                <?php print $breadcrumb; ?> 
+                
             </nav>  
 
             <h2>STUDY AREAS</h2>
