@@ -5456,7 +5456,8 @@ header {
   header .title-content {
     display: inline-block;
     text-transform: uppercase;
-    border-bottom: 5px solid #c6c7c8; }
+    border-bottom: 5px solid #c6c7c8;
+    margin-bottom: 30px; }
 
 h3 {
   font-size: 18px;
