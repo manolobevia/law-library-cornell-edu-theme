@@ -5457,7 +5457,7 @@ header {
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 5px solid #c6c7c8;
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
 
 h3 {
   font-size: 18px;
@@ -5473,6 +5473,8 @@ a {
   padding-right: 54px; }
   .page-content .main-content {
     padding: 0; }
+    .page-content .main-content .content {
+      margin-top: 30px; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

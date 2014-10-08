@@ -448,7 +448,7 @@ header {
         display: inline-block;
         text-transform: uppercase;
         border-bottom: 5px solid #c6c7c8; 
-        margin-bottom: 30px;
+        margin-bottom:0;
     }
 }
 
@@ -470,6 +470,10 @@ a {
 
     .main-content {
         padding: 0;
+
+        .content {
+            margin-top: 30px;
+        }
     }
 
     .sidebar-nav {
