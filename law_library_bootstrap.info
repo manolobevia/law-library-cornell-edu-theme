@@ -25,7 +25,7 @@ regions[page_bottom]    = 'Page bottom'
 ;;;;;;;;;;;;;;;;;;;;;
 
 
-stylesheets[all][] = css/style.css
+stylesheets[all][] = css/styles.css
 ;stylesheets[all][] = bootstrap/dist/css/bootstrap.css
 ;stylesheets[all][] = bootstrap-sass-master/vendor/assets/stylesheets/bootstrap.css
 ;stylesheets[all][] = bootstrap-sass-master/vendor/bootstrap.css
