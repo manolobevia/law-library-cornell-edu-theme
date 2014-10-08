@@ -78,6 +78,9 @@
         <script src="<?=$theme_path?>js/double-tap/main.js"></script>
         <script src="<?=$theme_path?>js/double-tap/doubletaptogo.js"></script>
 
+        <?php theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/'; ?>
+        <?php print($theme_path) ?>
+
 
     </body>
 </html>
