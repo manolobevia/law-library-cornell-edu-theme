@@ -114,7 +114,7 @@
 
     <div class="main-content col-xs-12 col-sm-12 col-md-10 col-lg-10">
 
-        <header>
+        <header class="page">
             <h2 class="title-content"><?php print $title; ?></h2>
         </header>
 
@@ -125,13 +125,13 @@
         
         <h4>OTHER AREAS</h4>
 
-        <ul>
-            <li><a href="#">Reading Room ></a></li>
-            <li><a href="#">Squash Court ></a></li>
-            <li><a href="#">Law Library Map ></a></li>
-        </ul>
+            <ul>
+                <li><a href="#">Reading Room</a></li>
+                <li><a href="#">Squash Court</a></li>
+                <li><a href="#">Law Library Map</a></li>
+            </ul>
 
-        <h4><a href="#">RESERVE A ROOM</a></h4>
+        <h4 class="linked"><a href="#">RESERVE A ROOM<span class="separator">></span></a></h4>
 
     </sidebar>
 
