@@ -51,6 +51,16 @@ ul {
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Glyphicons';
+    src: url('../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot');
+    src: url('../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot?#iefix') format('embedded-opentype'),
+    url('../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.woff') format('woff'),
+    url('../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   font-family: $fontBody;
 
@@ -87,6 +97,9 @@ a:hover {
     
 }
 
+.glyphicon {
+    font-family: Glyphicons;
+}
 
 
 
