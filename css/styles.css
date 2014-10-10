@@ -5490,7 +5490,6 @@ a {
 .header-interior {
   background: white url("../images/header-interior.jpg") no-repeat top center;
   background-size: contain;
-  background-size: 100%;
   height: 160px; }
 
 .page-content {
