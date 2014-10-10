@@ -100,9 +100,13 @@
 
 
 <!-- HEADER IMAGE -->
-<section class="">
-    <img src="/sites/all/themes/law_library_bootstrap/images/header-interior.jpg" />
+
+ <section class="header-interior">
+        
 </section>
+    
+<!--"/sites/all/themes/law_library_bootstrap/images/header-interior.jpg"-->
+
 
 <!-- CONTENT -->
 <section class="row page-content">
