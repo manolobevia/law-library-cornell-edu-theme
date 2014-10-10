@@ -5216,7 +5216,7 @@ ul {
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'Glyphicons';
+  font-family: "Glyphicons Halflings";
   src: url("../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot");
   src: url("../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot?#iefix") format("embedded-opentype"), url("../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.woff") format("woff"), url("../bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.ttf") format("truetype");
   font-weight: normal;
@@ -5244,7 +5244,7 @@ a:hover {
   margin-left: 3px; }
 
 .glyphicon {
-  font-family: Glyphicons; }
+  font-family: "Glyphicons Halflings"; }
 
 .cul-branding {
   height: 45px;
