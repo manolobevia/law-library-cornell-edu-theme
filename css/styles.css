@@ -5217,10 +5217,7 @@ ul {
   font-style: normal; }
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url("/sites/all/themes/law_library_bootstrap/bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot");
-  src: url("/sites/all/themes/law_library_bootstrap/bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.eot?#iefix") format("embedded-opentype"), url("/sites/all/themes/law_library_bootstrap/bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.woff") format("woff"), url("/sites/all/themes/law_library_bootstrap/bootstrap-sass-master/vendor/assets/fonts/bootstrap/glyphicons-halflings-regular.eot.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+  src: url("..fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("..fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("..fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("..fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 body {
   font-family: "Montserrat", sans-serif; }
 
