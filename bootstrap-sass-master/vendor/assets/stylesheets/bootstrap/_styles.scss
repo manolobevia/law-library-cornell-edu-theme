@@ -69,32 +69,25 @@ a:hover {
 .caret-icon {
 
     display: inline-block;
-
     //If not display inline-block NO ROTATION
     /* Safari */
     -webkit-transform: rotate(-90deg);
-
     /* Firefox */
     -moz-transform: rotate(-90deg);
-
     /* IE */
     -ms-transform: rotate(-90deg);
-
     /* Opera */
     -o-transform: rotate(-90deg);
-
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-
     /* Modern */
     transform: rotate(90deg);
-
     margin-left: 3px;
     
 }
 
 
-/////////////////////////
+///////////////////////
 
 .cul-branding {
 
