@@ -124,6 +124,25 @@
         </section>
 
 
+        <nav class="navbar">
+            <div class="container">
+                <div class="row">
+                    <div class="span4 logo">
+                        <?php if ($site_name): ?>
+                            <h1><a href="<?php print $front_page; ?>"><span class="displace"><?php print $site_name; ?>. Meanderings through Aby Warburg's Atlas</span></a></h1>
+                            <!--<a class="toggle-logo" title="phonetic" href="#"></a>-->
+                        <?php endif; ?>
+                    </div>
+                    <div class="span8">
+                        <div class="nav">
+                            <?php print render($page['navigation']); ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
         <section class="media row">
 
             <div class="rs-carousel">
