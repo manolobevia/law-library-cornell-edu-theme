@@ -379,24 +379,3 @@
               <?php print render($page['footer']); ?>
         </footer>
 
-
-        <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
-        <!-- carousel CSS -->
-        <link rel="stylesheet" type="text/css" href="/sites/all/themes/law_library_bootstrap/js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />
-
-        <!-- lib -->
-
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery.ui.widget.js"></script>
-        <!-- if using touch -->
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery.event.drag.js"></script>
-        <!-- if using touch and translate3d -->
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery.translate3d.js"></script>
-
-        <!-- carousel core -->
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>
-
-        <!-- carousel extensions (optional) -->
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-        <script type="text/javascript" src="/sites/all/themes/law_library_bootstrap/js/jquery-ui-carousel-master//js/jquery.rs.carousel-touch.js"></script>
-
