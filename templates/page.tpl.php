@@ -74,16 +74,20 @@
  */
 ?>
 
-<!-- CUL BRANDING -->
+<?php
+$theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
+?>
+
+<!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
-        <img class="cu-logo" src="sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
+        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
 </section>
 
 <!-- LAW BRANDING + MAIN NAVIGATION-->
 <header class="main-nav">
 
     <h1>
-        <a href="/"><img class="law-logo" src="sites/all/themes/law_library_bootstrap/images/law-logo.png" /></a>
+        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
     </h1>
     
     <ul>
@@ -105,7 +109,7 @@
         
 </section>
     
-<!--"sites/all/themes/law_library_bootstrap/images/header-interior.jpg"-->
+<!--"<?php print $theme_path; ?>images/header-interior.jpg"-->
 
     <div class="nav">
         <?php print render($page['navigation']); ?>
