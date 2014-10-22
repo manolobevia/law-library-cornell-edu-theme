@@ -76,14 +76,14 @@
 
 <!-- CUL BRANDING -->
         <section class="cul-branding">
-                <img class="cu-logo" src="/sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
+                <img class="cu-logo" src="sites/all/themes/law_library_bootstrap/images/cul-branding/cu-logo.png" />
         </section>
 
         <!-- LAW BRANDING + MAIN NAVIGATION-->
         <header class="main-nav">
 
             <h1>
-                <a href="/"><img class="law-logo" src="/sites/all/themes/law_library_bootstrap/images/law-logo.png" /></a>
+                <a href="/"><img class="law-logo" src="sites/all/themes/law_library_bootstrap/images/law-logo.png" /></a>
             </h1>
             
             <ul>
@@ -101,7 +101,7 @@
         <!-- HERO CAROUSEL-->
 
         <section class="hero">
-            <img src="/sites/all/themes/law_library_bootstrap/images/carousel-home/carousel-image-1.jpg" />
+            <img src="sites/all/themes/law_library_bootstrap/images/carousel-home/carousel-image-1.jpg" />
 
             <section class="search-home">
 
@@ -141,8 +141,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -154,8 +154,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -167,8 +167,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Host Cornell Companions, a pet visitation program
@@ -180,8 +180,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -193,8 +193,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -206,8 +206,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -219,8 +219,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -232,8 +232,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -245,8 +245,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -258,8 +258,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -271,8 +271,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -284,8 +284,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -296,21 +296,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -322,20 +309,8 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -347,8 +322,20 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+
+                                <figcaption>
+                                    Law Library will host Cornell Companions, a pet visitation program
+                                </figcaption>                    
+                            </figure>
+
+                        </li>
+                        <li class="media-item"> 
+                          
+                            <figure>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
@@ -360,8 +347,21 @@
                         <li class="media-item"> 
                           
                             <figure>
-                                <a href="#"><img class="image-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="/sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-2.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
+
+                                <figcaption>
+                                    Law Library will host Cornell Companions, a pet visitation program
+                                </figcaption>                    
+                            </figure>
+
+                        </li>
+
+                        <li class="media-item"> 
+                          
+                            <figure>
+                                <a href="#"><img class="image-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/media-item-1.jpg" />
+                                <img class="mask-media" src="sites/all/themes/law_library_bootstrap/images/carousel-media/mask-media.png" /></a>
 
                                 <figcaption>
                                     Law Library will host Cornell Companions, a pet visitation program
