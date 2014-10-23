@@ -102,29 +102,96 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         </header>
 
+
+
+
+
         <!-- HERO CAROUSEL-->
 
         <section class="hero">
-            <img src="<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg" />
 
-            <section class="search-home">
+            <div id="myCarousel" class="carousel slide">
 
-                <form action="/">
-                    <label for="name">Search</label>
-                    <div class="filtered-search">
 
-                        <input type="text" class="form-text" value="" /><a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a>
-                        <a class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></a>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner">
+
+                    <div class="item active" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">
+
+                        <div class="container">
+
+                            
+
+
+                            <!--<div class="carousel-caption">
+                                <h1>Example headline.</h1>
+                                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
+                                <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+                            </div>-->
+
+
+                        </div>
+
                     </div>
-                </form>         
-                
-                <ul class="external-search">
-                    <li><a href="#">Books in other libraries</a> / </li>
-                    <li><a href="#">Databases</a> / </li>
-                    <li><a href="#">Research Guides</a></li>
-                </ul>
 
-            </section>
+                    
+                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">
+
+                        <div class="container">
+
+
+                            <!--<div class="carousel-caption">
+                                <h1>Example headline.</h1>
+                                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
+                                <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+                            </div>-->
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+
+            </div><!-- /.carousel -->
+
+        </section>
+
+
+
+        <section class="search-home">
+
+            <form action="/">
+                <label for="name">Search</label>
+                <div class="filtered-search">
+
+                    <input type="text" class="form-text" value="" /><a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a>
+                    <a class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></a>
+                </div>
+            </form>         
+            
+            <ul class="external-search">
+                <li><a href="#">Books in other libraries</a> / </li>
+                <li><a href="#">Databases</a> / </li>
+                <li><a href="#">Research Guides</a></li>
+            </ul>
+
+        </section>
+
+
+        <section class="reservation-hours">
+
         </section>
 
 

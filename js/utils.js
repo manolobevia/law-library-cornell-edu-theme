@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    $('.rs-carousel').carousel({
+    /*$('.rs-carousel').carousel({
         pagination: false,
         itemsPerTransition:3,
         insertPrevAction: function () {
@@ -16,10 +16,33 @@ $(document).ready(function () {
     // Make carousel responsive
     $(window).resize(function () {
         $('.rs-carousel').carousel('refresh');
-    });
+    });*/
+
+    $('#myCarousel').carousel('pause');
+
+
+    /*$('#slideshow').carousel({
+      interval: 5000
+    });*/)
 
 
 });
+
+
+
+
+    /*<script>
+
+    http://jockstothecore.com/proper-implementation-of-background-images-with-text-inside-responsive-carousels/
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+    */
+
 
 /*
 

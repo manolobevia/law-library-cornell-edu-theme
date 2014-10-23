@@ -167,104 +167,195 @@ a:hover {
     position: relative;
     background-color: #313639;
 
-    .search-home {
-        position: absolute;
-        top: 192px;
-        left: 136px;
-        width: 721px;
-        height: 182px;
-        background-color: rgba(255, 255, 255, 0.26);
+    /* Carousel base class */
+    .carousel {
+        //margin-bottom: 60px;
+    }
 
-        padding-left: 40px;
+    .carousel .container {
+          position: relative;
+          z-index: 9;
+    }
 
-        label {
-            font-size: 30px;
+    .carousel-control {
+          height: 80px;
+          margin-top: 0;
+          font-size: 120px;
+          text-shadow: 0 1px 1px rgba(0,0,0,.4);
+          background-color: transparent;
+          border: 0;
+          z-index: 10;
+    }
+
+    .carousel .item {
+        height: 589px;
+    }
+    .carousel img {
+          position: absolute;
+          top: 0;
+          left: 0;
+          min-width: 100%;
+          height: 589px;
+    }
+
+    .carousel-caption {
+          background-color: transparent;
+          position: static;
+          max-width: 550px;
+          padding: 0 20px;
+          margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+          margin: 0;
+          line-height: 1.25;
+          color: #fff;
+          text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+        margin-top: 10px;
+    }
+
+    // Carousel indicator pips
+    // -----------------------------
+    .carousel-indicators {
+        
+
+        li {
+            float: left;
+            display: block;
+            width: 65px;
+            height: 7px;
+            background-color: #fff;
+            border-radius: 0;
+            border: none;
+            margin-right: 3px;
+        }
+        .active {
+            background-color: #1ebae1;
+            margin-top: 1px;
+
+        }
+    }
+
+}
+
+.search-home {
+
+    position: absolute;
+    top: 192px;
+    left: 162px;
+    width: 721px;
+    height: 182px;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding-left: 40px;
+
+    label {
+        font-size: 30px;
+        color: #fff;
+        padding-top: 24px;
+        font-weight: 400;
+    }
+
+    .filtered-search {
+
+        font-family: $fontHeroLight;
+        font-size: 16px;
+        color: #2c3235;
+
+        .form-text {
+
+            display: inline-block;
+            width: 355px;
+            height: 51px;
+            background-color: #fff;
+            font-family: $fontBody;
+            padding-left: 10px;
+
+            vertical-align: text-top;
+            
+            -moz-border-radius: 3px 0px 0px 3px;
+            -webkit-border-radius: 3px 0px 0px 3px;
+            border-radius: 3px 0px 0px 3px;
+            border: 1px solid #d6d6d6;
+
+
+        }
+
+        .filter {
+            
+            display: inline-block;
+            vertical-align: text-top;
+            width: 167px;
+            height: 51px;
+            text-align: center;
+            padding-top: 14px;
+            color: #313537;
+            background-color: #fff;
+
+            -moz-border-radius: 0px 3px 3px 0px;
+            -webkit-border-radius: 0px 3px 3px 0px;
+            border-radius: 0px 3px 3px 0px;
+            border: 1px solid #d6d6d6;
+            border-left: none;
+
+
+        }
+
+
+        .submit-search {
+            display: inline-block;
+            vertical-align: text-top;
+            width: 51px;
+            height: 51px;
+            text-align: center;
+            font-size: 40px;
+            padding-top: 3px;
+            background-color: transparent;
+            border: none;
+            color: #313537;
+            
+            
+        }
+    }
+
+    .external-search {
+
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 10px;
+
+        li {
+
             color: #fff;
-            padding-top: 24px;
-            font-weight: 400;
-        }
+            padding-right: 5px;
+            float: left;
 
-        .filtered-search {
+            a {
 
-            font-family: $fontHeroLight;
-            font-size: 16px;
-            color: #2c3235;
-
-            .form-text {
-
-                display: inline-block;
-                width: 355px;
-                height: 51px;
-                background-color: #fff;
-                font-family: $fontBody;
-                padding-left: 10px;
-
-                vertical-align: text-top;
-                
-                -moz-border-radius: 3px 0px 0px 3px;
-                -webkit-border-radius: 3px 0px 0px 3px;
-                border-radius: 3px 0px 0px 3px;
-                border: 1px solid #d6d6d6;
-
-
-            }
-
-            .filter {
-                
-                display: inline-block;
-                vertical-align: text-top;
-                width: 167px;
-                height: 51px;
-                text-align: center;
-                padding-top: 14px;
-                color: #313537;
-                background-color: #fff;
-
-                -moz-border-radius: 0px 3px 3px 0px;
-                -webkit-border-radius: 0px 3px 3px 0px;
-                border-radius: 0px 3px 3px 0px;
-                border: 1px solid #d6d6d6;
-                border-left: none;
-
-
-            }
-
-
-            .submit-search {
-                display: inline-block;
-                vertical-align: text-top;
-                width: 51px;
-                height: 51px;
-                text-align: center;
-                font-size: 40px;
-                padding-top: 3px;
-                background-color: transparent;
-                border: none;
-                color: #313537;
-                
-                
-            }
-        }
-
-        .external-search {
-
-            list-style-type: none;
-            padding-left: 0;
-            padding-top: 10px;
-
-            li {
-
-                color: #fff;
-                padding-right: 5px;
-                float: left;
-
-                a {
-
-                     color: #fff;
-                }
+                 color: #fff;
             }
         }
     }
+
+}
+
+.reservation-hours {
+
+    position: absolute;
+    top: 480px;
+    right: 0;
+
+    background: url("../images/home-hero-info.png") no-repeat top center;
+
+    height: 111px;
+
+
+}
+
+#superfish-4 {
+
+    margin-bottom: 0;
 }
 
 .media {
