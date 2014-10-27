@@ -129,11 +129,11 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                             
 
 
-                            <!--<div class="carousel-caption">
-                                <h1>Example headline.</h1>
-                                <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget.</p>
-                                <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-                            </div>-->
+                            <div class="carousel-caption">
+                                <h1>Scribentur eloquentiam cu eos.</h1>
+                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
+
+                            </div>
 
 
                         </div>
