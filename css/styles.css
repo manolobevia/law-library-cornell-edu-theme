@@ -5341,8 +5341,9 @@ a:hover {
   .hero .carousel-caption .btn {
     margin-top: 10px; }
   .hero .carousel-indicators {
-    margin-left: -636px;
-    text-align: left; }
+    position: absolute;
+    left: 0;
+    margin-left: 198px; }
     .hero .carousel-indicators li {
       float: left;
       display: block;

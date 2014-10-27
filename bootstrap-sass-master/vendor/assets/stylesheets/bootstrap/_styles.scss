@@ -238,8 +238,9 @@ a:hover {
     // Carousel indicator pips
     // -----------------------------
     .carousel-indicators {
-        margin-left: -636px;
-        text-align: left;
+        position: absolute;
+        left: 0;
+        margin-left: 198px;
         
 
         li {
