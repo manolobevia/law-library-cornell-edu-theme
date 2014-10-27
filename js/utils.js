@@ -18,8 +18,9 @@ $(document).ready(function () {
         $('.rs-carousel').carousel('refresh');
     });*/
 
-    $('#myCarousel').carousel('pause');
-
+    $('#myCarousel').carousel({
+      interval: 2000
+    })
 
     /*$('#slideshow').carousel({
       interval: 5000

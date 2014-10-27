@@ -110,7 +110,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <section class="hero">
 
-            <div id="myCarousel" class="carousel slide">
+            <div id="myCarousel" class="carousel slide carousel-fade">
 
 
                 <!-- Indicators -->
@@ -121,6 +121,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 </ol>
 
                 <div class="carousel-inner">
+
+                    <!-- slide #1 -->
 
                     <div class="item active" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">
 
@@ -139,6 +141,48 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                         </div>
 
                     </div>
+
+                     <!-- slide #2 -->
+
+                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-2.jpg') no-repeat left center; background-size: cover;">
+
+                        <div class="container">
+
+                            
+
+
+                            <div class="carousel-caption">
+                                <h1>Scribentur eloquentiam cu eos.</h1>
+                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- slide #3 -->
+
+                    <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-3.jpg') no-repeat left center; background-size: cover;">
+
+                        <div class="container">
+
+                            
+
+
+                            <div class="carousel-caption">
+                                <h1>Scribentur eloquentiam cu eos.</h1>
+                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
 
                     
                     <div class="item" style="background: url('<?php print $theme_path; ?>images/carousel-home/carousel-image-1.jpg') no-repeat left center; background-size: cover;">

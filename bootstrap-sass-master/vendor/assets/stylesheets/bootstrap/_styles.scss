@@ -163,6 +163,12 @@ a:hover {
     }
 }
 
+
+
+
+
+
+
 .hero {
     position: relative;
     background-color: #313639;
@@ -187,6 +193,19 @@ a:hover {
           border: 0;
           z-index: 10;
     }
+
+    /*.carousel.carousel-fade .item {
+        -webkit-transition: opacity 0.1s ease-in-out;
+        -moz-transition: opacity 0.1s ease-in-out;
+        -ms-transition: opacity 0.1s ease-in-out;
+        -o-transition: opacity 0.1s ease-in-out;
+        transition: opacity 0.1s ease-in-out;
+        opacity:0;
+    }
+
+    .carousel.carousel-fade .active.item {
+        opacity:1;
+    }*/
 
     .carousel .item {
         height: 589px;
