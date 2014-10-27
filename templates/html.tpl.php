@@ -74,9 +74,9 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>-->
 
     <!-- carousel extensions (optional) -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>-->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>-->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>-->
+    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>
 
 
     <!-- Utils -->

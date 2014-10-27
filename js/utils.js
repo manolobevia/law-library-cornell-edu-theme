@@ -1,7 +1,7 @@
 
 $(document).ready(function () {
 
-    /*$('.rs-carousel').carousel({
+    /*$('.rs-carousel').carousel2({
         pagination: false,
         itemsPerTransition:3,
         insertPrevAction: function () {

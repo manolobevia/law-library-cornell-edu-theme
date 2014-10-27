@@ -245,7 +245,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <section class="media row">
 
-            <div class="rs-carousel">
+            <div class="rs-carousel2">
 
                 <div class="carousel-prev"></div>
 
