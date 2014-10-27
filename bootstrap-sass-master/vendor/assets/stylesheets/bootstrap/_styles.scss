@@ -175,6 +175,7 @@ a:hover {
     .carousel .container {
           position: relative;
           z-index: 9;
+          width: 100%;
     }
 
     .carousel-control {
@@ -199,12 +200,30 @@ a:hover {
     }
 
     .carousel-caption {
+
           background-color: transparent;
           position: static;
           max-width: 550px;
           padding: 0 20px;
-          margin-top: 200px;
+          margin-top: 428px;
+          text-align: left;
+          margin-left: 165px;
+
+        h1 {
+            font-size: 24px;
+            color: #fff;
+            padding-bottom: 10px;
+            font-weight: normal;
+        }
+
+        p {
+            font-size: 16px;
+            color: #fff;
+            font-weight: normal;
+        }
     }
+
+
     .carousel-caption h1,
     .carousel-caption .lead {
           margin: 0;
@@ -219,13 +238,15 @@ a:hover {
     // Carousel indicator pips
     // -----------------------------
     .carousel-indicators {
+        margin-left: -636px;
+        text-align: left;
         
 
         li {
             float: left;
             display: block;
             width: 65px;
-            height: 7px;
+            height: 5px;
             background-color: #fff;
             border-radius: 0;
             border: none;
@@ -343,12 +364,13 @@ a:hover {
 .reservation-hours {
 
     position: absolute;
-    top: 480px;
+    top: 490px;
     right: 0;
 
-    background: url("../images/home-hero-info.png") no-repeat top center;
+    background: url("../images/home-hero-info.png") no-repeat top right;
 
     height: 111px;
+    width: 100%;
 
 
 }
@@ -652,6 +674,10 @@ a {
 
         }
     }
+}
+
+.nav {
+    margin-top: 20px;
 }
 
 /* Extra small devices (phones, up to 480px) */
