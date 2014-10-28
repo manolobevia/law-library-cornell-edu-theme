@@ -28,6 +28,14 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <!-- Optional theme -->
         <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
 
+
+         <!-- Important Owl stylesheet -->
+        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.css">
+         
+        <!-- Default Theme -->
+        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.theme.css">
+
+
         
         
 
@@ -56,7 +64,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
-
+    <!-- ############################################# -->
+    <!-- ############################################# -->
 
     <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
     <!-- carousel CSS -->
@@ -76,19 +85,21 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <!-- carousel extensions (optional) -->
     <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
     <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>-->
 
+    <!-- ############################################# -->
+    <!-- ############################################# -->
+
+   
+     
+    <!-- Include js plugin -->
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.js"></script>
 
     <!-- Utils -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
     
-
-
-
-
-
-
-
-
     </body>
 </html>
+
+
+

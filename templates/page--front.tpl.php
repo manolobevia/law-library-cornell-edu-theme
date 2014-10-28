@@ -243,7 +243,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
             <?php print render($page['navigation']); ?>
         </div>
 
-        <section class="media row">
+        <!--<section class="media row">
 
             <div class="rs-carousel2">
 
@@ -266,224 +266,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
                         </li>
 
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-2.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
                     </ul>
                     
                 </div>
@@ -491,7 +273,181 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 <div class="carousel-next"></div>
                 
             </div>
+        </section> -->
+
+
+
+        <section class="media row">
+
+            <div id="owl-demo" class="owl-carousel media-items">
+            
+                
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+                <!--Media item-->
+                <div class="item">
+      
+                    <figure>
+                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
+                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
+
+                        <figcaption>
+                            Law Library will host Cornell Companions, a pet visitation program
+                        </figcaption>                    
+                    </figure>
+
+                </div>
+
+            </div>
+
+            <div class="customNavigation">
+                <a class="btn prev">Previous</a>
+                <a class="btn next">Next</a>
+                <a class="btn play">Autoplay</a>
+                <a class="btn stop">Stop</a>
+            </div>
         </section>
+
+                        
+    
 
     
         <footer class="row">

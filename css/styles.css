@@ -5450,50 +5450,45 @@ a:hover {
   padding-top: 60px;
   padding-bottom: 40px;
   margin: 0 auto; }
-  .media .rs-carousel {
-    margin: 0 auto;
-    padding-left: 70px;
-    padding-right: 70px;
-    position: relative; }
-    .media .rs-carousel .media-items {
-      overflow: hidden; }
-      .media .rs-carousel .media-items .media-item {
-        position: relative;
-        width: 243px;
-        margin-right: 30px; }
-        .media .rs-carousel .media-items .media-item .image-media {
-          width: 243px; }
-        .media .rs-carousel .media-items .media-item .mask-media {
-          position: absolute;
-          top: 0;
-          left: 0; }
-        .media .rs-carousel .media-items .media-item figcaption {
-          font-size: 18px;
-          color: #aabec7;
-          text-align: left;
-          padding-top: 17px; }
-    .media .rs-carousel .carousel-prev {
-      display: inline-block;
-      left: 20px;
-      position: absolute;
-      top: 20px; }
-    .media .rs-carousel .carousel-next {
-      display: inline-block;
-      right: 20px;
-      position: absolute;
-      top: 20px; }
-    .media .rs-carousel .rs-carousel-action-prev {
-      color: #2c3235;
-      font-size: 83px;
-      font-family: "HeroRegular";
-      text-decoration: none; }
-    .media .rs-carousel .rs-carousel-action-next {
-      color: #2c3235;
-      font-size: 83px;
-      font-family: "HeroRegular";
-      text-decoration: none; }
-    .media .rs-carousel .rs-carousel-action-active {
-      color: #1ebae1; }
+  .media .media-items {
+    overflow: hidden; }
+    .media .media-items .item {
+      position: relative;
+      width: 243px;
+      margin-right: 30px; }
+      .media .media-items .item .image-media {
+        width: 243px; }
+      .media .media-items .item .mask-media {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .media .media-items .item figcaption {
+        font-size: 18px;
+        color: #aabec7;
+        text-align: left;
+        padding-top: 17px; }
+  .media .carousel-prev {
+    display: inline-block;
+    left: 20px;
+    position: absolute;
+    top: 20px; }
+  .media .carousel-next {
+    display: inline-block;
+    right: 20px;
+    position: absolute;
+    top: 20px; }
+  .media .rs-carousel-action-prev {
+    color: #2c3235;
+    font-size: 83px;
+    font-family: "HeroRegular";
+    text-decoration: none; }
+  .media .rs-carousel-action-next {
+    color: #2c3235;
+    font-size: 83px;
+    font-family: "HeroRegular";
+    text-decoration: none; }
+  .media .rs-carousel-action-active {
+    color: #1ebae1; }
 
 /*
 ##############################################
@@ -5624,7 +5619,8 @@ a {
           content: ">"; }
 
 .nav {
-  margin-top: 20px; }
+  margin-top: 40px;
+  background-color: #252525; }
 
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */

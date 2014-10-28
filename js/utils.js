@@ -18,16 +18,61 @@ $(document).ready(function () {
         $('.rs-carousel').carousel('refresh');
     });*/
 
-    $('#myCarousel').carousel({
-      interval: 2000
-    })
+    
+
 
     /*$('#slideshow').carousel({
       interval: 5000
-    });*/)
+    });)*/
+
+
+   var owl = $("#owl-demo");
+
+
+      owl.owlCarousel(
+        {
+          items : 5, //10 items above 1000px browser width
+          itemsDesktop : [1000,5], //5 items between 1000px and 901px
+          itemsDesktopSmall : [900,3], // betweem 900px and 601px
+          itemsTablet: [600,2], //2 items between 600 and 0
+          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+          }
+      );
+
+        // Custom Navigation Events
+        $(".next").click(function(){
+          owl.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+          owl.trigger('owl.prev');
+        })
+        $(".play").click(function(){
+          owl.trigger('owl.play',1000);
+        })
+        $(".stop").click(function(){
+          owl.trigger('owl.stop');
+        });
+
+
+
+      $('#myCarousel').carousel('pause');
 
 
 });
+
+
+    
+
+
+
+    
+
+     
+
+
+   
+
+
 
 
 
@@ -43,43 +88,3 @@ $(document).ready(function () {
       }(window.jQuery)
     </script>
     */
-
-
-/*
-
-REFERENCE
-$('.rs-carousel').carousel({
-    itemsPerTransition:1,
-    pagination:false,
-    insertPrevAction: function () {
-      return $('<a href="#" class="rs-carousel-action-prev"></a>').appendTo($(this).closest('.carousel-container').find('.carousel-prev'));
-    },
-    insertNextAction: function () {
-      return $('<a href="#" class="rs-carousel-action-next"></a>').appendTo($(this).closest('.carousel-container').find('.carousel-next'));
-    }
-  }).show(400, function() {
-    var $rsCarousel = $(this);
-
-    // Show the paging controls if they are needed
-    if ($rsCarousel.carousel('getNoOfPages') > 1) {   
-      $rsCarousel.closest('.carousel-container').find('.paging-link').show();
-    }
-  });
-  
-  $('.carousel-prompt').click(function() {
-    $(this).next('.proposal-topics').fadeOut('slow').fadeIn('slow');
-  });
-
-  // Make carousel responsive
-  $(window).resize(function () {
-    $('.rs-carousel').carousel('refresh');
-  });
-
-
-
-
-  insertPrevAction: function () { return $('<a href="#" class="rs-carousel-action rs-carousel-action-prev"><</a>').appendTo(this); },
-        insertNextAction: function () { return $('<a href="#" class="rs-carousel-action rs-carousel-action-next">></a>').appendTo(this); }
-
-
-*/

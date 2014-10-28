@@ -407,88 +407,81 @@ a:hover {
     padding-bottom: 40px;
     margin: 0 auto;
 
-    .rs-carousel {
 
-        margin: 0 auto;
-        padding-left: 70px;
-        padding-right: 70px;
-        position: relative;
+    .media-items {
+        
+        overflow: hidden;
 
-        .media-items {
-            
-            overflow: hidden;
+        .item {
 
-            .media-item {
+            position: relative;
+            width: 243px;
+            margin-right: 30px;
 
-                position: relative;
-                width: 243px;
-                margin-right: 30px;
+            .image-media {
+               width: 243px; 
+            }
 
-                .image-media {
-                   width: 243px; 
-                }
+            .mask-media {
+                position: absolute;
+                top: 0;
+                left: 0;
 
-                .mask-media {
-                    position: absolute;
-                    top: 0;
-                    left: 0;
+            }
 
-                }
-
-                figcaption {
-                    font-size: 18px;
-                    color: #aabec7;
-                    text-align: left;
-                    padding-top: 17px;
-                }
+            figcaption {
+                font-size: 18px;
+                color: #aabec7;
+                text-align: left;
+                padding-top: 17px;
             }
         }
+    }
 
 
+    .carousel-prev {
+        
+        display: inline-block;
+        left: 20px;
+        position: absolute;
+        top: 20px;
 
-        .carousel-prev {
-            
-            display: inline-block;
-            left: 20px;
-            position: absolute;
-            top: 20px;
+    }
 
-        }
-
-        .carousel-next {
-            
-            display: inline-block;
-            right: 20px;
-            position: absolute;
-            top: 20px;
-
-            
-        }
+    .carousel-next {
+        
+        display: inline-block;
+        right: 20px;
+        position: absolute;
+        top: 20px;
 
         
-
-        .rs-carousel-action-prev {
-
-            color: #2c3235;
-            font-size: 83px;
-            font-family: $fontHero;
-            text-decoration: none;
-
-        }
-
-        .rs-carousel-action-next {
-            
-            color: #2c3235;
-            font-size: 83px;
-            font-family: $fontHero;
-            text-decoration: none;
-        }
-
-        .rs-carousel-action-active {
-
-            color: #1ebae1;
-        }
     }
+
+    
+
+    .rs-carousel-action-prev {
+
+        color: #2c3235;
+        font-size: 83px;
+        font-family: $fontHero;
+        text-decoration: none;
+
+    }
+
+    .rs-carousel-action-next {
+        
+        color: #2c3235;
+        font-size: 83px;
+        font-family: $fontHero;
+        text-decoration: none;
+    }
+
+    .rs-carousel-action-active {
+
+        color: #1ebae1;
+    }
+    
 
 }
 
@@ -697,7 +690,8 @@ a {
 }
 
 .nav {
-    margin-top: 20px;
+    margin-top: 40px;
+    background-color: #252525;
 }
 
 /* Extra small devices (phones, up to 480px) */
