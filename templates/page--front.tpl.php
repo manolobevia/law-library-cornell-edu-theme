@@ -83,24 +83,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
         </section>
 
-        <!-- LAW BRANDING + MAIN NAVIGATION-->
-        <header class="main-nav">
-
-            <h1>
-                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-            </h1>
-            
-            <ul>
-                <li><a class="active" href="/" title="">HOME</a> /</li>
-                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">EXPLORE</a></li>
-                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
-            </ul>
-
-        </header>
+        
 
 
 
@@ -212,6 +195,79 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         </section>
 
+        <!-- LAW BRANDING + MAIN NAVIGATION-->
+        <header class="main-nav">
+
+            <h1>
+                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
+            </h1>
+            
+            <!--<ul>
+                <li><a class="active" href="/" title="">HOME</a> /</li>
+                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">EXPLORE</a></li>
+                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
+                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
+            </ul>-->
+
+        </header>
+
+        <nav id="nav" role="navigation">
+                
+            <a href="#nav" title="Show navigation">Show navigation</a>
+            <a href="#" title="Hide navigation">Hide navigation</a>
+
+            <ul class="clearfix">
+
+                <li><a class="active" href="index.html">Home</a></li>
+
+                <li>
+                    <a href="#" title="">About</a>
+
+                    <ul class="container-nav">
+                        <div class="row">
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="apply.html">Lorem Apopea</a>
+                                        <a href="apply.html">Calisto in tha House</a>
+                                        <a href="apply.html">Laror laborus</a>
+                                        <a href="apply.html">Lacasa casitus</a>
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="apply.html">Lorem Apopea</a>
+                                        <a href="apply.html">Calisto in tha House</a>
+                                        <a href="apply.html">Laror laborus</a>
+                                        <a href="apply.html">Lacasa casitus</a>
+                                        
+                                    </div>
+                                </li>
+                            </div>
+                            
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="apply.html">Lorem Apopea</a>
+                                        <a href="apply.html">Calisto in tha House</a>
+                                        <a href="apply.html">Laror laborus</a>
+                                        <a href="apply.html">Lacasa casitus</a>
+                                        
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>   
+                </li>
+
+            </ul>
+        </nav>
 
 
         <section class="search-home">

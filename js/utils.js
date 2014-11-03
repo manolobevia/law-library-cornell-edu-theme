@@ -57,6 +57,8 @@ $(document).ready(function () {
 
       $('#myCarousel').carousel('pause');
 
+      $( '#nav li:has(ul)' ).doubleTapToGo();
+
 
 });
 

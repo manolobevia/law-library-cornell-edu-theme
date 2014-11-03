@@ -92,8 +92,12 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
    
      
-    <!-- Include js plugin -->
+    <!-- carousel -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.js"></script>
+
+    <!-- megamenus -->
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
+    <script type="text/javascript" src="<?php print $theme_path; ?>js/main.js"></script>
 
     <!-- Utils -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>

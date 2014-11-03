@@ -115,7 +115,8 @@ a:hover {
     margin: 0 auto;
     position: absolute;
 
-    z-index: 2;
+
+    z-index: 99999;
     overflow: hidden;
     // This make absolute positioning be centered
     left: 0;
@@ -135,6 +136,7 @@ a:hover {
         margin-top: 35px;
         color: #fff;
         margin-right: 20px;
+
 
         li {
             float: left;
@@ -164,7 +166,212 @@ a:hover {
 }
 
 
+//################################################################
 
+.container-nav {
+    clear: both;
+    display: table;
+    padding-bottom: 1em;
+    border: 1px solid pink;
+
+}
+
+.row {
+  display: table-row;
+  width: 100%;
+}
+
+.cell {
+  display: table-cell;
+
+  padding: 1em;
+  vertical-align: top;
+  border-right: 1px dotted #bdc7c4;
+  width: 30%;
+
+}
+
+
+.cell:last-child {
+  vertical-align: top;
+  border-right: none;
+}
+
+#nav
+{
+    width: 100%; /* 1000 */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: 75px;
+    border-bottom: 1px dotted #bdc7c4;
+    border: 1px solid green;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 99999;
+
+}
+
+#nav ul {
+    margin: 0;
+    padding-left: 10px;
+    width: 90%;
+    z-index: 99999;
+    margin-left: 200px;
+}
+
+    #nav > a
+    {
+        display: none;
+    }
+
+    #nav li
+    {
+        /*REMOVE THIS TO CONTROL SUBMENUS
+        position: relative;*/
+        list-style-type: none;
+    }
+        #nav li a
+        {
+            color: #243038;
+            display: block;
+            text-decoration: none;
+        }
+        #nav li a:active
+        {
+            /*background-color: #c00 !important;*/
+        }
+
+    #nav span:after
+    {
+
+    }
+
+    /* first level */
+
+    #nav > ul
+    {
+        height: 2.5em; /* 60 */
+        
+    }
+        #nav > ul > li
+        {
+            width: auto;
+            height: 100%;
+            float: left;
+        }
+            #nav > ul > li > a
+            {
+                height: 100%;
+                font-size: 1em; /* 24 */
+                line-height: 2.5em; /* 60 (24) */
+                text-align: center;
+                padding-left: 10px;
+            }
+
+            #nav > ul > li > a:after
+            {
+                content:  "/";
+                padding-left: 10px;
+                font-weight: 100;
+            }
+
+            #nav > ul > li > a.active
+            {
+                color: #af1c33;
+            }
+
+            #nav > ul > li > a.active-submenu
+            {
+                background-color: #0d6d98;
+                line-height: 1.5em;
+                height: 30px;
+            }
+            
+
+
+                #nav > ul > li:not( :last-child ) > a
+                {
+                    
+                }
+                #nav > ul > li:hover > a,
+                #nav > ul:not( :hover ) > li.active > a
+                {
+                    /*background-color: #0085c0;*/
+                    color: #af1c33;
+                }
+
+
+        /* second level */
+
+        #nav li ul
+        {
+            background-color: #f3f4f4;
+            display: none;
+            position: absolute;
+            /*top: 100%;*/
+            top: 40px;
+            left: 0;
+            padding-left: 5px;
+            overflow: hidden;
+            width: 100%;
+            //border: 1px solid red;
+                                
+        }
+            #nav li ul .sub-items {
+
+                margin: 25px;
+                margin-bottom: 0;
+                float: left;
+            }
+
+            #nav li ul .sub-items > a {
+
+                font-weight: 500;
+                margin-bottom: .5em;
+
+            }
+
+                #nav li ul .sub-items div {
+                    margin-left: 20px;
+                    margin-top: .5em;
+                }
+
+                #nav li ul .sub-items div a {
+                    margin-bottom: .4em;
+                }
+
+
+            #nav li:hover ul
+            {
+                display: block;
+                left: 0;
+                right: 0;
+            }
+                #nav li:not( :first-child ):hover ul
+                {
+                    /*left: -1px;*/
+
+                }
+                
+                /*#nav li ul a
+                {
+                    font-size: 1em; /* 20 */
+                    /*border-top: 1px solid #3f3c3a;
+                    padding: 0.75em; /* 15 (20) */
+                    /*padding-left: 0;
+                }
+                    #nav li ul li a:hover,
+                    #nav li ul:not( :hover ) li.active a
+                    {
+                        background-color: #cc470d;
+                    }*/
+
+
+
+
+
+//################################################################
 
 
 
@@ -290,6 +497,7 @@ a:hover {
     height: 182px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 40px;
+    z-index: 89999;
 
     label {
         font-size: 30px;
