@@ -24,9 +24,13 @@ $(document).ready(function () {
     /*$('#slideshow').carousel({
       interval: 5000
     });)*/
+    
 
+    $( '#nav li:has(ul)' ).doubleTapToGo();
 
-   var owl = $("#owl-demo");
+    
+
+   /*var owl = $("#owl-demo");
 
 
       owl.owlCarousel(
@@ -56,8 +60,10 @@ $(document).ready(function () {
 
 
       $('#myCarousel').carousel('pause');
+      */
 
-      $( '#nav li:has(ul)' ).doubleTapToGo();
+
+
 
 
 });

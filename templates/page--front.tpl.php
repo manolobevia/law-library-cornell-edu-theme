@@ -1,4 +1,4 @@
-<?php
+ <?php
 /**
  * @file
  * Default theme implementation to display a single Drupal page.
@@ -77,6 +77,11 @@
 <?php
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
+
+
+        
+
+
 
 <!-- CUL BRANDING -->
         <section class="cul-branding">
@@ -196,45 +201,51 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </section>
 
         <!-- LAW BRANDING + MAIN NAVIGATION-->
+
         <header class="main-nav">
 
             <h1>
                 <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
             </h1>
-            
-            <!--<ul>
-                <li><a class="active" href="/" title="">HOME</a> /</li>
-                <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">EXPLORE</a></li>
-                <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
-                <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
-            </ul>-->
 
         </header>
 
+
+
+
+
+        <!-- MAIN NABIGATION / MEGAMENUS -->
+
+
         <nav id="nav" role="navigation">
-                
-            <a href="#nav" title="Show navigation">Show navigation</a>
-            <a href="#" title="Hide navigation">Hide navigation</a>
+            <a class="sandwich" href="#nav" title="Show navigation">Show navigation</a>
+            <a class="sandwich" href="#" title="Hide navigation">Hide navigation</a>
 
             <ul class="clearfix">
 
-                <li><a class="active" href="index.html">Home</a></li>
+                <!-- HOME -->
+
+                <li class="first"><a class="active" href="index.html">HOME</a></li>
+
+                <!-- ABOUT -->
 
                 <li>
-                    <a href="#" title="">About</a>
+                    <a href="#" title="">ABOUT</a>
 
                     <ul class="container-nav">
                         <div class="row">
                             <div class="cell">
                                 <li>
                                     <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
+                                        <a href="#">Hours</a>
+                                        <a href="#">Location</a>
+                                        <a href="#">Mission and Vision</a>
+                                        <a href="#">History</a>
+                                            
+                                            <a class="sub-sub-items" href="#">Law Library History</a>
+                                            <a class="sub-sub-items" href="#">Law School Chronology</a>
+                                            <a class="sub-sub-items" href="#">Buildings and Notable People</a>
+                                            
                                     </div>
                                 </li>
                             </div>
@@ -242,11 +253,14 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                             <div class="cell">
                                 <li>
                                     <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
-                                        
+                                        <a href="#">Policies</a>
+
+                                            <a class="sub-sub-items" href="#">Circulation</a>
+                                            <a class="sub-sub-items" href="#">Study Rooms / Room Reservations Carrels</a>
+                                            <a class="sub-sub-items" href="#">Photography and Videography After-Hours Access</a>
+                                            <a class="sub-sub-items" href="#">Food & Drink</a>
+                                            <a class="sub-sub-items" href="#">Borrowing & Lending</a>
+                                            <a class="sub-sub-items" href="#">Collection Development</a>
                                     </div>
                                 </li>
                             </div>
@@ -254,21 +268,267 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                             <div class="cell">
                                 <li>
                                     <div class="sub-items">
-                                        <a href="apply.html">Lorem Apopea</a>
-                                        <a href="apply.html">Calisto in tha House</a>
-                                        <a href="apply.html">Laror laborus</a>
-                                        <a href="apply.html">Lacasa casitus</a>
-                                        
+                                        <a href="#">Law Library Space</a>
+                                            <a class="sub-sub-items" href="#">Law Library Map</a>
+                                            <a class="sub-sub-items" href="#">Study Areas</a>
+                                            <a class="sub-sub-items" href="#">Reading Room</a>
+
+                                        <a href="#">Our Partners</a>
+                                            <a class="sub-sub-items" href="#">Eliminate completely?</a>
+
+                                        <a href="#">Law Library Annual Report</a>
+                                            <a class="sub-sub-items" href="#">Current</a>
+                                            <a class="sub-sub-items" href="#">Archives</a>
                                     </div>
                                 </li>
                             </div>
+
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Law Library Space</a>
+                                            <a class="sub-sub-items" href="#">Law Library Map</a>
+                                            <a class="sub-sub-items" href="#">Study Areas</a>
+                                            <a class="sub-sub-items" href="#">Reading Room</a>
+
+                                        <a href="#">Our Partners</a>
+                                            <a class="sub-sub-items" href="#">Eliminate completely?</a>
+
+                                        <a href="#">Law Library Annual Report</a>
+                                            <a class="sub-sub-items" href="#">Current</a>
+                                            <a class="sub-sub-items" href="#">Archives</a>
+                                    </div>
+                                </li>
+                            </div>
+
+
+
                         </div>
                     </ul>   
                 </li>
 
+                <!-- USING THE LIBRARY -->
+
+                <li>
+                    <a href="#" title="">USING THE LIBRARY</a>
+
+                    <ul class="container-nav">
+                        <div class="row">
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Navigation & Access</a>
+
+
+                                            <a class="sub-sub-items" href="#">On the Shelf</a>
+                                            <a class="sub-sub-items" href="#">Electronic</a>
+                                            <a class="sub-sub-items" href="#">Library-to-Library How To</a>
+                                            <a class="sub-sub-items" href="#">Library Annex How To</a>
+                                            <a class="sub-sub-items" href="#">lorem, ipsum, sit, amet</a>
+                                            <a class="sub-sub-items" href="#">Document Delivery How To</a>
+                                            <a class="sub-sub-items" href="#">Borrow Direct How To</a>
+                                            <a class="sub-sub-items" href="#">ILL How To</a>
+                                            <a class="sub-sub-items" href="#">Recall How To</a>
+                                            
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Recreation at the Library</a>
+
+                                            <a class="sub-sub-items" href="#">Programming</a>
+                                            <a class="sub-sub-items" href="#">Recreational Collections</a>
+
+                                        <a href="#">Library Policies</a>
+
+                                            <a class="sub-sub-items" href="#">Food & Drink Policy</a>
+                                            <a class="sub-sub-items" href="#">Borrowing & Lending Policies ⁃ Carrel Policy</a>
+                                            <a class="sub-sub-items" href="#">Room Reservation Policy</a>
+                                            <a class="sub-sub-items" href="#">After Hours (sticker) Policy</a>
+                                    </div>
+                                </li>
+                            </div>
+                            
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#"> Faculty Services</a>
+                                            <a class="sub-sub-items" href="#">Law Library Map</a>
+                                                <a class="sub-sub-items" href="#">Put an item on course reserve</a>
+                                                <a class="sub-sub-items" href="#">Set up a proxy</a>
+                                                <a class="sub-sub-items" href="#">Routing services</a>
+                                                <a class="sub-sub-items" href="#">Find Your Faculty Liaison</a>
+                                                <a class="sub-sub-items" href="#">Increase your audience & impact</a>
+                                                <a class="sub-sub-items" href="#">Request help setting up selected works page</a>
+                                                <a class="sub-sub-items" href="#">Request an item not in collection</a>
+                                                <a class="sub-sub-items" href="#">Request a supporting collection for a faculty publication</a>
+                                                <a class="sub-sub-items" href="#">Faculty Publications Report</a>
+                                    
+                                    </div>
+                                </li>
+                            </div>
+
+                            
+            
+                        </div>
+                    </ul>   
+                </li>
+
+
+                <!-- RESEARCH -->
+
+                <li>
+                    <a href="#" title="">RESEARCH</a>
+
+                    <ul class="container-nav">
+                        <div class="row">
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Databases</a>
+                                        <a href="#">Catalogs</a>
+                                        <a href="#">Online Legal Resources</a>
+                                            <a class="sub-sub-items" href="#">InSIte</a>
+                                        <a href="#">Research Help</a>
+                                            <a class="sub-sub-items" href="#">Research Consults</a>
+                                            <a class="sub-sub-items" href="#">Research Desk Info</a>
+                                            <a class="sub-sub-items" href="#">Chat Reference</a>
+                                            <a class="sub-sub-items" href="#">Classroom Support</a>
+                                        <a href="#">Research Prize Info</a>
+                                            
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Cross-Links to Collections</a>
+                                        
+
+
+                                            <a class="sub-sub-items" href="#">Special</a>
+                                            <a class="sub-sub-items" href="#">Microform</a>
+                                            <a class="sub-sub-items" href="#">Gov Docs</a>
+                                            <a class="sub-sub-items" href="#">Foreign/Int'l</a>
+                                            
+                                        <a href="#"> Legal Research Engine</a>
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Lorem Ipsum</a>
+
+                                            <img src="" style="width: 250px;height: 250px; background-color: gray">
+                                            
+                                        <a href="#"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
+                                            
+                                    </div>
+                                </li>
+                            </div>
+                            
+            
+                        </div>
+                    </ul>   
+                </li>
+
+                <!-- EXPLORE -->
+
+                <li>
+                    <a href="#" title="">EXPLORE</a>
+                </li>
+
+
+                <!-- OTHER COLLECTIONS -->
+
+                <li>
+                    <a href="#" title="">SPECIAL COLLECTIONS</a>
+
+                    <ul class="container-nav">
+                        <div class="row">
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <img src="" style="width: 250px;height: 250px; background-color: gray">
+                                    </div>
+                                </li>
+                            </div>
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <img src="" style="width: 250px;height: 250px; background-color: gray">
+                                    </div>
+                                </li>
+                            </div>
+                            
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <img src="" style="width: 250px;height: 250px; background-color: gray">
+                                    </div>
+                                </li>
+                            </div>
+                            
+
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <img src="" style="width: 250px;height: 250px; background-color: gray">
+                                    </div>
+                                </li>
+                            </div>
+                            
+                            
+                        </div>
+                    </ul>   
+                </li>
+
+
+                <!-- ANOTHER -->
+
+                <li>
+                    <a href="#" title="">ANOTHER LINK</a>
+
+                    <ul class="container-nav">
+                        <div class="row">
+                            <div class="cell">
+                                <li>
+                                    <div class="sub-items">
+                                        <a href="#">Lorem navigatus</a>
+
+
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            <a class="sub-sub-items" href="#">Ipsum Lorem Relecta</a>
+                                            
+                                    </div>
+                                </li>
+                            </div>
+                            
+            
+                        </div>
+                    </ul>   
+                </li>
+
+
+
             </ul>
         </nav>
-
 
         <section class="search-home">
 
@@ -295,212 +555,11 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </section>
 
 
+
         <div class="nav">
             <?php print render($page['navigation']); ?>
         </div>
-
-        <!--<section class="media row">
-
-            <div class="rs-carousel2">
-
-                <div class="carousel-prev"></div>
-
-                <div class="carousel-wrapper">
-
-
-                    <ul class="media-items">
-                        <li class="media-item"> 
-                          
-                            <figure>
-                                <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                                <figcaption>
-                                    Law Library will host Cornell Companions, a pet visitation program
-                                </figcaption>                    
-                            </figure>
-
-                        </li>
-
-                    </ul>
-                    
-                </div>
-
-                <div class="carousel-next"></div>
-                
-            </div>
-        </section> -->
-
-
-
-        <section class="media row">
-
-            <div id="owl-demo" class="owl-carousel media-items">
-            
-                
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-                <!--Media item-->
-                <div class="item">
-      
-                    <figure>
-                        <a href="#"><img class="image-media" src="<?php print $theme_path; ?>images/carousel-media/media-item-1.jpg" />
-                        <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" /></a>
-
-                        <figcaption>
-                            Law Library will host Cornell Companions, a pet visitation program
-                        </figcaption>                    
-                    </figure>
-
-                </div>
-
-            </div>
-
-            <div class="customNavigation">
-                <a class="btn prev">Previous</a>
-                <a class="btn next">Next</a>
-                <a class="btn play">Autoplay</a>
-                <a class="btn stop">Stop</a>
-            </div>
-        </section>
+        
 
                         
     
