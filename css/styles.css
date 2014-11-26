@@ -5469,28 +5469,6 @@ a:hover {
         color: #aabec7;
         text-align: left;
         padding-top: 17px; }
-  .media .carousel-prev {
-    display: inline-block;
-    left: 20px;
-    position: absolute;
-    top: 20px; }
-  .media .carousel-next {
-    display: inline-block;
-    right: 20px;
-    position: absolute;
-    top: 20px; }
-  .media .rs-carousel-action-prev {
-    color: #2c3235;
-    font-size: 83px;
-    font-family: "HeroRegular";
-    text-decoration: none; }
-  .media .rs-carousel-action-next {
-    color: #2c3235;
-    font-size: 83px;
-    font-family: "HeroRegular";
-    text-decoration: none; }
-  .media .rs-carousel-action-active {
-    color: #1ebae1; }
 
 /*
 ##############################################

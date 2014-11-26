@@ -410,6 +410,7 @@ a:hover {
         
         overflow: hidden;
 
+
         .item {
 
             position: relative;
@@ -417,7 +418,7 @@ a:hover {
             margin-right: 30px;
 
             .image-media {
-               width: 243px; 
+                width: 243px; 
             }
 
             .mask-media {
@@ -434,52 +435,7 @@ a:hover {
                 padding-top: 17px;
             }
         }
-    }
-
-
-    .carousel-prev {
-        
-        display: inline-block;
-        left: 20px;
-        position: absolute;
-        top: 20px;
-
-    }
-
-    .carousel-next {
-        
-        display: inline-block;
-        right: 20px;
-        position: absolute;
-        top: 20px;
-
-        
-    }
-
-    
-
-    .rs-carousel-action-prev {
-
-        color: #2c3235;
-        font-size: 83px;
-        font-family: $fontHero;
-        text-decoration: none;
-
-    }
-
-    .rs-carousel-action-next {
-        
-        color: #2c3235;
-        font-size: 83px;
-        font-family: $fontHero;
-        text-decoration: none;
-    }
-
-    .rs-carousel-action-active {
-
-        color: #1ebae1;
-    }
-    
+    }    
 
 }
 

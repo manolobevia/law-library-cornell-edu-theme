@@ -29,13 +29,9 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
 
 
-         <!-- Important Owl stylesheet -->
-        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.css">
-         
-        <!-- Default Theme -->
-        <link rel="stylesheet" href="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.theme.css">
+        <!-- Owl Carousel -->
 
-
+        <link rel="stylesheet" href="<?php print $theme_path; ?>/js/owlcarousel/assets/owl.carousel.css">
         
         
 
@@ -93,8 +89,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
    
      
     <!-- carousel -->
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/owl.carousel/owl-carousel/owl.carousel.js"></script>
-
+    <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
     <!-- megamenus -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/main.js"></script>
     <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>

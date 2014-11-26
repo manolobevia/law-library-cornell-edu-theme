@@ -25,6 +25,9 @@ $(document).ready(function () {
       interval: 5000
     });)*/
     
+     $('#myCarousel').carousel('pause');
+
+
 
     $( '#nav li:has(ul)' ).doubleTapToGo();
 
@@ -35,11 +38,11 @@ $(document).ready(function () {
 
       owl.owlCarousel(
         {
-          items : 5, //10 items above 1000px browser width
-          itemsDesktop : [1000,5], //5 items between 1000px and 901px
-          itemsDesktopSmall : [900,3], // betweem 900px and 601px
-          itemsTablet: [600,2], //2 items between 600 and 0
-          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+          items : 5 //10 items above 1000px browser width
+          //itemsDesktop : [1000,5], //5 items between 1000px and 901px
+          //itemsDesktopSmall : [900,3], // betweem 900px and 601px
+          //itemsTablet: [600,2], //2 items between 600 and 0
+          //itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
           }
       );
 
@@ -56,12 +59,24 @@ $(document).ready(function () {
         $(".stop").click(function(){
           owl.trigger('owl.stop');
         });
+*/
 
-
-
-      $('#myCarousel').carousel('pause');
-      */
-
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
 
 
 
