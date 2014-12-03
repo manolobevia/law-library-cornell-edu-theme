@@ -548,7 +548,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
                     <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
-                    <a class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></a>
+                    <button type="submit" class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></button>
                 </div>
             </form>         
             
