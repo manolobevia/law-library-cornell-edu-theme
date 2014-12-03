@@ -532,11 +532,22 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <section class="search-home">
 
-            <form action="/">
+            <form id="form1" name="form1" method="get" action="/">
                 <label for="name">Search</label>
                 <div class="filtered-search">
 
-                    <input type="text" class="form-text" value="" /><a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a>
+                    <input type="text" class="form-text" name="q" value="" />
+                    <select name="search_type" id="search_type" size="1" onChange="chgAction()">
+                      <option value="" selected="selected">Select</option>
+                      <option value="law">Law Collections</option>
+                      <option value="catalog">Library Catalog</option>
+                      <option value="worldcat">WorldCat</option>
+                      </select>
+                    <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="">
+                    <input type="hidden" name="search_field" value="all_fields">
+
+
+                    <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
                     <a class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></a>
                 </div>
             </form>         
@@ -721,7 +732,32 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <footer class="row">
               <?php print render($page['footer']); ?>
         </footer>
+<script>
 
+function chgAction() {
+    var form = document.form1;
+    
+    console.log('chgAction()');
+    console.log(form.search_type.selectedIndex);
+    
+    switch (form.search_type.selectedIndex) {
+        case 1:
+            form.action = "http://newcatalog.library.cornell.edu/";
+            form.callno.value = "K - Law"
+            break;
+        case 2:
+            form.action = "http://newcatalog.library.cornell.edu";
+            form.callno.name = ""
+
+            break;
+        case 3:
+            form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
+            break;
+    }
+
+
+}
+</script>
 
         
 
