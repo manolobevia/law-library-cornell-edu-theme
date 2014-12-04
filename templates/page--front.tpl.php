@@ -740,17 +740,18 @@ function chgAction() {
     console.log(form.search_type.selectedIndex);
     
     switch (form.search_type.selectedIndex) {
+        case 0:
+            form.action = "http://newcatalog.library.cornell.edu";
+            form.callno.name = "K - Law";
+            break;
         case 1:
             form.action = "http://newcatalog.library.cornell.edu";
             form.callno.name = ""
-
             break;
         case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
-        case 0:
-            form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.name = "K - Law"
+
     }
 
 
