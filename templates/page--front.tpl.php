@@ -220,7 +220,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <nav id="nav" role="navigation">
             <a class="sandwich" href="#nav" title="Show navigation">Show navigation</a>
             <a class="sandwich" href="#" title="Hide navigation">Hide navigation</a>
-
+            <?php print render($page['mega_menu']); ?>
             <ul class="clearfix">
 
                 <!-- HOME -->
@@ -748,6 +748,9 @@ function chgAction() {
         case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
+        default:
+            form.action = "http://newcatalog.library.cornell.edu";
+            form.callno.name = "K - Law"
     }
 
 
