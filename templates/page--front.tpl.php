@@ -742,7 +742,7 @@ function chgAction() {
     switch (form.search_type.selectedIndex) {
         case 0:
             form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.name = "K - Law";
+            form.callno.value = "K - Law";
             break;
         case 1:
             form.action = "http://newcatalog.library.cornell.edu";
