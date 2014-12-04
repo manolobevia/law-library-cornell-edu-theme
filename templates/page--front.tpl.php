@@ -741,15 +741,11 @@ function chgAction() {
     
     switch (form.search_type.selectedIndex) {
         case 1:
-            form.action = "http://newcatalog.library.cornell.edu/";
-            form.callno.value = "K - Law"
-            break;
-        case 2:
             form.action = "http://newcatalog.library.cornell.edu";
             form.callno.name = ""
 
             break;
-        case 3:
+        case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
     }
