@@ -748,7 +748,7 @@ function chgAction() {
         case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
-        default:
+        case 0:
             form.action = "http://newcatalog.library.cornell.edu";
             form.callno.name = "K - Law"
     }
