@@ -532,7 +532,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <section class="search-home">
 
-            <form id="form1" name="form1" method="get" action="/">
+            <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
                 <label for="name">Search</label>
                 <div class="filtered-search">
 
@@ -542,7 +542,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                       <option value="catalog">Library Catalog</option>
                       <option value="worldcat">WorldCat</option>
                       </select>
-                    <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="">
+                    <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="K - Law">
                     <input type="hidden" name="search_field" value="all_fields">
 
 
