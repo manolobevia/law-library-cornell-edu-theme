@@ -121,7 +121,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
                             <div class="carousel-caption">
                                 <h1>Scribentur eloquentiam cu eos.</h1>
-                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto. Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
+                                <p class="lead">Putant evertitur te sed, eos cu habemus perfecto Id vix nemore dolorem constituto. Ei labore erroribus persecuti vis. Quodsi elaboraret definitionem eos ei.</p>
 
                             </div>
 
@@ -215,9 +215,10 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
         <!-- MAIN NABIGATION / MEGAMENUS -->
+        
 
-            <?php print render($page['mega_menu']); ?>
-
+                <?php print render($page['mega_menu']); ?>
+         
         
 
         <section class="search-home">
