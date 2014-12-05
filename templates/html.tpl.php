@@ -57,6 +57,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
     <!-- ############################################# -->
