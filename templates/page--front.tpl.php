@@ -98,30 +98,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <section class="hero">
 
-            <div id="myCarousel" class="carousel slide carousel-fade">
-
-
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <div class="carousel-inner">
-
-                    <!-- slide #1 -->
-
-                   <?php print render($page['spotlight']); ?>
-
-
-                </div>
-
-
-                <!--<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
-
-            </div><!-- /.carousel -->
+        <?php print render($page['spotlight']); ?>
 
         </section>
 
