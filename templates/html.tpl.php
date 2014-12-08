@@ -20,8 +20,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
         <!-- Google fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
         <?php print $styles; ?>
 
@@ -56,7 +56,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <?php print $page_bottom; ?>
 
 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
 
