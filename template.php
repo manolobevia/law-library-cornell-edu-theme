@@ -15,7 +15,7 @@ function law_library_cul_hours_formatter_cul_hours_field_hours_id($element) {
   }
 }
 
-function cul_hours_dailyHoursFromId($id) {
+function law_library_cul_hours_dailyHoursFromId($id) {
   global $abbrev_map;
   $lib_name = array_search($id, $abbrev_map);
   $id = urlencode($id);
