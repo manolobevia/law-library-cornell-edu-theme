@@ -129,6 +129,9 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 	</div>
 
     <sidebar class="sidebar-nav col-xs-12 col-sm-12 col-md-2 col-lg-2">
+
+        <?php print render($page['sidebar_second']); ?>
+
         
         <h4>OTHER AREAS</h4>
 
