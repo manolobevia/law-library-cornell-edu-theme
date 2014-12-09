@@ -125,6 +125,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <section class="row page-content">
 
     <nav class="breadcrumb">
+        <?php print render($breadcrumb); ?>
+
         <a href="#">About</a> <span class="separator">></span>
         <strong>Our Space</strong>
     </nav>  
@@ -134,7 +136,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <header class="page">
             <h2 class="title-content"><?php print $title; ?></h2>
         </header>
-
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
 		<?php print render($page['content']); ?>
 	</div>
 
