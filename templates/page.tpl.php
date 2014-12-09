@@ -127,8 +127,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <nav class="breadcrumb">
         <?php print render($breadcrumb); ?>
 
-        <a href="#">About</a> <span class="separator">></span>
-        <strong>Our Space</strong>
+       <!--  <a href="#">About</a> <span class="separator">></span>
+        <strong>Our Space</strong> -->
     </nav>  
 
     <div class="main-content col-xs-12 col-sm-12 col-md-10 col-lg-10">
