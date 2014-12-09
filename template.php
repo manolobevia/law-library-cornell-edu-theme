@@ -8,7 +8,7 @@
 /**
  * Theme function for 'cul_hours_field_hours_id'  field formatter.
  */
-function theme_cul_hours_formatter_cul_hours_field_hours_id($element) {
+function law_library_cul_hours_formatter_cul_hours_field_hours_id($element) {
   if (isset($element['element']['safe_value'])) {
     $id = $element['element']['safe_value'];
     return cul_hours_dailyHoursFromId($id);
