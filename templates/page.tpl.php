@@ -89,25 +89,12 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <h1>
         <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
     </h1>
-    
-    <!--<ul>
-        <li><a class="active" href="/" title="">HOME</a> /</li>
-        <li><a href="#" title="">ABOUT <span class="caret-icon">></span></a> /</li>
-        <li><a href="#" title="">USING THE LIBRARY <span class="caret-icon">></span></a> /</li>
-        <li><a href="#" title="">RESEARCH <span class="caret-icon">></span></a> /</li>
-        <li><a href="#" title="">EXPLORE</a></li>
-        <li><a href="#" title="">SPECIAL COLLECTIONS <span class="caret-icon">></span></a> /</li>
-        <li><a href="#" title="">OTHER COLLECTIONS <span class="caret-icon">></span></a></li>
-    </ul>-->
 
 </header>
 
 <!-- MAIN NABIGATION / MEGAMENUS -->
 
-
-                      <?php print render($page['mega_menu']); ?>
-
-
+<?php print render($page['mega_menu']); ?>
 
 <!-- HEADER IMAGE -->
 
