@@ -95,7 +95,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <!-- MAIN NABIGATION / MEGAMENUS -->
 
 
-                      <?php print render($page['mega_menu']); ?>
+<?php print render($page['mega_menu']); ?>
 
 
 
