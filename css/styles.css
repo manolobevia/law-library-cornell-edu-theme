@@ -5559,14 +5559,12 @@ a {
   border-right: 1px solid #ebebeb;
   padding-left: 54px; }
   .page-content .main-content .content {
-    margin-top: 30px;
+    margin-top: 0;
     padding-right: 30px; }
 .page-content .sidebar-nav {
   padding-left: 40px;
   padding-right: 40px;
-  background: white url("../images/interior-bg.jpg") no-repeat 0 100px;
-  background-size: contain;
-  min-height: 1085px; }
+  margin-top: 40px; }
   .page-content .sidebar-nav h4 {
     font-size: 22px;
     color: #b11d22; }
@@ -5854,6 +5852,43 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 \__/_| |_| |_|\__,_|_|_|  \/   \__,_|_.__/|_|\___|\__|___/
 
 */
+@media (min-width: 480px) {
+  body {
+    background-color: pink; }
+
+  footer.row {
+    height: 77px;
+    background-color: #fff;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #f0f0f0; }
+    footer.row .wrapper {
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 30px; }
+    footer.row .address-copyright p {
+      font-size: 12px;
+      color: #242424; }
+    footer.row .navigation {
+      padding-left: 15px;
+      padding-top: 10px;
+      text-align: center; }
+      footer.row .navigation li {
+        padding-right: 5px;
+        display: inline-block; }
+        footer.row .navigation li a {
+          display: inline-block;
+          font-weight: 12px;
+          color: #242424; }
+          footer.row .navigation li a.active {
+            color: #7d7d7d; }
+          footer.row .navigation li a:hover {
+            color: #7d7d7d; }
+    footer.row .social-media {
+      text-align: center; }
+      footer.row .social-media li {
+        padding-right: 8px;
+        display: inline-block; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
@@ -5863,6 +5898,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                                  
 */
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  body {
+    background-color: red; } }
  /*  
     ___          _    _              
    /   \___  ___| | _| |_ ___  _ __  
@@ -5872,6 +5910,17 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                               |_|    
  */
 /* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .page-content .main-content {
+    width: 70%; }
+  .page-content .sidebar-nav {
+    width: 30%;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: white url("../images/interior-bg.jpg") no-repeat 0 100px;
+    background-size: contain;
+    min-height: 1085px;
+    margin-top: 40px; } }
 /*
    __                           ___          _    _              
   / /  __ _ _ __ __ _  ___     /   \___  ___| | _| |_ ___  _ __  
