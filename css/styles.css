@@ -5478,16 +5478,21 @@ a:hover {
 footer.row {
   height: 77px;
   background-color: #fff;
-  margin-top: 30px;
+  margin-top: 5px;
   padding-top: 30px;
   border-top: 1px solid #f0f0f0; }
   footer.row .wrapper {
-    width: 80%;
+    width: 93%;
     margin: 0 auto;
-    padding-top: 30px; }
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 20px;
+    overflow: hidden; }
   footer.row .address-copyright p {
     font-size: 12px;
     color: #242424; }
+  footer.row .address-copyright small {
+    display: inline-block; }
   footer.row .navigation {
     padding-left: 15px;
     padding-top: 10px;
@@ -5854,38 +5859,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 */
 @media (min-width: 480px) {
   footer.row {
-    height: 77px;
-    background-color: #fff;
-    margin-top: 30px;
-    padding-top: 30px;
-    border-top: 1px solid #f0f0f0; }
+    border-top: 1px solid #f0f0f0;
+    display: block; }
     footer.row .wrapper {
-      width: 80%;
-      margin: 0 auto;
-      padding-top: 30px; }
-    footer.row .address-copyright p {
-      font-size: 12px;
-      color: #242424; }
-    footer.row .navigation {
-      padding-left: 15px;
-      padding-top: 10px;
-      text-align: center; }
-      footer.row .navigation li {
-        padding-right: 5px;
-        display: inline-block; }
-        footer.row .navigation li a {
-          display: inline-block;
-          font-weight: 12px;
-          color: #242424; }
-          footer.row .navigation li a.active {
-            color: #7d7d7d; }
-          footer.row .navigation li a:hover {
-            color: #7d7d7d; }
-    footer.row .social-media {
-      text-align: center; }
-      footer.row .social-media li {
-        padding-right: 8px;
-        display: inline-block; } }
+      padding-top: 0; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
@@ -5914,7 +5891,15 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     background: white url("../images/interior-bg.jpg") no-repeat 0 100px;
     background-size: contain;
     min-height: 1085px;
-    margin-top: 40px; } }
+    margin-top: 40px; }
+
+  footer.row {
+    display: block;
+    margin: 0 auto; }
+    footer.row .wrapper {
+      padding-top: 30; }
+    footer.row .address-copyright {
+      text-align: left; } }
 /*
    __                           ___          _    _              
   / /  __ _ _ __ __ _  ___     /   \___  ___| | _| |_ ___  _ __  
@@ -5936,4 +5921,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     .page-content .sidebar-nav {
       width: 300px;
       padding-right: 0;
-      margin-top: 60px; } }
+      margin-top: 60px; }
+
+  footer.row {
+    width: 1440px; } }
