@@ -94,7 +94,10 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 <!-- MAIN NABIGATION / MEGAMENUS -->
 
-<?php print render($page['mega_menu']); ?>
+
+                      <?php print render($page['mega_menu']); ?>
+
+
 
 <!-- HEADER IMAGE -->
 
@@ -109,16 +112,17 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     </div>
 
 <!-- CONTENT -->
+
 <section class="row page-content">
 
-    <nav class="breadcrumb">
-        <?php print render($breadcrumb); ?>
+    <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 main-content">
 
-       <!--  <a href="#">About</a> <span class="separator">></span>
-        <strong>Our Space</strong> -->
-    </nav>  
+        <nav class="breadcrumb">
 
-    <div class="main-content col-xs-12 col-sm-12 col-md-10 col-lg-10">
+            <?php print render($breadcrumb); ?>
+           <!--  <a href="#">About</a> <span class="separator">></span>
+            <strong>Our Space</strong> -->
+        </nav> 
 
         <header class="page">
             <h2 class="title-content"><?php print $title; ?></h2>
@@ -128,10 +132,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 		<?php print render($page['content']); ?>
 	</div>
 
-    <sidebar class="sidebar-nav col-xs-12 col-sm-12 col-md-2 col-lg-2">
-
-        <?php print render($page['sidebar_second']); ?>
-
+    <sidebar class="col-xs-12 col-sm-12 col-md-2 col-lg-2 sidebar-nav">
         
         <h4>OTHER AREAS</h4>
 
@@ -146,6 +147,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     </sidebar>
 
 </section>
+
+<!-- ######################### -->
 
 <footer class="row">
       <?php print render($page['footer']); ?>

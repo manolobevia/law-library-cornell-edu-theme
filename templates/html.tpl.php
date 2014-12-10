@@ -59,34 +59,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-
-    <!-- ############################################# -->
-    <!-- ############################################# -->
-
-    <!-- Carousel https://github.com/richardscarrott/jquery-ui-carousel -->
-    <!-- carousel CSS -->
-    <!--<link rel="stylesheet" type="text/css" href="<?php print $theme_path; ?>js/jquery-ui-carousel-master/css/jquery.rs.carousel.css" media="all" />-->
-
-    <!-- lib -->
-
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.ui.widget.js"></script>-->
-    <!-- if using touch -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.event.drag.js"></script>-->
-    <!-- if using touch and translate3d -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery.translate3d.js"></script>-->
-
-    <!-- carousel core -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel.js"></script>-->
-
-    <!-- carousel extensions (optional) -->
-    <!--<script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-autoscroll.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-continuous.js"></script>
-    <script type="text/javascript" src="<?php print $theme_path; ?>js/jquery-ui-carousel-master/js/jquery.rs.carousel-touch.js"></script>-->
-
-    <!-- ############################################# -->
-    <!-- ############################################# -->
-
-   
      
     <!-- carousel -->
     <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>

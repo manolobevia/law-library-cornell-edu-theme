@@ -568,19 +568,23 @@ a {
 .header-interior {
 
     background: #ffffff url("../images/header-interior.jpg") no-repeat top center;
-    background-size: contain;
-    background-size: 100%;
+    background-size: cover;
     height: 160px;
 }
 
 .page-content {
 
-    padding-left: 54px;
-    padding-right: 54px;
+
+    //padding-left: 54px;
+    //padding-right: 54px;
+
+
 
     .main-content {
+
         padding: 0;
         border-right: 1px solid #ebebeb;
+        padding-left: 54px ;
 
         .content {
             margin-top: 30px;
@@ -589,8 +593,9 @@ a {
     }
 
     .sidebar-nav {
+
         padding-left: 40px;
-        //width: 323px;
+        padding-right: 40px;
         background: #ffffff url("../images/interior-bg.jpg") no-repeat 0 100px;
         background-size: contain;
         min-height: 1085px;
@@ -1106,5 +1111,36 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 
 }
+
+
+@media (min-width: 1600px) { 
+
+    .page-content {
+
+        margin: 0 auto;
+        display: block;
+        width: 1400px;
+
+
+        .main-content {
+
+            width: 1100px;
+
+            .content {
+                
+                margin-top: 0;
+            }
+        }
+
+        .sidebar-nav {
+
+            width: 300px;
+            padding-right: 0;
+            margin-top: 60px;
+                       
+        }
+    }
+}
+
 
 
