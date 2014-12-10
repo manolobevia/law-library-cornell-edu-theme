@@ -89,7 +89,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <h1>
         <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
     </h1>
-I use Sourcetree as git client. It is great for merging when git issues and more. 
+
 </header>
 
 <!-- MAIN NABIGATION / MEGAMENUS -->
