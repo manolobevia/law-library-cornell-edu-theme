@@ -5587,7 +5587,6 @@ a {
         padding-left: 5px; }
   .page-content .sidebar-nav ul {
     padding-left: 30px;
-    border-bottom: 1px solid #c6c7c8;
     padding-bottom: 28px;
     margin-bottom: 0; }
     .page-content .sidebar-nav ul li {
@@ -5909,6 +5908,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                 |___/                                     |_|    
 */
 /* Large devices (large desktops, 1200px and up) */
+@media (min-width: 768px) {
+  #nav {
+    margin-top: 130px; } }
 @media (min-width: 1600px) {
   .page-content {
     margin: 0 auto;
