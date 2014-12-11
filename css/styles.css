@@ -5750,6 +5750,9 @@ padding: 0.75em; /* 15 (20) */
     {
         background-color: #cc470d;
     }*/
+@media only screen and (max-width: 1300px) {
+  #nav {
+    margin-top: 130px; } }
 @media only screen and (max-width: 40em) {
   html {
     font-size: 75%;
@@ -5908,9 +5911,6 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                 |___/                                     |_|    
 */
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 768px) {
-  #nav {
-    margin-top: 130px; } }
 @media (min-width: 1600px) {
   .page-content {
     margin: 0 auto;
