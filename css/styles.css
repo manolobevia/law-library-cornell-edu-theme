@@ -5750,9 +5750,12 @@ padding: 0.75em; /* 15 (20) */
     {
         background-color: #cc470d;
     }*/
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1350px) {
   #nav {
-    margin-top: 130px; } }
+    margin-top: 130px; }
+
+  #nav ul {
+    float: left; } }
 @media only screen and (max-width: 40em) {
   html {
     font-size: 75%;
