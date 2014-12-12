@@ -928,8 +928,7 @@ a {
     }
 }
 
-@media only screen and ( max-width: 40em ) /* 640 */
-{
+@media only screen and ( max-width: 640px ) {
     html
     {
         font-size: 75%; /* 12 */
@@ -970,7 +969,8 @@ a {
         left: 0;
         margin: 0;
 
-    }
+    }   
+
         #nav > a
         {
             width: 3.125em; /* 50 */
@@ -979,7 +979,9 @@ a {
             text-indent: -9999px;
             background-color: #3f3c3a;
             position: relative;
+            float: right;
         }
+
             #nav > a:before,
             #nav > a:after
             {
@@ -1012,6 +1014,7 @@ a {
         left: 0;
         right: 0;
         background-color: #fff;
+        margin-bottom: 44px;
     }
         #nav:target > ul
         {

@@ -5768,7 +5768,7 @@ padding: 0.75em; /* 15 (20) */
 
   #nav ul {
     float: left; } }
-@media only screen and (max-width: 40em) {
+@media only screen and (max-width: 640px) {
   html {
     font-size: 75%;
     /* 12 */ }
@@ -5805,7 +5805,8 @@ padding: 0.75em; /* 15 (20) */
     text-align: left;
     text-indent: -9999px;
     background-color: #3f3c3a;
-    position: relative; }
+    position: relative;
+    float: right; }
 
   #nav > a:before,
   #nav > a:after {
@@ -5830,7 +5831,8 @@ padding: 0.75em; /* 15 (20) */
     position: absolute;
     left: 0;
     right: 0;
-    background-color: #fff; }
+    background-color: #fff;
+    margin-bottom: 44px; }
 
   #nav:target > ul {
     display: block; }
