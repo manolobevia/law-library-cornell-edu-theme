@@ -98,12 +98,42 @@ a:hover {
     position: absolute;
 
     z-index: 2;
-    overflow: hidden;
+    //overflow: hidden;
     left: 0;
     right: 0;
 
     .cu-logo {
         padding-left: 20px;
+    }
+
+    .user-tools {
+
+        float: right;
+
+        margin-right: 0;
+
+        ul {    
+
+            li {
+
+                display: inline-block;
+                float: left;
+                padding-right: 13px;
+                padding-top: 7px;
+
+                a {
+
+                    font-size: 25px;
+                    color: #fff;
+
+                    .glyphicon-search {
+
+                        font-size: 28px;
+                    }
+
+                }
+            }
+        }
     }
 }
 

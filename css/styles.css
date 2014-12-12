@@ -5247,11 +5247,23 @@ a:hover {
   background-color: #b11d22;
   position: absolute;
   z-index: 2;
-  overflow: hidden;
   left: 0;
   right: 0; }
   .cul-branding .cu-logo {
     padding-left: 20px; }
+  .cul-branding .user-tools {
+    float: right;
+    margin-right: 0; }
+    .cul-branding .user-tools ul li {
+      display: inline-block;
+      float: left;
+      padding-right: 13px;
+      padding-top: 7px; }
+      .cul-branding .user-tools ul li a {
+        font-size: 25px;
+        color: #fff; }
+        .cul-branding .user-tools ul li a .glyphicon-search {
+          font-size: 28px; }
 
 .main-nav {
   top: 67px;

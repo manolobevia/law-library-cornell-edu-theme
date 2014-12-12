@@ -81,6 +81,17 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
         <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+
+        <nav class="user-tools">
+
+            <ul>
+                <li><a title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                <li><a title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
+                <li><a title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
+            </ul>
+        </nav>
+
+            
 </section>
 
 <!-- LAW BRANDING + MAIN NAVIGATION-->
