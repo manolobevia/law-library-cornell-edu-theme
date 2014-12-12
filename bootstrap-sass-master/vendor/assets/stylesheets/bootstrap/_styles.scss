@@ -91,7 +91,7 @@ a:hover {
 
     height: 45px;
     //width: 1160px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: $cornellRed;
 
@@ -110,7 +110,7 @@ a:hover {
 
         float: right;
 
-        margin-right: 0;
+        margin-right: 50px;
 
         ul {    
 
@@ -1116,6 +1116,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         //background-color: pink;
     }
 
+
+
+
     footer.row {
 
         border-top: 1px solid #f0f0f0;
@@ -1129,6 +1132,28 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
     
 }
+
+@media (min-width: 640px) {
+
+    body {
+
+        //background-color: red;
+    }
+
+    .cul-branding {
+
+        width: 80%;
+
+
+        .user-tools {
+
+            margin-right: 0;
+        }
+    }
+
+
+}
+
 
 /*
  _____      _     _      _       

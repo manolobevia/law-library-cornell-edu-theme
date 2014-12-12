@@ -5242,7 +5242,7 @@ a:hover {
 
 .cul-branding {
   height: 45px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   background-color: #b11d22;
   position: absolute;
@@ -5253,7 +5253,7 @@ a:hover {
     padding-left: 20px; }
   .cul-branding .user-tools {
     float: right;
-    margin-right: 0; }
+    margin-right: 50px; }
     .cul-branding .user-tools ul li {
       display: inline-block;
       float: left;
@@ -5882,6 +5882,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     display: block; }
     footer.row .wrapper {
       padding-top: 0; } }
+@media (min-width: 640px) {
+  .cul-branding {
+    width: 80%; }
+    .cul-branding .user-tools {
+      margin-right: 0; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
