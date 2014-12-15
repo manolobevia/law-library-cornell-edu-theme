@@ -5532,7 +5532,8 @@ footer.row {
   padding-left: 0;
   font-size: 16px;
   padding-top: 0;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-top: 15px; }
   .breadcrumb .separator {
     font-family: "HeroRegular";
     font-size: 16px; }
