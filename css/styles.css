@@ -5782,6 +5782,9 @@ padding: 0.75em; /* 15 (20) */
     font-size: 75%;
     /* 12 */ }
 
+  .header-interior {
+    height: 160px; }
+
   .container-nav {
     clear: both;
     display: block; }
