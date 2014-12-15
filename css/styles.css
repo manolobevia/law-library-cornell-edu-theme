@@ -5800,7 +5800,7 @@ padding: 0.75em; /* 15 (20) */
   #nav > a {
     width: 3.125em;
     /* 50 */
-    height: 3.125em;
+    height: 45px;
     /* 50 */
     text-align: left;
     text-indent: -9999px;
