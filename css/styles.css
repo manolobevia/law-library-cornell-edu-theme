@@ -5530,12 +5530,12 @@ footer.row {
 .breadcrumb {
   background-color: #fff;
   padding-left: 0;
-  font-size: 17px;
-  padding-top: 30px;
+  font-size: 16px;
+  padding-top: 0;
   margin-bottom: 0; }
   .breadcrumb .separator {
     font-family: "HeroRegular";
-    font-size: 17px; }
+    font-size: 16px; }
 
 p {
   font-size: 18px;
@@ -5555,7 +5555,8 @@ header.page {
     display: inline-block;
     text-transform: uppercase;
     border-bottom: 5px solid #ebebeb;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    margin-top: 10px; }
 
 h3 {
   font-size: 18px;
