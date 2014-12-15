@@ -5765,9 +5765,6 @@ padding: 0.75em; /* 15 (20) */
     {
         background-color: #cc470d;
     }*/
-@media only screen and (max-width: 1033px) {
-  .header-interior {
-    height: 220px; } }
 @media only screen and (max-width: 1350px) {
   .header-interior {
     height: 200px; }
@@ -5777,6 +5774,9 @@ padding: 0.75em; /* 15 (20) */
 
   #nav ul {
     float: left; } }
+@media only screen and (max-width: 1033px) {
+  .header-interior {
+    height: 220px; } }
 @media only screen and (max-width: 640px) {
   html {
     font-size: 75%;

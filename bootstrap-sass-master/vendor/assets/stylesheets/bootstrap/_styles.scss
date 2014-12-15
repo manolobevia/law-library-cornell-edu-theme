@@ -922,14 +922,7 @@ a {
 
 
 
-@media only screen and ( max-width: 1033px ) {
 
-    .header-interior {
-
-        height: 220px;
-    }
-
-}
 
 
 @media only screen and ( max-width: 1350px ) {
@@ -949,6 +942,15 @@ a {
 
             
         }
+}
+
+@media only screen and ( max-width: 1033px ) {
+
+    .header-interior {
+
+        height: 220px;
+    }
+
 }
 
 @media only screen and ( max-width: 640px ) {
