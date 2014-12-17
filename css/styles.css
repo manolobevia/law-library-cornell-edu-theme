@@ -5406,7 +5406,8 @@ a:hover {
   .search-home .filtered-search {
     font-family: "HeroLight";
     font-size: 16px;
-    color: #2c3235; }
+    color: #2c3235;
+    position: relative; }
     .search-home .filtered-search .form-text {
       display: inline-block;
       width: 355px;
@@ -5419,6 +5420,10 @@ a:hover {
       -webkit-border-radius: 3px 0px 0px 3px;
       border-radius: 3px 0px 0px 3px;
       border: 1px solid #d6d6d6; }
+    .search-home .filtered-search .hide-select-btn {
+      position: absolute;
+      width: 20px;
+      height: 20px; }
     .search-home .filtered-search .filter {
       display: inline-block;
       vertical-align: text-top;
@@ -5447,7 +5452,7 @@ a:hover {
       padding-top: 3px;
       background-color: transparent;
       border: none;
-      color: #313537; }
+      color: #fff; }
   .search-home .external-search {
     list-style-type: none;
     padding-left: 0;
