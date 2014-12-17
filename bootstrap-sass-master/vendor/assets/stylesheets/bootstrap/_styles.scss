@@ -322,11 +322,11 @@ a:hover {
 
     position: absolute;
     top: 192px;
-    left: 162px;
+    left: 0;
     width: 721px;
     height: 182px;
     background-color: rgba(255, 255, 255, 0.26);
-    padding-left: 40px;
+    padding-left: 10px;
     z-index: 89999;
 
     label {
@@ -347,7 +347,7 @@ a:hover {
         .form-text {
 
             display: inline-block;
-            width: 355px;
+            width: 250px;
             height: 51px;
             background-color: #fff;
             font-family: $fontBody;
@@ -1211,7 +1211,127 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 
 
+    .search-home {
 
+    position: absolute;
+    top: 192px;
+    left: 162px;
+    width: 721px;
+    height: 182px;
+    background-color: rgba(255, 255, 255, 0.26);
+    padding-left: 40px;
+    z-index: 89999;
+
+    label {
+        font-size: 30px;
+        color: #fff;
+        padding-top: 24px;
+        font-weight: 400;
+    }
+
+    .filtered-search {
+
+        font-family: $fontHeroLight;
+        font-size: 16px;
+        color: #2c3235;
+
+        position: relative;
+
+        .form-text {
+
+            display: inline-block;
+            width: 355px;
+            height: 51px;
+            background-color: #fff;
+            font-family: $fontBody;
+            padding-left: 10px;
+
+            vertical-align: text-top;
+            
+            -moz-border-radius: 3px 0px 0px 3px;
+            -webkit-border-radius: 3px 0px 0px 3px;
+            border-radius: 3px 0px 0px 3px;
+            border: 1px solid #d6d6d6;
+
+
+        }
+
+        .hide-select-btn {
+
+            position: absolute;
+            background-color: #fff;
+            height: 48px;
+            right: 160px;
+            top: 4px;
+            width: 15px;
+
+        }
+
+        .filter {
+            
+            display: inline-block;
+            vertical-align: text-top;
+            width: 167px;
+            height: 51px;
+            text-align: center;
+            padding-top: 10px;
+            color: #313537;
+            background-color: #fff;
+
+            -moz-border-radius: 0px 3px 3px 0px;
+            -webkit-border-radius: 0px 3px 3px 0px;
+            border-radius: 0px 3px 3px 0px;
+            border: 1px solid #d6d6d6;
+            border-left: none;
+
+
+            option {
+
+                border-bottom: 1px solid #838586;
+                padding: 10px;
+                text-align: left;
+            }
+
+
+        }
+
+
+        .submit-search {
+            display: inline-block;
+            vertical-align: text-top;
+            width: 51px;
+            height: 51px;
+            text-align: center;
+            font-size: 40px;
+            padding-top: 3px;
+            background-color: transparent;
+            border: none;
+            color: #fff;
+            
+            
+        }
+    }
+
+    .external-search {
+
+        list-style-type: none;
+        padding-left: 0;
+        padding-top: 10px;
+
+        li {
+
+            color: #fff;
+            padding-right: 5px;
+            float: left;
+
+            a {
+
+                 color: #fff;
+            }
+        }
+    }
+
+}
 
     footer.row {
 
