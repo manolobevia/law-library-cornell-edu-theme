@@ -60,6 +60,11 @@ body {
 
 }
 
+
+a {
+    color: $lickColor;
+}
+
 a:hover {
     text-decoration: none;
 }
@@ -609,9 +614,7 @@ h3 {
   margin-bottom:5px;
 }
 
-a {
-    color: $lickColor;
-}
+
 
 .header-interior {
 
