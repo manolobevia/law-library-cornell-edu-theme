@@ -5425,7 +5425,7 @@ a:hover {
       width: 167px;
       height: 51px;
       text-align: center;
-      padding-top: 14px;
+      padding-top: 10px;
       color: #313537;
       background-color: #fff;
       -moz-border-radius: 0px 3px 3px 0px;
@@ -5433,6 +5433,10 @@ a:hover {
       border-radius: 0px 3px 3px 0px;
       border: 1px solid #d6d6d6;
       border-left: none; }
+      .search-home .filtered-search .filter option {
+        border-bottom: 1px solid #838586;
+        padding: 10px;
+        text-align: left; }
     .search-home .filtered-search .submit-search {
       display: inline-block;
       vertical-align: text-top;
