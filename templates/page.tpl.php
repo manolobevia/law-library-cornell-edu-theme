@@ -80,6 +80,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
+
         <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
 
         <nav class="user-tools">
@@ -112,9 +113,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 <!-- HEADER IMAGE -->
 
- <section class="header-interior">
-        
-</section>
+ <section class="header-interior"></section>
     
 <!--"<?php print $theme_path; ?>images/header-interior.jpg"-->
 

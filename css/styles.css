@@ -5570,7 +5570,7 @@ a {
   color: #129792; }
 
 .header-interior {
-  background: white url("../images/header-interior.jpg") no-repeat top center;
+  background: white url("../images/header-interior.jpg") no-repeat top center, white url("../images/mask-interior.png") no-repeat bottom right;
   background-size: cover;
   height: 160px; }
 

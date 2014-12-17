@@ -607,9 +607,12 @@ a {
 
 .header-interior {
 
-    background: #ffffff url("../images/header-interior.jpg") no-repeat top center;
+    background: #ffffff url("../images/header-interior.jpg") no-repeat top center, #ffffff url("../images/mask-interior.png") no-repeat bottom right;
     background-size: cover;
     height: 160px;
+
+    //1440//18//
+
 }
 
 .page-content {
