@@ -57,6 +57,7 @@ ul {
 
 body {
   font-family: $fontBody;
+  //background-color: black;
 
 }
 
@@ -322,6 +323,7 @@ a:hover {
 
     position: absolute;
     top: 192px;
+    //top: 700px;
     left: 0;
     width: 721px;
     height: 182px;
@@ -341,6 +343,7 @@ a:hover {
         font-family: $fontHeroLight;
         font-size: 16px;
         color: #2c3235;
+        
 
         position: relative;
 
@@ -372,18 +375,23 @@ a:hover {
             top: 4px;
             width: 15px;
 
+
         }
 
         .filter {
             
             display: inline-block;
             vertical-align: text-top;
-            width: 167px;
+            width: 17px;
             height: 51px;
             text-align: center;
             padding-top: 10px;
             color: #313537;
             background-color: #fff;
+            margin-left: 0;
+            margin-right: 0;
+            padding-right: 0;
+            padding-left: 0;
 
             -moz-border-radius: 0px 3px 3px 0px;
             -webkit-border-radius: 0px 3px 3px 0px;
@@ -424,6 +432,8 @@ a:hover {
         list-style-type: none;
         padding-left: 0;
         padding-top: 10px;
+        width: 320px;
+        overflow: hidden;
 
         li {
 
@@ -1317,6 +1327,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         list-style-type: none;
         padding-left: 0;
         padding-top: 10px;
+        width: 320px;
 
         li {
 
@@ -1336,7 +1347,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     footer.row {
 
         border-top: 1px solid #f0f0f0;
-        display: block;
+       
 
         .wrapper {
 
