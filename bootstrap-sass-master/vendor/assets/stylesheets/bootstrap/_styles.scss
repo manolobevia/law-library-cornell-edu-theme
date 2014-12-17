@@ -713,7 +713,6 @@ a {
     clear: both;
     display: table;
     padding-bottom: 1em;
-    width: auto;
 }
 
     .row {
@@ -793,7 +792,6 @@ a {
     {
         float: right;
         width: auto;
-        
     }
         #nav > ul > li
         {
@@ -882,6 +880,7 @@ a {
                 margin-bottom: 0;
                 float: left;
                 margin: 0 auto;
+                width: auto;
             }
 
             #nav li ul .sub-items > a {
@@ -903,7 +902,7 @@ a {
 
             #nav li ul .sub-items > a.sub-sub-items {
 
-                padding-left: 20px;
+                padding-left: 40px;
 
 
             }

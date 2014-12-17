@@ -5625,8 +5625,7 @@ a {
 .container-nav {
   clear: both;
   display: table;
-  padding-bottom: 1em;
-  width: auto; }
+  padding-bottom: 1em; }
 
 .row {
   display: table-row; }
@@ -5740,7 +5739,8 @@ a {
   margin: 25px;
   margin-bottom: 0;
   float: left;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: auto; }
 
 #nav li ul .sub-items > a {
   margin-bottom: .5em;
@@ -5755,7 +5755,7 @@ a {
   font-size: .8em; }
 
 #nav li ul .sub-items > a.sub-sub-items {
-  padding-left: 20px; }
+  padding-left: 40px; }
 
 #nav li ul .sub-items > a.sub-sub-items::before {
   content: "-";
