@@ -158,16 +158,14 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </section>
 
 
-
         <div class="nav">
             <?php print render($page['navigation']); ?>
         </div>
         
-
                         
         <section class="media">
-                            <?php print render($page['owlcarousel']); ?>
-
+                
+                <?php print render($page['owlcarousel']); ?>
           
         </section>
 
@@ -175,13 +173,16 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <footer class="row">
               <?php print render($page['footer']); ?>
         </footer>
+
+
 <script>
 
 function chgAction() {
+
     var form = document.form1;
     
-    console.log('chgAction()');
-    console.log(form.search_type.selectedIndex);
+    //console.log('chgAction()');
+    //console.log(form.search_type.selectedIndex);
     
     switch (form.search_type.selectedIndex) {
         case 0:
@@ -195,10 +196,7 @@ function chgAction() {
         case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
-
     }
-
-
 }
 </script>
 

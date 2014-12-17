@@ -460,10 +460,17 @@ a:hover {
             }
 
             figcaption {
+                
                 font-size: 18px;
                 color: #aabec7;
                 text-align: left;
                 padding-top: 17px;
+
+                a {
+
+                    font-size: 18px;
+                    color: ##4a6571;
+                }
             }
         }
     }    
