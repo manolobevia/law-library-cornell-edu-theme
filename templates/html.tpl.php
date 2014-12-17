@@ -22,7 +22,10 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <!-- Google fonts -->
         <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
         <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Dosis:400,300' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
+        
         <?php print $styles; ?>
 
         <!-- Optional theme -->

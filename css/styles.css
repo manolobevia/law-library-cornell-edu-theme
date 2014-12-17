@@ -5643,7 +5643,8 @@ a {
 #nav {
   width: 100%;
   /* 1000 */
-  font-family: "HeroRegular", sans-serif;
+  font-family: 'dosis', sans-serif;
+  font-weight: 300;
   position: relative;
   margin: 0 auto;
   margin-top: 90px;
@@ -5704,7 +5705,8 @@ a {
   font-weight: 100; }
 
 #nav > ul > li:last-child > a:after {
-  content: ""; }
+  content: "";
+  padding-right: 10px; }
 
 #nav > ul > li > a.active {
   color: #95d8fe; }
