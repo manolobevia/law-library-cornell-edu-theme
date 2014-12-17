@@ -5578,7 +5578,9 @@ a {
     background: transparent url("../images/mask-interior.png") no-repeat bottom right;
     height: 18px;
     width: 100%;
-    position: absolute; }
+    position: absolute;
+    bottom: 0;
+    right: 0; }
 
 .page-content .main-content {
   padding: 0;
