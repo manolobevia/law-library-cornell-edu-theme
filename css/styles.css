@@ -5422,8 +5422,12 @@ a:hover {
       border: 1px solid #d6d6d6; }
     .search-home .filtered-search .hide-select-btn {
       position: absolute;
-      width: 20px;
-      height: 20px; }
+      background-color: #fff;
+      border: 1px solid red;
+      height: 48px;
+      right: 160px;
+      top: 4px;
+      width: 15px; }
     .search-home .filtered-search .filter {
       display: inline-block;
       vertical-align: text-top;
