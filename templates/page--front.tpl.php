@@ -132,7 +132,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
                     </select>
 
-                    <div class="hide-select-btn"
+                    <div class="hide-select-btn"></div>
 
                     <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="K - Law">
                     <input type="hidden" name="search_field" value="all_fields">
