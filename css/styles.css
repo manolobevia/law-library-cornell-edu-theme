@@ -5385,6 +5385,9 @@ a:hover {
     .hero .carousel-indicators .active {
       background-color: #1ebae1;
       margin-top: 1px; }
+  .hero .carousel-control.left,
+  .hero .carousel-control.right {
+    display: none; }
 
 .search-home {
   position: absolute;

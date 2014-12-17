@@ -311,6 +311,11 @@ a:hover {
         }
     }
 
+    .carousel-control.left,
+    .carousel-control.right {
+        display: none;
+    }
+
 }
 
 .search-home {
