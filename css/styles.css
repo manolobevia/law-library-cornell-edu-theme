@@ -5575,8 +5575,9 @@ a {
   height: 160px;
   position: relative; }
   .header-interior .mask-interior {
-    background: white url("../images/mask-interior.png") no-repeat bottom right;
+    background: transparent url("../images/mask-interior.png") no-repeat bottom right;
     height: 18px;
+    width: 100%;
     position: absolute; }
 
 .page-content .main-content {

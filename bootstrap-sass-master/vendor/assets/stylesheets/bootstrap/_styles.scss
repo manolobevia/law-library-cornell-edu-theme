@@ -614,8 +614,9 @@ a {
 
     .mask-interior {
 
-        background: #ffffff url("../images/mask-interior.png") no-repeat bottom right;
+        background: transparent url("../images/mask-interior.png") no-repeat bottom right;
         height: 18px;
+        width: 100%;
         position: absolute;
     
     }
