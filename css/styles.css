@@ -5703,6 +5703,9 @@ a {
   padding-left: 10px;
   font-weight: 100; }
 
+#nav > ul > li:last-child > a:after {
+  content: ""; }
+
 #nav > ul > li > a.active {
   color: #95d8fe; }
 
