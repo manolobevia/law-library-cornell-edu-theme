@@ -5423,7 +5423,6 @@ a:hover {
     .search-home .filtered-search .hide-select-btn {
       position: absolute;
       background-color: #fff;
-      border: 1px solid red;
       height: 48px;
       right: 160px;
       top: 4px;

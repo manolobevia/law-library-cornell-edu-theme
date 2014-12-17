@@ -126,7 +126,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
                     <input type="text" class="form-text" name="q" value="" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
 
-                        <option value="law" selected="selected">Law Collections<span>></span></option>
+                        <option value="law" selected="selected">Law Collections <span> ></span></option>
                         <option value="catalog">Library Catalog</option>
                         <option value="worldcat">WorldCat</option>
 
