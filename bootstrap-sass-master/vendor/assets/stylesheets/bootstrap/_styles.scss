@@ -607,11 +607,17 @@ a {
 
 .header-interior {
 
-    background: #ffffff url("../images/header-interior.jpg") no-repeat top center, #ffffff url("../images/mask-interior.png") no-repeat bottom right;
+    background: #ffffff url("../images/header-interior.jpg") no-repeat top center;
     background-size: cover;
     height: 160px;
+    position: relative;
 
-    //1440//18//
+    .mask-interior {
+
+        background: #ffffff url("../images/mask-interior.png") no-repeat bottom right;
+        height: 18px;
+        position: absolute;
+    
 
 }
 
