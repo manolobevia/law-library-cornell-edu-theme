@@ -124,7 +124,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 <label for="name">Search</label>
                 <div class="filtered-search">
 
-                    <input type="text" class="form-text" name="q" value="" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+                    <input type="text" class="form-text" name="q" value="" id="edit-keys" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
 
                         <option value="law" selected="selected">Law Collections <span> ></span></option>
                         <option value="catalog">Library Catalog</option>
@@ -202,8 +202,10 @@ function chgAction() {
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
         case 3:
+            form.method = "get";
             form.action = "/search/node/";
-            form.callno.name = ""
+            form.callno.name = "";
+            form.edit-keys.name = "keys";
             break;
     }
 }
