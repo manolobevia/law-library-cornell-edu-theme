@@ -525,13 +525,33 @@ a:hover {
     .customPrevBtn {
         position: absolute;
         left: 5px;
-        top: 48%;
+        top: 40%;
+
+        a {
+
+            color: #1ebae1;
+        }
+
+        .glyphicon-chevron-left {
+
+            font-size: 25px;
+        }
     }  
 
     .customNextBtn {
         position: absolute;
         right: 5px;
-        top: 48%;
+        top: 40%;
+
+        .glyphicon-chevron-right {
+
+            font-size: 25px;
+        }
+
+        a {
+
+            color: #1ebae1;
+        }
 
     } 
 

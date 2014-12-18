@@ -5519,11 +5519,19 @@ a:hover {
   .media .customPrevBtn {
     position: absolute;
     left: 5px;
-    top: 48%; }
+    top: 40%; }
+    .media .customPrevBtn a {
+      color: #1ebae1; }
+    .media .customPrevBtn .glyphicon-chevron-left {
+      font-size: 25px; }
   .media .customNextBtn {
     position: absolute;
     right: 5px;
-    top: 48%; }
+    top: 40%; }
+    .media .customNextBtn .glyphicon-chevron-right {
+      font-size: 25px; }
+    .media .customNextBtn a {
+      color: #1ebae1; }
 
 /*
 ##############################################
