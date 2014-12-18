@@ -5475,15 +5475,12 @@ a:hover {
       .search-home .external-search li a {
         color: #fff; }
 
-.user-tools {
-  z-index: 9999; }
-
 .search-slider {
   display: none;
-  z-index: 9998;
   height: 100px;
   width: 100%;
-  background-color: #b11d22; }
+  background-color: #b11d22;
+  margin-bottom: 20px; }
 
 .reservation-hours {
   position: absolute;

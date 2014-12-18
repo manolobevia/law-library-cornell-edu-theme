@@ -79,14 +79,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
 
-<section class="search-slider">
 
-    <div class="search-interior">
-
-
-    </div>
-
-</section>
 
 
 
@@ -108,7 +101,14 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
             
 </section>
 
+<section class="search-slider">
 
+    <div class="search-interior">
+
+
+    </div>
+
+</section>
 
 
 <!-- LAW BRANDING + MAIN NAVIGATION-->
