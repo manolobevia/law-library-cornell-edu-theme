@@ -5556,7 +5556,7 @@ a:hover {
 
 .search-slider {
   display: none;
-  height: 150px;
+  height: 200px;
   width: 100%;
   background-color: #b11d22;
   z-index: 9999;
@@ -5787,7 +5787,7 @@ h3 {
   margin-top: 83px;
   position: absolute;
   top: 0;
-  z-index: 99999; }
+  z-index: 9998; }
 
 #nav ul {
   margin: 0;
