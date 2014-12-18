@@ -202,7 +202,8 @@ function chgAction() {
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
             break;
         case 3:
-            form.action = "/search";
+            form.action = "/search/node/";
+            form.callno.name = ""
             break;
     }
 }
