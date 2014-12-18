@@ -95,6 +95,12 @@ $(document).ready(function () {
             })
 
 
+          $(".search-slider").hide();
+                $(".show-hide-search").show();
+             
+                $('.show-hide-search').click(function(){
+                    $(".search-slider").slideToggle();
+                });
 
 
 });

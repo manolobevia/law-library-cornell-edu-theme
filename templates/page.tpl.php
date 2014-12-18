@@ -86,13 +86,52 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <nav class="user-tools">
 
             <ul>
-                <li><a title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
                 <li><a title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
                 <li><a title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
             </ul>
         </nav>
 
             
+</section>
+
+
+<section class="search-slider">
+
+    <div class="search-interior">
+
+        <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
+            <label for="name">Search</label>
+            <div class="filtered-search">
+
+                <input type="text" class="form-text" name="q" value="" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+
+                    <option value="law" selected="selected">Law Collections <span> ></span></option>
+                    <option value="catalog">Library Catalog</option>
+                    <option value="worldcat">WorldCat</option>
+
+                </select>
+
+                <div class="hide-select-btn"></div>
+
+                <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="K - Law">
+                <input type="hidden" name="search_field" value="all_fields">
+
+
+                <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
+                <button type="submit" class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></button>
+
+            </div>
+        </form>         
+    
+        <ul class="external-search">
+            <li><a href="#">My Library Account</a> / </li>
+            <li><a href="#">Databases</a> / </li>
+            <li><a href="#">Research Guides</a></li>
+        </ul>
+
+    </div>
+
 </section>
 
 <!-- LAW BRANDING + MAIN NAVIGATION-->
