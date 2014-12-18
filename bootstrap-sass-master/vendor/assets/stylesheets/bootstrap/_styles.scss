@@ -458,11 +458,11 @@ a:hover {
 .search-interior {
 
     position: absolute;
-    top: 192px;
-    left: 162px;
+    top: 0;
+    left: 0;
     width: 721px;
     height: 182px;
-    background-color: rgba(255, 255, 255, 0.26);
+    //background-color: rgba(255, 255, 255, 0.26);
     padding-left: 40px;
     z-index: 89999;
 
