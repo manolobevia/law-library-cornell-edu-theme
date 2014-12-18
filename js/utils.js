@@ -101,9 +101,26 @@ $(document).ready(function () {
 
             $(".search-slider").hide();
             //$(".show-hide-search").show();
-     
+            
+            var search-hide = true;
+
             $('.show-hide-search').click(function(){
-                $(".search-slider").show()
+
+              if (search-hide) {
+
+                $(".search-slider").show();
+
+                search-hide = false;
+              }
+
+              else {
+
+                $(".search-slider").hide();
+                search-hide = true;
+              }
+
+
+                
             });
 
 
