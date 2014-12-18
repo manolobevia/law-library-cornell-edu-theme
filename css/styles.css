@@ -5349,9 +5349,9 @@ a:hover {
     position: static;
     max-width: 550px;
     padding: 0 20px;
-    margin-top: 428px;
+    margin-top: 390px;
     text-align: left;
-    margin-left: 165px; }
+    margin-left: 10px; }
     .hero .carousel-caption h1 {
       font-size: 24px;
       color: #fff;
@@ -5372,7 +5372,9 @@ a:hover {
   .hero .carousel-indicators {
     position: absolute;
     left: 0;
-    margin-left: 198px; }
+    margin-left: 40px;
+    width: 70%;
+    bottom: 100px; }
     .hero .carousel-indicators li {
       float: left;
       display: block;
@@ -5391,12 +5393,12 @@ a:hover {
 
 .search-home {
   position: absolute;
-  top: 192px;
+  top: 170px;
   left: 0;
   width: 721px;
-  height: 182px;
+  height: 190px;
   background-color: rgba(255, 255, 255, 0.26);
-  padding-left: 10px;
+  padding-left: 15px;
   z-index: 89999; }
   .search-home label {
     font-size: 30px;

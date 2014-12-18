@@ -257,9 +257,9 @@ a:hover {
           position: static;
           max-width: 550px;
           padding: 0 20px;
-          margin-top: 428px;
+          margin-top: 390px;
           text-align: left;
-          margin-left: 165px;
+          margin-left: 10px;
 
         h1 {
             font-size: 24px;
@@ -292,8 +292,9 @@ a:hover {
     .carousel-indicators {
         position: absolute;
         left: 0;
-        margin-left: 198px;
-        
+        margin-left: 40px;
+        width: 70%;
+        bottom: 100px;
 
         li {
             float: left;
@@ -322,13 +323,12 @@ a:hover {
 .search-home {
 
     position: absolute;
-    top: 192px;
-    //top: 700px;
+    top: 170px;
     left: 0;
     width: 721px;
-    height: 182px;
+    height: 190px;
     background-color: rgba(255, 255, 255, 0.26);
-    padding-left: 10px;
+    padding-left: 15px;
     z-index: 89999;
 
     label {
