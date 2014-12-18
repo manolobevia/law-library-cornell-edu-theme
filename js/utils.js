@@ -115,8 +115,8 @@ $(document).ready(function () {
                 $culBranding.hide();
                 $userTools.css('opacity', 0.4)
 
-                $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove').css('opacity', 1);
-
+                $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove');
+                $('.cul-branding .user-tools .show-hide-search span').css('opacity', 1);
 
                 searchHide = false;
                 console.log(searchHide)
