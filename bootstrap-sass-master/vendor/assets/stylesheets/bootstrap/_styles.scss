@@ -103,7 +103,7 @@ a:hover {
 
     position: absolute;
 
-    z-index: 2;
+    z-index: 9999;
     //overflow: hidden;
     left: 0;
     right: 0;
@@ -149,7 +149,7 @@ a:hover {
     margin: 0 auto;
     position: absolute;
 
-    z-index: 99999;
+    z-index: 9997;
     overflow: hidden;
     // This make absolute positioning be centered
     left: 0;
