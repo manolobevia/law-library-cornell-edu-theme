@@ -67,7 +67,7 @@ $(document).ready(function () {
         $owl.owlCarousel({
 
             loop: true,
-            margin: 10,
+            margin: 15,
             nav: false,
             responsive:{
                 0:{
