@@ -5479,7 +5479,10 @@ a:hover {
   display: none;
   height: 100px;
   width: 100%;
-  background-color: #b11d22; }
+  background-color: #b11d22;
+  position: absolute;
+  top: 0;
+  left: 0; }
 
 .reservation-hours {
   position: absolute;

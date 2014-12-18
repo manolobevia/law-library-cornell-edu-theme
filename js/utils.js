@@ -103,7 +103,7 @@ $(document).ready(function () {
             //$(".show-hide-search").show();
      
             $('.show-hide-search').click(function(){
-                $(".search-slider").show();
+                $(".search-slider").slideToggle();
             });
 
 
