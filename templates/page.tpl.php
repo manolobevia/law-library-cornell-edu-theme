@@ -78,6 +78,18 @@
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
+
+
+<section class="search-slider">
+
+    <div class="search-interior">
+
+
+    </div>
+
+</section>
+
+
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
 
