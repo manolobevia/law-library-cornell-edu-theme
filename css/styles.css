@@ -5490,7 +5490,8 @@ a:hover {
   background-color: #252525;
   padding-top: 60px;
   padding-bottom: 40px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
   .media .owl-carousel {
     width: 90%;
     margin: 0 auto; }
@@ -5515,6 +5516,14 @@ a:hover {
           font-size: 17px;
           color: #aabec7;
           padding-top: 16px; }
+  .media .customPrevBtn {
+    position: absolute;
+    left: 5px;
+    top: 48%; }
+  .media .customNextBtn {
+    position: absolute;
+    right: 5px;
+    top: 48%; }
 
 /*
 ##############################################

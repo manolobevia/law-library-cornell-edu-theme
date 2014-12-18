@@ -475,6 +475,7 @@ a:hover {
     padding-top: 60px;
     padding-bottom: 40px;
     margin: 0 auto;
+    position: relative;
     
     .owl-carousel {
 
@@ -519,7 +520,20 @@ a:hover {
                 }
             }
         }
-    }    
+    }  
+
+    .customPrevBtn {
+        position: absolute;
+        left: 5px;
+        top: 48%;
+    }  
+
+    .customNextBtn {
+        position: absolute;
+        right: 5px;
+        top: 48%;
+
+    } 
 
 }
 
