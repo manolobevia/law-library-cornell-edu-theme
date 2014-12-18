@@ -114,8 +114,8 @@ $(document).ready(function () {
                 $slider.show();
                 $culBranding.hide();
 
-                $userTools.find('hours-icon').css('opacity', 0.4);
-                $userTools.find('reservations-icon').css('opacity', 0.4);
+                $userTools.find('.hours-icon').css('opacity', 0.4);
+                $userTools.find('.reservations-icon').css('opacity', 0.4);
                 
                 $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove');
 
@@ -127,8 +127,8 @@ $(document).ready(function () {
 
                 $slider.hide();
                 $culBranding.show();
-                $userTools.find('hours-icon').css('opacity', 1);
-                $userTools.find('reservations-icon').css('opacity', 1);
+                $userTools.find('.hours-icon').css('opacity', 1);
+                $userTools.find('.reservations-icon').css('opacity', 1);
 
                 $(this).find('span').removeClass('glyphicon-remove').addClass('glyphicon-search');
 
