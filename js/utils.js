@@ -95,11 +95,15 @@ $(document).ready(function () {
             })
 
 
+          // show/hide search on interior pages
+            //search-slider
+            //show-hide-search
+
             $(".search-slider").hide();
-            $(".show-hide-search").show();
+            //$(".show-hide-search").show();
      
             $('.show-hide-search').click(function(){
-                $(".show-hide-search").slideToggle();
+                $(".search-slider").slideToggle();
             });
 
 

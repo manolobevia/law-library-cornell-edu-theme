@@ -5475,6 +5475,12 @@ a:hover {
       .search-home .external-search li a {
         color: #fff; }
 
+.search-slider {
+  display: none;
+  height: 100px;
+  width: 100%;
+  background-color: #b11d22; }
+
 .reservation-hours {
   position: absolute;
   top: 490px;
