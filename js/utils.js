@@ -102,21 +102,24 @@ $(document).ready(function () {
             $(".search-slider").hide();
             //$(".show-hide-search").show();
             
-            var search-hide = true;
+            var searchHide = true;
 
             $('.show-hide-search').click(function(){
 
-              if (search-hide) {
+              if (searchHide) {
 
                 $(".search-slider").show();
 
-                search-hide = false;
+                searchHide = false;
+                console.log(searchHide)
               }
 
               else {
 
                 $(".search-slider").hide();
-                search-hide = true;
+                searchHide = true;
+                console.log(searchHide)
+                
               }
 
 
