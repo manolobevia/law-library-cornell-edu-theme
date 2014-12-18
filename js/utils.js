@@ -103,12 +103,18 @@ $(document).ready(function () {
             //$(".show-hide-search").show();
             
             var searchHide = true;
+            var $slider = $(".search-slider");
+            var $culBranding = $('.cul-branding .cu-logo');
+            var $userTools = $('.cul-branding .user-tools');
 
             $('.show-hide-search').click(function(){
 
               if (searchHide) {
 
-                $(".search-slider").show();
+                $slider.show();
+                $culBranding.hide();
+                $userTools.css('opacity', 0.4)
+
 
                 searchHide = false;
                 console.log(searchHide)
@@ -116,10 +122,14 @@ $(document).ready(function () {
 
               else {
 
-                $(".search-slider").hide();
+                $slider.hide();
+                $culBranding.show();
+                $userTools.css('opacity', 0.4)
+
+
                 searchHide = true;
                 console.log(searchHide)
-                
+
               }
 
 
