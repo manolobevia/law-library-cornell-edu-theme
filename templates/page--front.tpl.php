@@ -129,6 +129,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                         <option value="law" selected="selected">Law Collections <span> ></span></option>
                         <option value="catalog">Library Catalog</option>
                         <option value="worldcat">WorldCat</option>
+                        <option value="site">Site Search</option>
 
                     </select>
 
@@ -199,6 +200,9 @@ function chgAction() {
             break;
         case 2:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
+            break;
+        case 3:
+            form.action = "/search";
             break;
     }
 }
