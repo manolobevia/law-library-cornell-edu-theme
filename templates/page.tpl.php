@@ -85,7 +85,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <div class="search-interior">
 
 
-        
+
 
     </div>
 
@@ -101,8 +101,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
             <ul>
                 <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-                <li><a title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
-                <li><a title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
+                <li><a class="hours-icon"  title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
+                <li><a class="reservations-icon" title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
             </ul>
 
         </nav>
