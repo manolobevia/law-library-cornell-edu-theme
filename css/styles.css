@@ -5477,17 +5477,14 @@ a:hover {
 
 .search-interior {
   position: absolute;
-  top: 0;
+  top: 60px;
   left: 0;
   width: 721px;
   height: 182px;
   padding-left: 40px;
   z-index: 89999; }
   .search-interior label {
-    font-size: 30px;
-    color: #fff;
-    padding-top: 24px;
-    font-weight: 400; }
+    display: none; }
   .search-interior .filtered-search {
     font-family: "HeroLight";
     font-size: 16px;
@@ -5545,7 +5542,7 @@ a:hover {
     list-style-type: none;
     padding-left: 0;
     padding-top: 10px;
-    width: 320px; }
+    width: 100%; }
     .search-interior .external-search li {
       color: #fff;
       padding-right: 5px;

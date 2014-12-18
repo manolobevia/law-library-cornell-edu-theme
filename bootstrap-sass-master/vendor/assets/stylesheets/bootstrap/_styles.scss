@@ -458,7 +458,7 @@ a:hover {
 .search-interior {
 
     position: absolute;
-    top: 0;
+    top: 60px;
     left: 0;
     width: 721px;
     height: 182px;
@@ -467,10 +467,8 @@ a:hover {
     z-index: 89999;
 
     label {
-        font-size: 30px;
-        color: #fff;
-        padding-top: 24px;
-        font-weight: 400;
+
+        display: none;
     }
 
     .filtered-search {
@@ -561,7 +559,7 @@ a:hover {
         list-style-type: none;
         padding-left: 0;
         padding-top: 10px;
-        width: 320px;
+        width: 100%;
 
         li {
 
