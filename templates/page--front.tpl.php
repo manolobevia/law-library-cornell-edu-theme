@@ -78,6 +78,10 @@
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
+<!-- HERO CAROUSEL-->
+<section class="hero">
+    <?php print render($page['spotlight']); ?>
+</section>
 
 <!-- CUL BRANDING -->
 <section class="cul-branding">
@@ -85,11 +89,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
 </section>
 
-
-<!-- HERO CAROUSEL-->
-<section class="hero">
-    <?php print render($page['spotlight']); ?>
-</section>
 
 <!-- LAW BRANDING + MAIN NAVIGATION-->
 <header class="main-nav">
