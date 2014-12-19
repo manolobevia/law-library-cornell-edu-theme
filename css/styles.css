@@ -5249,7 +5249,7 @@ a:hover {
   margin: 0 auto;
   background-color: #b11d22;
   position: absolute;
-  z-index: 9999;
+  z-index: 9998;
   left: 0;
   right: 0; }
   .cul-branding .cu-logo {
