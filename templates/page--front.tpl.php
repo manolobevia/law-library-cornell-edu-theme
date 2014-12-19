@@ -124,11 +124,12 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 <label for="name">Search</label>
                 <div class="filtered-search">
 
-                    <input type="text" class="form-text" name="q" value="" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+                    <input type="text" class="form-text" name="q" value="" id="edit_keys" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
 
                         <option value="law" selected="selected">Law Collections <span> ></span></option>
                         <option value="catalog">Library Catalog</option>
                         <option value="worldcat">WorldCat</option>
+                        <option value="site">Site Search</option>
 
                     </select>
 
@@ -179,30 +180,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </footer>
 
 
-<script>
 
-function chgAction() {
-
-    var form = document.form1;
-    
-    //console.log('chgAction()');
-    //console.log(form.search_type.selectedIndex);
-    
-    switch (form.search_type.selectedIndex) {
-        case 0:
-            form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.value = "K - Law";
-            break;
-        case 1:
-            form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.name = ""
-            break;
-        case 2:
-            form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
-            break;
-    }
-}
-</script>
 
         
 
