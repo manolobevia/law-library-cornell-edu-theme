@@ -63,13 +63,12 @@ $(document).ready(function () {
                 $slider.show();
                 $culBranding.hide();
 
-                $userTools.find('.hours-icon').css('opacity', 0.4);
-                $userTools.find('.reservations-icon').css('opacity', 0.4);
+                $userTools.find('.hours-icon').css('opacity', 0);
+                $userTools.find('.reservations-icon').css('opacity', 0);
                 
                 $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove');
 
                 $('.cul-branding').css('z-index', 99999);
-                $('#nav').css('z-index', 99999);
 
                 searchHide = false;
                 console.log(searchHide)
