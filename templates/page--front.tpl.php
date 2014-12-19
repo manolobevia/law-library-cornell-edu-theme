@@ -78,6 +78,13 @@
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
+
+<!-- HERO CAROUSEL-->
+<section class="hero">
+    <?php print render($page['spotlight']); ?>
+</section>
+
+
 <!-- SEARCH BOX -->       
 <section class="search-home">
 
@@ -112,11 +119,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <li><a href="#">Research Guides</a></li>
     </ul>
 
-</section>
-
-<!-- HERO CAROUSEL-->
-<section class="hero">
-    <?php print render($page['spotlight']); ?>
 </section>
 
 <!-- CUL BRANDING -->
