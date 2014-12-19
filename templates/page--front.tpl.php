@@ -83,8 +83,29 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 
+<!-- CUL BRANDING -->
+        <section class="cul-branding">
+                <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+                <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
+        </section>
 
+        <!-- HERO CAROUSEL-->
 
+        <section class="hero">
+
+        <?php print render($page['spotlight']); ?>
+
+        </section>
+
+        <!-- LAW BRANDING + MAIN NAVIGATION-->
+
+        <header class="main-nav">
+
+            <h1>
+                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
+            </h1>
+
+        </header>
 
 
         <!-- MAIN NAVIGATION / MEGAMENUS -->
@@ -93,16 +114,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                 <?php print render($page['mega_menu']); ?>
          
         
-
-        <!-- CUL BRANDING -->
-    
-        <section class="cul-branding">
-                <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
-                <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
-        </section>
-
-        <!-- HERO CAROUSEL-->
-
 
         <section class="search-home">
 
@@ -146,26 +157,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
         <div class="nav">
-            <?php //print render($page['navigation']); ?>
+            <?php print render($page['navigation']); ?>
         </div>
-
-
-        <!-- LAW BRANDING + MAIN NAVIGATION-->
-
-        <header class="main-nav">
-
-            <h1>
-                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-            </h1>
-
-        </header>
-
-
-        <section class="hero">
-
-        <?php print render($page['spotlight']); ?>
-
-        </section>
         
                         
         <section class="media">
