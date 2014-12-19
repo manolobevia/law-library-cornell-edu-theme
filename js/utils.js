@@ -68,6 +68,8 @@ $(document).ready(function () {
                 
                 $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove');
 
+                $('.cul-branding').css('z-index', 99999);
+
                 searchHide = false;
                 console.log(searchHide)
               }
