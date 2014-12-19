@@ -80,6 +80,26 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 
+
+
+<!-- CUL BRANDING  <?php print $theme_path; ?> -->
+<section class="cul-branding">
+
+        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+
+        <nav class="user-tools">
+
+            <ul>
+                <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                <li><a class="hours-icon"  title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
+                <li><a class="reservations-icon" title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
+            </ul>
+
+        </nav>
+
+</section>
+
+<!-- INTERIOR SEARCH -->
 <section class="search-slider">
 
     <div class="search-interior">
@@ -120,27 +140,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 </section>
 
 
-<!-- CUL BRANDING  <?php print $theme_path; ?> -->
-<section class="cul-branding">
-
-        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
-
-        <nav class="user-tools">
-
-            <ul>
-                <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-                <li><a class="hours-icon"  title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
-                <li><a class="reservations-icon" title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
-            </ul>
-
-        </nav>
-
-            
-</section>
-
-
-
-
 <!-- LAW BRANDING + MAIN NAVIGATION-->
 <header class="main-nav">
 
@@ -158,15 +157,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 <!-- HEADER IMAGE -->
-
- <section class="header-interior"><div class="mask-interior"></div></section>
+<section class="header-interior"><div class="mask-interior"></div></section>
     
-<!--"<?php print $theme_path; ?>images/header-interior.jpg"-->
-
-    <div class="nav">
-        <?php print render($page['navigation']); ?>
-    </div>
-
 <!-- CONTENT -->
 
 <section class="row page-content">
