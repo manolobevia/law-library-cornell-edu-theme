@@ -79,102 +79,85 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
 
-        
-
-
-
 <!-- CUL BRANDING -->
-        <section class="cul-branding">
-                <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
-                <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
-        </section>
-
-        <!-- HERO CAROUSEL-->
-
-        <section class="hero">
-
-        <?php print render($page['spotlight']); ?>
-
-        </section>
-
-        <!-- LAW BRANDING + MAIN NAVIGATION-->
-
-        <header class="main-nav">
-
-            <h1>
-                <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-            </h1>
-
-        </header>
+<section class="cul-branding">
+        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+        <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
+</section>
 
 
-        <!-- MAIN NAVIGATION / MEGAMENUS -->
-        
+<!-- HERO CAROUSEL-->
+<section class="hero">
+    <?php print render($page['spotlight']); ?>
+</section>
 
-                <?php print render($page['mega_menu']); ?>
-         
-        
-
-        <section class="search-home">
-
-            <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
-                <label for="name">Search</label>
-                <div class="filtered-search">
-
-                    <input type="text" class="form-text" name="q" value="" id="edit_keys" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
-
-                        <option value="law" selected="selected">Law Collections <span> ></span></option>
-                        <option value="catalog">Library Catalog</option>
-                        <option value="worldcat">WorldCat</option>
-                        <option value="site">Site Search</option>
-
-                    </select>
-
-                    <div class="hide-select-btn"></div>
-
-                    <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="K - Law">
-                    <input type="hidden" name="search_field" value="all_fields">
+<!-- LAW BRANDING + MAIN NAVIGATION-->
+<header class="main-nav">
+    <h1>
+        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
+    </h1>
+</header>
 
 
-                    <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
-                    <button type="submit" class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></button>
+<!-- MAIN NAVIGATION / MEGAMENUS -->
 
-                </div>
-            </form>         
-            
-            <ul class="external-search">
-                <li><a href="#">My Library Account</a> / </li>
-                <li><a href="#">Databases</a> / </li>
-                <li><a href="#">Research Guides</a></li>
-            </ul>
+<?php print render($page['mega_menu']); ?>
+ 
+<!-- SEARCH BOX -->       
+<section class="search-home">
 
-        </section>
+    <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
+        <label for="name">Search</label>
+        <div class="filtered-search">
+
+            <input type="text" class="form-text" name="q" value="" id="edit_keys" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+
+                <option value="law" selected="selected">Law Collections <span> ></span></option>
+                <option value="catalog">Library Catalog</option>
+                <option value="worldcat">WorldCat</option>
+                <option value="site">Site Search</option>
+
+            </select>
+
+            <div class="hide-select-btn"></div>
+
+            <input type="hidden" name="f[lc_1letter_facet][]" id ="callno" value ="K - Law">
+            <input type="hidden" name="search_field" value="all_fields">
 
 
-        <section class="reservation-hours">
+            <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
+            <button type="submit" class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></button>
 
-        </section>
-
-
-        <div class="nav">
-            <?php print render($page['navigation']); ?>
         </div>
-        
-                        
-        <section class="media">
-                
-                <?php print render($page['owlcarousel']); ?>
-
-                <a class="customPrevBtn" href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
-
-                <a class="customNextBtn" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
-          
-        </section>
-
+    </form>         
     
-        <footer class="row">
-              <?php print render($page['footer']); ?>
-        </footer>
+    <ul class="external-search">
+        <li><a href="#">My Library Account</a> / </li>
+        <li><a href="#">Databases</a> / </li>
+        <li><a href="#">Research Guides</a></li>
+    </ul>
+
+</section>
+
+<!-- RESEARVATION HOURS --> 
+<section class="reservation-hours"></section>
+
+
+                
+<section class="media">
+        
+        <?php print render($page['owlcarousel']); ?>
+
+        <a class="customPrevBtn" href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+
+        <a class="customNextBtn" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+  
+</section>
+
+
+<footer class="row">
+      <?php print render($page['footer']); ?>
+</footer>
 
 
 
