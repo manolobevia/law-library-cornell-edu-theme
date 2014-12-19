@@ -5251,7 +5251,8 @@ a:hover {
   position: absolute;
   z-index: 9996;
   left: 0;
-  right: 0; }
+  right: 0;
+  top: 0; }
   .cul-branding .cu-logo {
     padding-left: 20px; }
   .cul-branding .user-tools {
