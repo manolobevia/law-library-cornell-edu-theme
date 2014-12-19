@@ -103,13 +103,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <!-- HERO CAROUSEL-->
 
-        <section class="hero">
 
-        <?php print render($page['spotlight']); ?>
-
-        </section>
-
-        
         <section class="search-home">
 
             <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
@@ -152,7 +146,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
         <div class="nav">
-            <?php print render($page['navigation']); ?>
+            <?php //print render($page['navigation']); ?>
         </div>
 
 
@@ -165,6 +159,13 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
             </h1>
 
         </header>
+
+
+        <section class="hero">
+
+        <?php print render($page['spotlight']); ?>
+
+        </section>
         
                         
         <section class="media">
