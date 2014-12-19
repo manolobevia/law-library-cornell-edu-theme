@@ -5249,7 +5249,7 @@ a:hover {
   margin: 0 auto;
   background-color: #b11d22;
   position: absolute;
-  z-index: 9998;
+  z-index: 9996;
   left: 0;
   right: 0; }
   .cul-branding .cu-logo {
@@ -5351,7 +5351,9 @@ a:hover {
     padding: 0 20px;
     margin-top: 390px;
     text-align: left;
-    margin-left: 10px; }
+    margin-left: 10px;
+    padding-top: 40px;
+    margin-left: 168px; }
     .hero .carousel-caption h1 {
       font-size: 24px;
       color: #fff;
@@ -5373,8 +5375,9 @@ a:hover {
     position: absolute;
     left: 0;
     margin-left: 40px;
+    padding-left: 165px;
     width: 70%;
-    bottom: 100px; }
+    bottom: 70px; }
     .hero .carousel-indicators li {
       float: left;
       display: block;
