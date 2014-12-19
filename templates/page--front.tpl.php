@@ -78,30 +78,6 @@
 $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 ?>
 
-<!-- HERO CAROUSEL-->
-<section class="hero">
-    <?php print render($page['spotlight']); ?>
-</section>
-
-<!-- CUL BRANDING -->
-<section class="cul-branding">
-        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
-        <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
-</section>
-
-
-<!-- LAW BRANDING + MAIN NAVIGATION-->
-<header class="main-nav">
-    <h1>
-        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-    </h1>
-</header>
-
-
-<!-- MAIN NAVIGATION / MEGAMENUS -->
-
-<?php print render($page['mega_menu']); ?>
- 
 <!-- SEARCH BOX -->       
 <section class="search-home">
 
@@ -137,6 +113,32 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     </ul>
 
 </section>
+
+<!-- HERO CAROUSEL-->
+<section class="hero">
+    <?php print render($page['spotlight']); ?>
+</section>
+
+<!-- CUL BRANDING -->
+<section class="cul-branding">
+        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+        <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
+</section>
+
+
+<!-- LAW BRANDING + MAIN NAVIGATION-->
+<header class="main-nav">
+    <h1>
+        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
+    </h1>
+</header>
+
+
+<!-- MAIN NAVIGATION / MEGAMENUS -->
+
+<?php print render($page['mega_menu']); ?>
+ 
+
 
 <!-- RESEARVATION HOURS --> 
 <section class="reservation-hours"></section>
