@@ -83,7 +83,19 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 
-<!-- CUL BRANDING -->
+
+
+
+
+        <!-- MAIN NAVIGATION / MEGAMENUS -->
+        
+
+                <?php print render($page['mega_menu']); ?>
+         
+        
+
+        <!-- CUL BRANDING -->
+    
         <section class="cul-branding">
                 <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
                 <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
@@ -97,15 +109,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         </section>
 
-
-
-        <!-- MAIN NAVIGATION / MEGAMENUS -->
         
-
-                <?php print render($page['mega_menu']); ?>
-         
-        
-
         <section class="search-home">
 
             <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
@@ -151,7 +155,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
             <?php print render($page['navigation']); ?>
         </div>
 
-        
+
         <!-- LAW BRANDING + MAIN NAVIGATION-->
 
         <header class="main-nav">
