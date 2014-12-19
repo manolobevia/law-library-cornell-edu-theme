@@ -150,7 +150,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 </header>
 
-<!-- MAIN NABIGATION / MEGAMENUS -->
+<!-- MAIN NAVIGATION / MEGAMENUS -->
 
 
 <?php print render($page['mega_menu']); ?>
