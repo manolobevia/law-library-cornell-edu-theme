@@ -180,36 +180,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </footer>
 
 
-<script>
 
-function chgAction() {
-
-    var form = document.form1;
-    
-    //console.log('chgAction()');
-    //console.log(form.search_type.selectedIndex);
-    
-    switch (form.search_type.selectedIndex) {
-        case 0:
-            form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.value = "K - Law";
-            break;
-        case 1:
-            form.action = "http://newcatalog.library.cornell.edu";
-            form.callno.name = ""
-            break;
-        case 2:
-            form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
-            break;
-        case 3:
-            form.method = "get";
-            form.action = "/search/node/";
-            form.callno.name = "";
-            form.edit_keys.name = "keys";
-            break;
-    }
-}
-</script>
 
         
 
