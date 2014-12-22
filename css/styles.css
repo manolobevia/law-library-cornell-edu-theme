@@ -5860,7 +5860,7 @@ h3 {
 
 /* second level */
 #nav li ul {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: white;
   display: none;
   position: absolute;
   /*top: 100%;*/
@@ -5870,7 +5870,9 @@ h3 {
   margin: 0 auto;
   padding-left: 5px;
   overflow: hidden;
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px dotted #bdc7c4;
+  padding-top: 5px; }
 
 #nav li ul .sub-items {
   margin: 25px;
