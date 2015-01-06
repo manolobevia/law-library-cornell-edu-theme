@@ -88,7 +88,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <!-- SEARCH BOX -->       
 <section class="search-home">
 
-    <form id="form1" name="form1" method="get" action="http://newcatalog.library.cornell.edu">
+    <form id="form1" name="form1" method="get" action="https://search.library.cornell.edu">
         <label for="name">Search</label>
         <div class="filtered-search">
 
@@ -102,8 +102,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
             <div class="hide-select-btn"></div>
 
-            <input type="hidden" name="f[location_facet][]" id ="callno" value ="Law Library">
-            <input type="hidden" name="search_field" value="all_fields">
+            
 
 
             <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->

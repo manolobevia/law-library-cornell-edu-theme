@@ -84,7 +84,6 @@ function chgAction() {
     switch (form.search_type.selectedIndex) {
         case 0:
             form.action = "https://search.library.cornell.edu";
-            form.callno.name = ""
             break;
         case 1:
             form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
@@ -92,7 +91,6 @@ function chgAction() {
         case 2:
             form.method = "get";
             form.action = "/search/node/";
-            form.callno.name = "";
             form.edit_keys.name = "keys";
             break;
     }
