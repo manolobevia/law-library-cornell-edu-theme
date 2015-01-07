@@ -82,10 +82,27 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 
+
+
+
+<!-- LAW BRANDING + MAIN NAVIGATION-->
+<header class="main-nav">
+
+    <h1>
+        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
+    </h1>
+
+</header>
+
+<!-- MAIN NAVIGATION / MEGAMENUS -->
+
+
+<?php print render($page['mega_menu']); ?>
+
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
-
-        <img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" />
+    
+        <a href="#"><img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" /></a>
 
         <nav class="user-tools">
 
@@ -135,23 +152,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     </div>
 
 </section>
-
-
-<!-- LAW BRANDING + MAIN NAVIGATION-->
-<header class="main-nav">
-
-    <h1>
-        <a href="/"><img class="law-logo" src="<?php print $theme_path; ?>images/law-logo.png" /></a>
-    </h1>
-
-</header>
-
-<!-- MAIN NAVIGATION / MEGAMENUS -->
-
-
-<?php print render($page['mega_menu']); ?>
-
-
 
 <!-- HEADER IMAGE -->
 <section class="header-interior"><div class="mask-interior"></div></section>

@@ -52,7 +52,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
     </head>
 
-    <body class="homepage <?php print $classes; ?>" <?php print $attributes;?>>
+    <body class="<?php print $classes; ?>" <?php print $attributes;?>>
 
     <?php print $page_top; ?>
     <?php print $page; ?>
