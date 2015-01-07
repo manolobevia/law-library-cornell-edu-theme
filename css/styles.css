@@ -5223,7 +5223,11 @@ ul {
   font-family: "Glyphicons Halflings";
   src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 body {
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff; }
+
+body.front {
+  background-color: #252525; }
 
 a {
   color: #129792; }
@@ -5575,13 +5579,18 @@ a:hover {
   right: -7px;
   background: url("../images/home-hero-info.png") no-repeat top right;
   height: 111px;
-  width: 600px;
-  z-index: 9995;
-  pointer-events: none; }
+  width: 566px; }
   .reservation-hours .reservations-icon {
-    color: #fff; }
+    position: absolute;
+    color: #fff;
+    font-size: 12px;
+    bottom: 40px;
+    right: 30px; }
   .reservation-hours .hours-icon {
-    color: #fff; }
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    bottom: 13px; }
     .reservation-hours .hours-icon .status {
       padding: 5px 7px;
       background-color: #5a842e;
@@ -5598,7 +5607,8 @@ a:hover {
   padding-top: 60px;
   padding-bottom: 40px;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  margin-top: 14px; }
   .media .owl-carousel {
     width: 90%;
     margin: 0 auto; }
@@ -5645,6 +5655,9 @@ a:hover {
 ###### FOOTER
 ##############################################
 */
+body.front footer.row {
+  height: 400px; }
+
 footer.row {
   height: 77px;
   background-color: #fff;

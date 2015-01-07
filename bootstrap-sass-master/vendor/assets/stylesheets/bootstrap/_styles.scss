@@ -63,9 +63,14 @@ ul {
 body {
   font-family: $fontBody;
   //background-color: black;
+  background-color: #fff;
 
 }
 
+body.front {
+
+    background-color: #252525;
+}
 
 a {
     color: $lickColor;
@@ -621,19 +626,30 @@ a:hover {
 
     height: 111px;
     //width: 100%;
-    width: 600px;
-    z-index: 9995;
-    pointer-events: none;
+    width: 566px;
+    //z-index: 9995;
+    //pointer-events: none;
 
     .reservations-icon {
 
+        position: absolute;
+
         color: #fff;
+        
+        font-size: 12px;
+        bottom: 40px;
+        right: 30px;
 
     }
 
     .hours-icon {
 
         color: #fff;
+
+        position: absolute;
+        right: 30px;
+        bottom: 13px;
+
 
         .status {
 
@@ -663,6 +679,7 @@ a:hover {
     padding-bottom: 40px;
     margin: 0 auto;
     position: relative;
+    margin-top: 14px;
     
     .owl-carousel {
 
@@ -750,6 +767,15 @@ a:hover {
 ##############################################
 */
 
+body.front {
+
+    footer.row {
+        
+        height: 400px;
+        //position: absolute;
+    }
+}
+
 footer.row {
 
     height: 77px;
@@ -758,6 +784,8 @@ footer.row {
     margin-top: 5px;
     padding-top: 30px;
     border-top: 1px solid #f0f0f0;
+
+   
 
     .wrapper {
         width: 93%;
