@@ -264,14 +264,15 @@ a:hover {
           position: static;
           max-width: 550px;
           padding: 0 20px;
+          padding-left: 0;
           margin-top: 390px;
           text-align: left;
-          margin-left: 10px;
+          margin-left: 0;
           padding-top: 40px;
-          margin-left: 168px;
+          margin-left: 10px;
 
         h1 {
-            font-size: 24px;
+            font-size: 20px;
             color: #fff;
             padding-bottom: 10px;
             font-weight: normal;
@@ -299,17 +300,18 @@ a:hover {
     // Carousel indicator pips
     // -----------------------------
     .carousel-indicators {
+
         position: absolute;
         left: 0;
-        margin-left: 40px;
-        padding-left: 165px;
+        margin-left: 15px;
+        padding-left: 10px;
         width: 70%;
-        bottom: 70px;
+        bottom: 55px;
 
         li {
             float: left;
             display: block;
-            width: 65px;
+            width: 45px;
             height: 5px;
             background-color: #fff;
             border-radius: 0;
@@ -612,7 +614,7 @@ a:hover {
 .reservation-hours {
 
     position: absolute;
-    top: 490px;
+    top: 492px;
     right: -7px;
 
     background: url("../images/home-hero-info.png") no-repeat top right;
@@ -621,6 +623,30 @@ a:hover {
     //width: 100%;
     width: 600px;
     z-index: 9995;
+    pointer-events: none;
+
+    .reservations-icon {
+
+        color: #fff;
+
+    }
+
+    .hours-icon {
+
+        color: #fff;
+
+        .status {
+
+            padding: 5px 7px;
+            background-color: #5a842e;
+            color: #fff;
+
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px; 
+        }
+
+    }
 
 
 }
@@ -1675,6 +1701,35 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     body {
 
         //background-color: green;
+    }
+
+    .hero {
+
+        .carousel-indicators {
+
+            padding-left: 200px;
+            bottom: 55px;
+
+            li {
+                width: 65px;
+                height: 7px;
+            }
+        }
+
+        .carousel-caption {
+
+              margin-left: 200px;
+
+            h1 {
+
+                font-size: 24px;
+                padding-bottom: 3px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
     }
 
     .page-content {

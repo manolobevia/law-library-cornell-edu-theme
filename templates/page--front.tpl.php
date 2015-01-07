@@ -133,12 +133,12 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 </section>
 
 <!-- RESEARVATION HOURS --> 
-<section class="reservation-hours"></section>
+<section class="reservation-hours">
 
+<div><a class="reservations-icon" title="ROOM RESERVATIONS"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> ROOM RESERVATIONS</a></div>
 
-
-
-
+<div><a class="hours-icon" title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> TODAY’S HOURS: <span class="status">OPEN</span> until 6pm</a></div>
+</section>
 
 
 

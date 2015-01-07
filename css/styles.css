@@ -5354,13 +5354,14 @@ a:hover {
     position: static;
     max-width: 550px;
     padding: 0 20px;
+    padding-left: 0;
     margin-top: 390px;
     text-align: left;
-    margin-left: 10px;
+    margin-left: 0;
     padding-top: 40px;
-    margin-left: 168px; }
+    margin-left: 10px; }
     .hero .carousel-caption h1 {
-      font-size: 24px;
+      font-size: 20px;
       color: #fff;
       padding-bottom: 10px;
       font-weight: normal; }
@@ -5379,14 +5380,14 @@ a:hover {
   .hero .carousel-indicators {
     position: absolute;
     left: 0;
-    margin-left: 40px;
-    padding-left: 165px;
+    margin-left: 15px;
+    padding-left: 10px;
     width: 70%;
-    bottom: 70px; }
+    bottom: 55px; }
     .hero .carousel-indicators li {
       float: left;
       display: block;
-      width: 65px;
+      width: 45px;
       height: 5px;
       background-color: #fff;
       border-radius: 0;
@@ -5570,12 +5571,24 @@ a:hover {
 
 .reservation-hours {
   position: absolute;
-  top: 490px;
+  top: 492px;
   right: -7px;
   background: url("../images/home-hero-info.png") no-repeat top right;
   height: 111px;
   width: 600px;
-  z-index: 9995; }
+  z-index: 9995;
+  pointer-events: none; }
+  .reservation-hours .reservations-icon {
+    color: #fff; }
+  .reservation-hours .hours-icon {
+    color: #fff; }
+    .reservation-hours .hours-icon .status {
+      padding: 5px 7px;
+      background-color: #5a842e;
+      color: #fff;
+      -webkit-border-radius: 3px;
+      -moz-border-radius: 3px;
+      border-radius: 3px; }
 
 #superfish-4 {
   margin-bottom: 0; }
@@ -6179,6 +6192,20 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 */
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .hero .carousel-indicators {
+    padding-left: 200px;
+    bottom: 55px; }
+    .hero .carousel-indicators li {
+      width: 65px;
+      height: 7px; }
+  .hero .carousel-caption {
+    margin-left: 200px; }
+    .hero .carousel-caption h1 {
+      font-size: 24px;
+      padding-bottom: 3px; }
+    .hero .carousel-caption p {
+      font-size: 18px; }
+
   .page-content {
     display: block;
     width: 100%; }
