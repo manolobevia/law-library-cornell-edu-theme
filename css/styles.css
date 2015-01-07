@@ -5197,6 +5197,10 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+#admin-menu,
+#admin-menu .dropdown {
+  z-index: 9999; }
+
 .row {
   margin: 0; }
 
@@ -5403,7 +5407,7 @@ a:hover {
   height: 190px;
   background-color: rgba(255, 255, 255, 0.26);
   padding-left: 15px;
-  z-index: 8000; }
+  z-index: 9996; }
   .search-home label {
     font-size: 30px;
     color: #fff;
@@ -6048,7 +6052,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     height: 182px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 40px;
-    z-index: 8000; }
+    z-index: 9996; }
     .search-home label {
       font-size: 30px;
       color: #fff;
@@ -6182,6 +6186,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       width: 75%; }
     .page-content .sidebar-nav {
       width: 25%; } }
+@media (min-width: 1350px) {
+  .main-nav {
+    z-index: 9998; } }
 @media (min-width: 1600px) {
   .page-content {
     margin: 0 auto;

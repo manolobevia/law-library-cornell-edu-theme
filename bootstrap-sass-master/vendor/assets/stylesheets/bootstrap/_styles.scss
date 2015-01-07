@@ -13,6 +13,11 @@ $fontHero: 'HeroRegular';
 
 $fontBody: 'Montserrat', sans-serif;
 
+//ADMIN
+#admin-menu, 
+#admin-menu .dropdown {
+    z-index: 9999;
+}
 
 // RESET
 .row {
@@ -334,7 +339,7 @@ a:hover {
     height: 190px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 15px;
-    z-index: 8000;
+    z-index: 9996;
 
     label {
         font-size: 30px;
@@ -1426,7 +1431,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     height: 182px;
     background-color: rgba(255, 255, 255, 0.26);
     padding-left: 40px;
-    z-index: 8000;
+    z-index: 9996;
 
     label {
         font-size: 30px;
@@ -1692,7 +1697,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 }
 
-
+@media (min-width: 1350px) {
+    .main-nav {
+        z-index: 9998;
+    }
+}
 
 @media (min-width: 1440px) { 
     body {
