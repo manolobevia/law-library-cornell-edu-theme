@@ -170,6 +170,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <header class="page">
             <h2 class="title-content"><?php print $title; ?></h2>
+            XXXXXX
         </header>
         <?php print $messages; ?>
         <?php print render($tabs); ?>
