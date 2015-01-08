@@ -5758,6 +5758,12 @@ h3 {
   .page-content .main-content .content {
     margin-top: 0;
     padding-right: 30px; }
+.page-content .main-content-one-column {
+  padding: 0;
+  padding-left: 54px; }
+  .page-content .main-content-one-column .content {
+    margin-top: 0;
+    padding-right: 30px; }
 .page-content .sidebar-nav {
   padding-left: 40px;
   padding-right: 40px;
@@ -6182,6 +6188,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 @media (min-width: 992px) {
   .page-content .main-content {
     width: 70%; }
+  .page-content .main-content-one-column {
+    width: 100%; }
   .page-content .sidebar-nav {
     width: 30%;
     padding-left: 40px;
@@ -6227,6 +6235,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     width: 100%; }
     .page-content .main-content {
       width: 75%; }
+    .page-content .main-content-one-column {
+      width: 100%; }
     .page-content .sidebar-nav {
       width: 25%; } }
 @media (min-width: 1350px) {
@@ -6241,6 +6251,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       width: 1100px; }
       .page-content .main-content .content {
         margin-top: 0; }
+    .page-content .main-content-one-column {
+      width: 1400px; }
     .page-content .sidebar-nav {
       width: 300px;
       padding-right: 0;

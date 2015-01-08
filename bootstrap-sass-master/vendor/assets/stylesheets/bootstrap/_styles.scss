@@ -28,6 +28,7 @@ $fontBody: 'Montserrat', sans-serif;
 }
 
 
+
 ul {
     list-style-type: none !important;
 }
@@ -955,6 +956,18 @@ h3 {
         }
     }
 
+    .main-content-one-column {
+
+        padding: 0;
+        padding-left: 54px ;
+
+        .content {
+            margin-top: 0;
+            padding-right: 30px;
+        }
+
+    }
+
     .sidebar-nav {
 
         padding-left: 40px;
@@ -1695,6 +1708,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             }
         }
 
+        .main-content-one-column {
+
+            width: 100%
+        }
+
         .sidebar-nav {
 
             width: 30%;
@@ -1785,6 +1803,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             width: 75%;
         }
 
+        .main-content-one-column {
+
+            width: 100%;
+
+        }
+
+
         .sidebar-nav {
 
             width: 25%;
@@ -1830,6 +1855,12 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                 
                 margin-top: 0;
             }
+        }
+
+        .main-content-one-column {
+
+            width: 1400px;
+
         }
 
         .sidebar-nav {

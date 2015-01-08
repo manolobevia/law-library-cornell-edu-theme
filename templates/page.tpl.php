@@ -158,7 +158,16 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     
 <!-- CONTENT -->
 
+<?php
+    // Render the sidebar to see if there's anything in them.
+    $sidebar  = render($page['sidebar_second']);
+?>
+
+
 <section class="row page-content">
+
+    <!--if there is a sidebar, then create two column layout-->
+    <?php if ($sidebar): ?>
 
     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 main-content">
         <nav class="breadcrumb">
@@ -177,8 +186,29 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 	</div>
 
     <sidebar class="col-xs-12 col-sm-12 col-md-2 col-lg-2 sidebar-nav">
-         <?php print render($page['sidebar_second']); ?>
+         <?php print $sidebar; ?>
     </sidebar>
+
+    <!--if there isn't a sidebar, then create one column layout-->
+    <?php else :?>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 main-content-one-column">
+        <nav class="breadcrumb">
+
+            <?php print render($breadcrumb); ?>
+           <!--  <a href="#">About</a> <span class="separator">></span>
+            <strong>Our Space</strong> -->
+        </nav> 
+
+        <header class="page">
+            <h2 class="title-content"><?php print $title; ?></h2>
+        </header>
+        <?php print $messages; ?>
+        <?php print render($tabs); ?>
+        <?php print render($page['content']); ?>
+    </div>
+
+    <?php endif; ?>
 
 </section>
 
