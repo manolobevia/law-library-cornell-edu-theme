@@ -161,7 +161,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <section class="row page-content">
 
     <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 main-content">
-
         <nav class="breadcrumb">
 
             <?php print render($breadcrumb); ?>
