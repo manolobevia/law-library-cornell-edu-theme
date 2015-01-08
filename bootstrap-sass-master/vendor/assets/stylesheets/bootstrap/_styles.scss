@@ -1338,13 +1338,15 @@ h3 {
 
         #nav > a
         {
+            
             width: 3.125em; /* 50 */
             height: 45px; /* 50 */
             text-align: left;
             text-indent: -9999px;
             background-color: #3f3c3a;
-            position: relative;
-            float: right;
+            position: absolute;
+            top: 0;
+            right: 0;
         }
 
             #nav > a:before,

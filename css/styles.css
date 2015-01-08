@@ -6000,8 +6000,9 @@ padding: 0.75em; /* 15 (20) */
     text-align: left;
     text-indent: -9999px;
     background-color: #3f3c3a;
-    position: relative;
-    float: right; }
+    position: absolute;
+    top: 0;
+    right: 0; }
 
   #nav > a:before,
   #nav > a:after {
