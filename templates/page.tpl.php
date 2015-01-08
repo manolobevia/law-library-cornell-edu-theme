@@ -81,6 +81,22 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 
 
+<!-- CUL BRANDING  <?php print $theme_path; ?> -->
+<section class="cul-branding">
+    
+        <a href="#"><img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" /></a>
+
+        <nav class="user-tools">
+
+            <ul>
+                <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
+                <li><a class="hours-icon"  title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
+                <li><a class="reservations-icon" title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
+            </ul>
+
+        </nav>
+
+</section>
 
 
 
@@ -99,22 +115,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 <?php print render($page['mega_menu']); ?>
 
-<!-- CUL BRANDING  <?php print $theme_path; ?> -->
-<section class="cul-branding">
-    
-        <a href="#"><img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" /></a>
-
-        <nav class="user-tools">
-
-            <ul>
-                <li><a class="show-hide-search" title="Search our Site" href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-                <li><a class="hours-icon"  title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span></a></li>
-                <li><a class="reservations-icon" title="Room Reservations"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></a></li>
-            </ul>
-
-        </nav>
-
-</section>
 
 <!-- INTERIOR SEARCH -->
 <section class="search-slider">
