@@ -142,9 +142,9 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         </form>         
     
         <ul class="external-search">
-            <li><a href="#">My Library Account</a> / </li>
-            <li><a href="#">Databases</a> / </li>
-            <li><a href="#">Research Guides</a></li>
+            <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+            <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
+            <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
         </ul>
 
     </div>
