@@ -125,16 +125,16 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     </form>         
     
     <ul class="external-search">
-        <li><a href="#">My Library Account</a> / </li>
-        <li><a href="#">Databases</a> / </li>
-        <li><a href="#">Research Guides</a></li>
+        <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+        <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
+        <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
     </ul>
 
 </section>
 
 <!-- RESEARVATION HOURS --> 
 <section class="reservation-hours">
-    <a class="reservations-icon" title="ROOM RESERVATIONS"href="#"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> ROOM RESERVATIONS</a>
+    <a class="reservations-icon" title="ROOM RESERVATIONS" href="http://lawschool.cornell.libcal.com/index.php"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> ROOM RESERVATIONS</a>
 
     <a class="hours-icon" title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> TODAY’S HOURS: <span class="status">OPEN</span> until 6pm</a>
 </section>

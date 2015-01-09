@@ -19,6 +19,14 @@ $fontBody: 'Montserrat', sans-serif;
     z-index: 9999;
 }
 
+#user-login {
+
+    input {
+
+        width: 300px;
+    }
+}
+
 // RESET
 .row {
     margin: 0;
@@ -785,6 +793,12 @@ body.front {
         
         height: 400px;
         //position: absolute;
+
+        background-color: #fff;
+   
+        margin-top: 5px;
+        padding-top: 30px;
+        border-top: 1px solid #f0f0f0;
     }
 }
 
@@ -941,6 +955,7 @@ h3 {
 
     //padding-left: 54px;
     //padding-right: 54px;
+    margin-bottom: 30px;
 
 
 
@@ -1624,6 +1639,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 
 }
+    
 
     footer.row {
 
@@ -1657,6 +1673,29 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         }
     }
 
+    body.front {
+
+
+
+        footer.row {
+
+            border-top: 1px solid #f0f0f0;
+            
+            .wrapper {
+                padding-top: 30px;
+            }
+        }
+    }
+
+    footer.row {
+
+        border-top: 1px solid #f0f0f0;
+
+        .wrapper {
+
+            padding-top: 30px;
+        }
+    }
 
 }
 
@@ -1676,6 +1715,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
         //background-color: red;
     }
+    
+
 }
 
  /*  
@@ -1726,10 +1767,21 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         }
     }
 
+    body.front {
+
+        footer.row {
+
+            .wrapper {
+                padding-top: 0;
+            }
+        }
+    }
+
     footer.row {
 
         display: block;
         margin: 0 auto;
+
 
         .wrapper {
 
@@ -1874,7 +1926,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
     footer.row {
 
-        width: 1440px;
+        width: 100%;
     }
 }
 

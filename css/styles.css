@@ -5201,6 +5201,9 @@ button.close {
 #admin-menu .dropdown {
   z-index: 9999; }
 
+#user-login input {
+  width: 300px; }
+
 .row {
   margin: 0; }
 
@@ -5658,7 +5661,11 @@ a:hover {
 ##############################################
 */
 body.front footer.row {
-  height: 400px; }
+  height: 400px;
+  background-color: #fff;
+  margin-top: 5px;
+  padding-top: 30px;
+  border-top: 1px solid #f0f0f0; }
 
 footer.row {
   height: 77px;
@@ -5751,51 +5758,53 @@ h3 {
     bottom: 0;
     right: 0; }
 
-.page-content .main-content {
-  padding: 0;
-  border-right: 1px solid #ebebeb;
-  padding-left: 54px; }
-  .page-content .main-content .content {
-    margin-top: 0;
-    padding-right: 30px; }
-.page-content .main-content-one-column {
-  padding: 0;
-  padding-left: 54px; }
-  .page-content .main-content-one-column .content {
-    margin-top: 0;
-    padding-right: 30px; }
-.page-content .sidebar-nav {
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-top: 40px; }
-  .page-content .sidebar-nav h4 {
-    font-size: 22px;
-    color: #b11d22; }
-    .page-content .sidebar-nav h4.linked {
-      border-bottom: 1px solid #c6c7c8;
-      padding-bottom: 20px;
-      padding-top: 20px;
-      margin: 0; }
-    .page-content .sidebar-nav h4 a {
+.page-content {
+  margin-bottom: 30px; }
+  .page-content .main-content {
+    padding: 0;
+    border-right: 1px solid #ebebeb;
+    padding-left: 54px; }
+    .page-content .main-content .content {
+      margin-top: 0;
+      padding-right: 30px; }
+  .page-content .main-content-one-column {
+    padding: 0;
+    padding-left: 54px; }
+    .page-content .main-content-one-column .content {
+      margin-top: 0;
+      padding-right: 30px; }
+  .page-content .sidebar-nav {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 40px; }
+    .page-content .sidebar-nav h4 {
       font-size: 22px;
       color: #b11d22; }
-      .page-content .sidebar-nav h4 a .separator {
-        font-family: "HeroRegular";
+      .page-content .sidebar-nav h4.linked {
+        border-bottom: 1px solid #c6c7c8;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin: 0; }
+      .page-content .sidebar-nav h4 a {
         font-size: 22px;
-        padding-left: 5px; }
-  .page-content .sidebar-nav ul {
-    padding-left: 30px;
-    padding-bottom: 28px;
-    margin-bottom: 0; }
-    .page-content .sidebar-nav ul li {
-      font-size: 18px;
-      line-height: 1.2em;
-      padding-bottom: 5px; }
-      .page-content .sidebar-nav ul li a::after {
-        font-family: "HeroRegular";
-        font-size: 22px;
-        padding-left: 5px;
-        content: ">"; }
+        color: #b11d22; }
+        .page-content .sidebar-nav h4 a .separator {
+          font-family: "HeroRegular";
+          font-size: 22px;
+          padding-left: 5px; }
+    .page-content .sidebar-nav ul {
+      padding-left: 30px;
+      padding-bottom: 28px;
+      margin-bottom: 0; }
+      .page-content .sidebar-nav ul li {
+        font-size: 18px;
+        line-height: 1.2em;
+        padding-bottom: 5px; }
+        .page-content .sidebar-nav ul li a::after {
+          font-family: "HeroRegular";
+          font-size: 22px;
+          padding-left: 5px;
+          content: ">"; }
 
 .container-nav {
   clear: both;
@@ -6166,7 +6175,17 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
   .cul-branding {
     width: 80%; }
     .cul-branding .user-tools {
-      margin-right: 0; } }
+      margin-right: 0; }
+
+  body.front footer.row {
+    border-top: 1px solid #f0f0f0; }
+    body.front footer.row .wrapper {
+      padding-top: 30px; }
+
+  footer.row {
+    border-top: 1px solid #f0f0f0; }
+    footer.row .wrapper {
+      padding-top: 30px; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
@@ -6198,6 +6217,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     background-size: contain;
     min-height: 1085px;
     margin-top: 40px; }
+
+  body.front footer.row .wrapper {
+    padding-top: 0; }
 
   footer.row {
     display: block;
@@ -6259,4 +6281,4 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       margin-top: 60px; }
 
   footer.row {
-    width: 1440px; } }
+    width: 100%; } }
