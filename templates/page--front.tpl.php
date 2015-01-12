@@ -133,11 +133,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 </section>
 
 <!-- RESEARVATION HOURS --> 
-<section class="reservation-hours">
-    <a class="reservations-icon" title="ROOM RESERVATIONS" href="http://lawschool.cornell.libcal.com/index.php"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> ROOM RESERVATIONS</a>
+        <?php print render($page['hours']); ?>
 
-    <a class="hours-icon" title="Today's Hours" href="#"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> TODAY’S HOURS: <span class="status">OPEN</span> until 6pm</a>
-</section>
                 
 <section class="media">
         

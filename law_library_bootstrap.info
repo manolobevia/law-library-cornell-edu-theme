@@ -21,6 +21,7 @@ regions[page_bottom]    = 'Page bottom'
 regions[mega_menu]		= 'Mega menu'
 regions[spotlight]		= 'Spotlight'
 regions[owlcarousel]	= 'Small homepage carousel'
+regions[hours]			= 'Homepage hours'
 
 
 ;;;;;;;;;;;;;;;;;;;;;
