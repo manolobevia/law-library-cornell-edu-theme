@@ -104,32 +104,50 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <!-- SEARCH BOX -->       
 <section class="search-home">
 
-    <form id="form1" name="form1" method="get" action="https://search.library.cornell.edu">
-        <label for="name">Search</label>
+    <!-- Pay attention to METHOD -->
+    <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+
+        <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
+
+
         <div class="filtered-search">
 
-            <input type="text" class="form-text" name="q" value="" id="edit_keys" /><select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+            <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
 
-                <option value="catalog" selected="selected">Library Catalog ></option>
+            <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
+
+                <option value="catalog" selected="selected">Library Catalog</option>
                 <option value="worldcat">WorldCat</option>
                 <option value="site">Site Search</option>
 
-            </select>
+            </select>-->
 
-            <div class="hide-select-btn"></div>
+            <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down filter-default"></span>
+
+              <ul id="filter-search-nav">
+                  <li role="listitem"><a href="#" title="">Library Catalog</a></li>
+                  <li role="listitem"><a href="#" title="">WorldCat</a></li>
+                  <li role="listitem"><a href="#" title="">Activities</a></li>
+              </ul>
+
+          </div>
+
+          
 
             <!--a class="filter" href="#">LAW LIBRARY <span class="caret-icon">></span></a> -->
-            <button type="submit" class="submit-search" href="#"><span class="glyphicon glyphicon-search"></span></button>
+            <button type="submit" class="submit-search" href="#">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
 
         </div>
+
+        <ul class="external-search">
+          <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
+          <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
+          <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
+        </ul>
     </form>         
     
-    <ul class="external-search">
-        <li><a href="https://www.library.cornell.edu/myacct">My Library Account</a> / </li>
-        <li><a href="http://guides.library.cornell.edu/onlinelegalresources">Databases</a> / </li>
-        <li><a href="http://guides.library.cornell.edu/LAW">Research Guides</a></li>
-    </ul>
-
 </section>
 
 <!-- RESEARVATION HOURS --> 
