@@ -989,9 +989,10 @@ h3 {
     //padding-left: 54px;
     //padding-right: 54px;
     margin-bottom: 30px;
+    padding-bottom: 40px;
 
 
-
+    // 2 columns
     .main-content {
 
         padding: 0;
@@ -1001,9 +1002,18 @@ h3 {
         .content {
             margin-top: 0;
             padding-right: 30px;
+
+            ul {
+
+                color: #64686a;
+                font-family: "Montserrat",sans-serif;
+                font-size: 18px;
+                list-style-type: disc !important;
+            }
         }
     }
 
+    //1 column
     .main-content-one-column {
 
         padding: 0;
@@ -1012,6 +1022,14 @@ h3 {
         .content {
             margin-top: 0;
             padding-right: 30px;
+
+            ul {
+
+                color: #64686a;
+                font-family: "Montserrat",sans-serif;
+                font-size: 18px;
+                list-style-type: disc !important;
+            }
         }
 
     }

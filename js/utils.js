@@ -1,7 +1,9 @@
 
 $(document).ready(function () {
 
-   
+    //hide container nav
+
+    //$('#nav li ul').hide();
     
     $('#myCarousel').carousel('pause');
 
@@ -173,7 +175,7 @@ $(document).ready(function () {
        });
 
 
-        
+
 
        //When focus, hide filter select list and change filter button state to default
        $('input.search-homepage').focus(function(){

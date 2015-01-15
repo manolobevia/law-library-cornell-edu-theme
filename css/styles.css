@@ -5777,7 +5777,8 @@ h3 {
     right: 0; }
 
 .page-content {
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding-bottom: 40px; }
   .page-content .main-content {
     padding: 0;
     border-right: 1px solid #ebebeb;
@@ -5785,12 +5786,22 @@ h3 {
     .page-content .main-content .content {
       margin-top: 0;
       padding-right: 30px; }
+      .page-content .main-content .content ul {
+        color: #64686a;
+        font-family: "Montserrat",sans-serif;
+        font-size: 18px;
+        list-style-type: disc !important; }
   .page-content .main-content-one-column {
     padding: 0;
     padding-left: 54px; }
     .page-content .main-content-one-column .content {
       margin-top: 0;
       padding-right: 30px; }
+      .page-content .main-content-one-column .content ul {
+        color: #64686a;
+        font-family: "Montserrat",sans-serif;
+        font-size: 18px;
+        list-style-type: disc !important; }
   .page-content .sidebar-nav {
     padding-left: 40px;
     padding-right: 40px;
