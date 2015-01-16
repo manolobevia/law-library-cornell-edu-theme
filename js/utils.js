@@ -55,46 +55,37 @@ $(document).ready(function () {
             
             var searchHide = true;
             var $slider = $(".search-slider");
-            var $culBranding = $('.cul-branding .cu-logo');
-            var $userTools = $('.cul-branding .user-tools');
+            //var $culBranding = $('.cul-branding .cu-logo');
+            var $culBranding = $('.cul-branding');
+            //var $userTools = $('.cul-branding .user-tools');
+  
 
-            $('.show-hide-search').click(function(){
+
+              $('.show-hide-search').click(function(){
 
               if (searchHide) {
 
-                $slider.show();
-                $culBranding.hide();
+                    $slider.show();
+                    $culBranding.hide();
+                    
+                    $('.close-search').show();
+                    searchHide = false;
+                }
+              });
 
-                $userTools.find('.hours-icon').css('opacity', 0);
-                $userTools.find('.reservations-icon').css('opacity', 0);
-                
-                $(this).find('span').removeClass('glyphicon-search').addClass('glyphicon-remove');
 
-                $('.cul-branding').css('z-index', 99999);
+              $('.close-search').click(function(e){
 
-                searchHide = false;
-                console.log(searchHide)
-              }
-
-              else {
-
+                e.preventDefault();
                 $slider.hide();
                 $culBranding.show();
-                $userTools.find('.hours-icon').css('opacity', 1);
-                $userTools.find('.reservations-icon').css('opacity', 1);
-
-                $(this).find('span').removeClass('glyphicon-remove').addClass('glyphicon-search');
-
-                $('.cul-branding').css('z-index', 9997);
-
+                $('.close-search').hide();
                 searchHide = true;
-                console.log(searchHide)
-
-              }
+              });
 
 
                 
-            });
+            
 
     /////////////////////////////
     // Home search filter
