@@ -130,11 +130,11 @@ a:hover {
 
     .cu-logo {
 
-        background: url("images/cu-logo-mobile.png") no-repeat top right;
-        padding-left: 20px;
+        background: url("../images/cul-branding/cu-logo-mobile.png") no-repeat top right;
+        margin-left: 10px;
         width: 46px;
         height: 45px;
-        display: inline-block
+        display: inline-block;
     }
 
     
@@ -1635,7 +1635,17 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
     
 
-    
+    .cul-branding {
+
+        .cu-logo {
+
+            background: url("../images/cul-branding/cu-logo.png") no-repeat top right;
+            margin-left: 10px;
+            width: 234px;
+            height: 45px;
+            display: inline-block;
+        }  
+    }
 
     
     
