@@ -127,7 +127,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
               <ul id="filter-search-nav">
                   <li role="listitem"><a href="#" title="">Library Catalog</a></li>
                   <li role="listitem"><a href="#" title="">WorldCat</a></li>
-                  <li role="listitem"><a href="#" title="">Activities</a></li>
+                  <li role="listitem"><a href="#" title="">Site Search</a></li>
               </ul>
 
           </div>

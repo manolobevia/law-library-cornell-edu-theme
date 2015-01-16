@@ -215,7 +215,7 @@ $(document).ready(function () {
                     $(this).attr("action", 'http://cornell.worldcat.org/search?qt=wc_org_cornell');
                     break;
 
-                case 'Activities':
+                case 'Site Search':
 
                     $(this).attr("method", 'get');
                     $('#edit_keys').name = "keys";
