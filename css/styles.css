@@ -5266,7 +5266,11 @@ a:hover {
   top: 0;
   pointer-events: auto; }
   .cul-branding .cu-logo {
-    padding-left: 20px; }
+    background: url("images/cu-logo-mobile.png") no-repeat top right;
+    padding-left: 20px;
+    width: 46px;
+    height: 45px;
+    display: inline-block; }
 
 .user-tools {
   float: right;

@@ -129,7 +129,12 @@ a:hover {
     pointer-events: auto;
 
     .cu-logo {
+
+        background: url("images/cu-logo-mobile.png") no-repeat top right;
         padding-left: 20px;
+        width: 46px;
+        height: 45px;
+        display: inline-block
     }
 
     
