@@ -86,7 +86,8 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
 <!-- CUL BRANDING -->
 <section class="cul-branding">
-    <a href="#"><img class="cu-logo" src="<?php print $theme_path; ?>images/cul-branding/cu-logo.png" /></a>
+    
+    <a href="#" class="cu-logo"></a>
     <!--Cornell University Library / Cornell Law School / Legal Information Institute-->
 </section>
 
