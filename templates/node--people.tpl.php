@@ -85,7 +85,7 @@
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-		<div class="row">
+		<div class="row top">
 
 			<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 people-photo">
 
@@ -106,7 +106,7 @@
 	</div>
 
 	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 people-body">
-		
+
 		<?php print render($content['body']); ?>
 	</div>
 

@@ -1608,6 +1608,12 @@ h3 {
 
     color: #64686a;
 
+    .top {
+
+        //if nested row, make it display block to take 100% width
+        display: block !important;
+    }
+
     .people-photo {
 
         padding-left: 0;
@@ -1622,11 +1628,6 @@ h3 {
 
         }
     }
-
-    .people-photo.col-lg-3 {
-
-            //width: 22%;
-        }
 
     .people-data {
 
