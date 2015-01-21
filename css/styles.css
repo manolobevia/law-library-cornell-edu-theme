@@ -5210,18 +5210,26 @@ button.close {
 ul {
   list-style-type: none !important; }
 
+/*@font-face {
+    font-family: 'HeroRegular';
+    src: url('../fonts/hero-webfont.eot');
+    src: url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hero-webfont.woff') format('woff'),
+    url('../fonts/hero-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
 @font-face {
-  font-family: 'HeroRegular';
-  src: url("../fonts/hero-webfont.eot");
-  src: url("../fonts/hero-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero-webfont.woff") format("woff"), url("../fonts/hero-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'HeroLight';
-  src: url("../fonts/hero_light-webfont.eot");
-  src: url("../fonts/hero_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero_light-webfont.woff") format("woff"), url("../fonts/hero_light-webfont.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
+    font-family: 'HeroLight';
+    src: url('../fonts/hero_light-webfont.eot');
+    src: url('../fonts/hero_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/hero_light-webfont.woff') format('woff'),
+    url('../fonts/hero_light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
 @font-face {
   font-family: "Glyphicons Halflings";
   src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
@@ -5773,7 +5781,6 @@ footer.row {
   margin-bottom: 0;
   padding-top: 15px; }
   .breadcrumb .separator {
-    font-family: "HeroRegular";
     font-size: 16px; }
 
 p {
@@ -5859,7 +5866,6 @@ h3 {
         font-size: 22px;
         color: #b11d22; }
         .page-content .sidebar-nav h4 a .separator {
-          font-family: "HeroRegular";
           font-size: 22px;
           padding-left: 5px; }
     .page-content .sidebar-nav ul {
@@ -5871,7 +5877,6 @@ h3 {
         line-height: 1.2em;
         padding-bottom: 5px; }
         .page-content .sidebar-nav ul li a::after {
-          font-family: "HeroRegular";
           font-size: 22px;
           padding-left: 5px;
           content: ">"; }
@@ -6152,6 +6157,33 @@ padding: 0.75em; /* 15 (20) */
 .contextual-links-region {
   position: inherit; }
 
+.people {
+  color: #64686a; }
+  .people .people-photo {
+    padding-left: 0;
+    padding-right: 20px; }
+    .people .people-photo img {
+      border: 5px solid #ebebeb;
+      width: 60%;
+      height: 60%; }
+  .people .people-data {
+    font-size: 18px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 20px; }
+    .people .people-data .field-name-field-title .field-item {
+      font-size: 22px;
+      margin-bottom: 20px; }
+    .people .people-data .field {
+      clear: both; }
+      .people .people-data .field .field-label {
+        float: left; }
+      .people .people-data .field .field-item {
+        float: left; }
+  .people .people-body {
+    padding-top: 20px;
+    font-size: 18px; }
+
 /* Extra small devices (phones, up to 480px) */
 /* No media query since this is the default in Bootstrap */
 /*
@@ -6170,6 +6202,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     height: 45px;
     display: inline-block; }
 
+  .people .people-photo img {
+    width: 60%;
+    height: 60%; }
+
   footer.row {
     border-top: 1px solid #f0f0f0; }
     footer.row .wrapper {
@@ -6184,6 +6220,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     border-top: 1px solid #f0f0f0; }
     body.front footer.row .wrapper {
       padding-top: 30px; }
+
+  .people .people-photo img {
+    width: 40%;
+    height: 40%; }
 
   .search-home {
     top: 220px; }
@@ -6238,6 +6278,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
                                  
 */
 /* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .people .people-photo img {
+    width: 100%;
+    height: 100%; } }
  /*  
     ___          _    _              
    /   \___  ___| | _| |_ ___  _ __  
@@ -6263,6 +6307,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   body.front footer.row .wrapper {
     padding-top: 0; }
+
+  .people .people-photo img {
+    width: 100%;
+    height: 100%; }
 
   footer.row {
     display: block;

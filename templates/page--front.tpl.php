@@ -166,6 +166,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 </section>
 
 
+
 <footer class="row">
       <?php print render($page['footer']); ?>
 </footer>

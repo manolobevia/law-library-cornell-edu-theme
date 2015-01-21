@@ -71,7 +71,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <!-- Utils -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
     <script>
-        function chgAction() {
+        /*function chgAction() {
 
             var form = document.form1;
             
@@ -91,7 +91,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
                     form.edit_keys.name = "keys";
                     break;
             }
-        }
+        }*/
     </script>
     </body>
 </html>
