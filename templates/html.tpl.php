@@ -25,7 +25,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <!--<link href='//fonts.googleapis.com/css?family=Dosis:400,300' rel='stylesheet' type='text/css'>-->
         <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
-        
         <?php print $styles; ?>
 
         <!-- Optional theme -->
@@ -48,7 +47,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <![endif]-->
 
         <?php print $scripts; ?>
-
 
     </head>
 
