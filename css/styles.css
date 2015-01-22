@@ -5866,9 +5866,9 @@ h3 {
         padding-bottom: 20px; }
       .page-content .main-content .content img {
         border: 5px solid #ebebeb !important;
-        display: block;
-        max-width: 100%;
-        height: auto; }
+        display: block !important;
+        max-width: 100% !important;
+        height: auto !important; }
       .page-content .main-content .content .right {
         float: right;
         padding-left: 20px;
@@ -5911,9 +5911,9 @@ h3 {
         padding-bottom: 20px; }
       .page-content .main-content-one-column .content img {
         border: 5px solid #ebebeb !important;
-        display: block;
-        max-width: 100%;
-        height: auto; }
+        display: block !important;
+        max-width: 100% !important;
+        height: auto !important; }
       .page-content .main-content-one-column .content .right {
         float: right;
         padding-left: 20px;
