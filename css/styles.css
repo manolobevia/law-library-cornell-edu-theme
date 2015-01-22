@@ -5869,12 +5869,12 @@ h3 {
         display: block !important;
         max-width: 100% !important;
         height: auto !important;
-        margin-bottom: 40px; }
+        margin-bottom: 30px; }
       .page-content .main-content .content .right {
         float: right;
         margin: 0 !important;
         margin-left: 20px !important;
-        margin-bottom: 40px !important; }
+        margin-bottom: 30px !important; }
   .page-content .main-content-one-column {
     padding: 0;
     padding-left: 54px; }
@@ -5916,13 +5916,12 @@ h3 {
         display: block !important;
         max-width: 100% !important;
         height: auto !important;
-        margin-bottom: 40px; }
+        margin-bottom: 30px; }
       .page-content .main-content-one-column .content .right {
         float: right;
         margin: 0 !important;
         margin-left: 20px !important;
-        margin-bottom: 20px !important;
-        margin-bottom: 40px; }
+        margin-bottom: 30px; }
   .page-content .sidebar-nav {
     padding-left: 40px;
     padding-right: 40px;
