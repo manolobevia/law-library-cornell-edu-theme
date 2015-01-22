@@ -5834,6 +5834,10 @@ h3 {
     .page-content .main-content .content {
       margin-top: 0;
       padding-right: 30px; }
+      .page-content .main-content .content img {
+        display: block;
+        max-width: 100%;
+        max-height: 100%; }
       .page-content .main-content .content ul {
         color: #64686a;
         font-family: "Montserrat",sans-serif;
@@ -5845,6 +5849,10 @@ h3 {
     .page-content .main-content-one-column .content {
       margin-top: 0;
       padding-right: 30px; }
+      .page-content .main-content-one-column .content img {
+        max-width: 100%;
+        height: auto;
+        display: block; }
       .page-content .main-content-one-column .content ul {
         color: #64686a;
         font-family: "Montserrat",sans-serif;
@@ -6266,6 +6274,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       display: none;
       width: 190px;
       text-align: left; }
+
+  .page-content .main-content {
+    width: 70%; }
+  .page-content .main-content-one-column {
+    width: 100%; }
 
   footer.row {
     border-top: 1px solid #f0f0f0; }

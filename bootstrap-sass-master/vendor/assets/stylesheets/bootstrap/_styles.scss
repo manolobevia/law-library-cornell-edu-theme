@@ -1072,9 +1072,9 @@ h3 {
 
             img {
 
-                //display: block;
-                //max-width: 100%;
-                //max-height: 100%;
+                display: block;
+                max-width: 100%;
+                max-height: 100%;
             }
 
             ul {
@@ -1096,6 +1096,13 @@ h3 {
         .content {
             margin-top: 0;
             padding-right: 30px;
+
+            img {
+
+                max-width: 100%; 
+                height: auto; 
+                display: block;
+            }
 
             ul {
 
@@ -1790,6 +1797,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 
 
+
     .people {
 
         .people-photo {
@@ -1931,7 +1939,32 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 
 
+    .page-content {
 
+
+        .main-content {
+
+            width: 70%;
+
+            .content {
+                
+            }
+        }
+
+        .main-content-one-column {
+
+            width: 100%;
+
+            .content {
+                
+                img {
+
+                    
+                }
+            }
+
+        }
+    }
 
 
 
@@ -2006,13 +2039,14 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             width: 70%;
 
             .content {
- 
+                
             }
         }
 
         .main-content-one-column {
 
-            width: 100%
+            width: 100%;
+
         }
 
         .sidebar-nav {
