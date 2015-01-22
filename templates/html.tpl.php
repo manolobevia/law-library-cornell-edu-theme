@@ -57,10 +57,12 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <?php print $page_bottom; ?>
 
 
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
      
     <!-- carousel -->
+    <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
     <!-- megamenus -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/main.js"></script>
     <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
