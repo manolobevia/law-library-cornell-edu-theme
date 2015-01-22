@@ -5869,7 +5869,7 @@ h3 {
       .page-content .main-content .content .right {
         float: right;
         padding-left: 20px;
-        padding-right: 20px; }
+        padding-bottom: 20px; }
   .page-content .main-content-one-column {
     padding: 0;
     padding-left: 54px; }
@@ -5911,7 +5911,7 @@ h3 {
       .page-content .main-content-one-column .content .right {
         float: right;
         padding-left: 20px;
-        padding-right: 20px; }
+        padding-bottom: 20px; }
   .page-content .sidebar-nav {
     padding-left: 40px;
     padding-right: 40px;
