@@ -143,7 +143,7 @@ $(document).ready(function () {
 
               $('.filter-search .active').text($(this).text());
 
-              //$selectedFilter = $(this).text();
+              $selectedFilter = $(this).text();
 
               //console.log($(this).parent());
 
