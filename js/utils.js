@@ -200,8 +200,7 @@ $(document).ready(function () {
        
 
 
-      $('#filter-search-nav li').each(function(index){
-           $(this).click(function(ev) {
+      $selectedFilter.change(function(ev){
           
           var send = $('.search-homepage').val() + '    ' + $selectedFilter;
           console.log(send);
