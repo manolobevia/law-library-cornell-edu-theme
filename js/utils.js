@@ -212,13 +212,13 @@ $(document).ready(function () {
                     break;
 
                 case 'WorldCat':
-                    $(this).attr("action", 'http://cornell.worldcat.org/search?qt=wc_org_cornell');
+                    $(this).attr("action", 'https://cornell.worldcat.org/search?qt=wc_org_cornell');
                     break;
 
                 case 'Site Search':
 
                     $(this).attr("method", 'get');
-                    $('#edit_keys').name = "keys";
+                    $('input.search-homepage').attr("name",'keys');
                     $(this).attr("action", '/search/node/');
                     break;
             }
