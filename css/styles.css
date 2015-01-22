@@ -5865,7 +5865,7 @@ h3 {
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content .content img {
-        border: 5px solid #ebebeb; }
+        border: 5px solid #ebebeb !important; }
       .page-content .main-content .content .right {
         float: right;
         padding-left: 20px;
@@ -5907,7 +5907,7 @@ h3 {
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content-one-column .content img {
-        border: 5px solid #ebebeb; }
+        border: 5px solid #ebebeb !important; }
       .page-content .main-content-one-column .content .right {
         float: right;
         padding-left: 20px;
