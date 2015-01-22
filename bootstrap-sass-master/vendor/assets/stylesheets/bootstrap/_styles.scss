@@ -1126,8 +1126,9 @@ h3 {
             .right {
 
                 float: right;
-                margin-left: 20px;
-                margin-bottom: 20px;
+                margin: 0 !important;
+                margin-left: 20px !important;
+                margin-bottom: 20px !important;
             }
         }
     }
@@ -1198,8 +1199,9 @@ h3 {
             .right {
 
                 float: right;
-                margin-left: 20px;
-                margin-bottom: 20px;
+                margin: 0 !important;
+                margin-left: 20px !important;
+                margin-bottom: 20px !important;
             }
 
         }
