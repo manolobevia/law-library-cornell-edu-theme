@@ -200,7 +200,7 @@ $(document).ready(function () {
        
 
 
-      $selectedFilter.change(function(ev){
+       $( '#search' ).submit(function(ev) {
           
           var send = $('.search-homepage').val() + '    ' + $selectedFilter;
           console.log(send);
@@ -208,18 +208,18 @@ $(document).ready(function () {
           switch ($selectedFilter) {
 
                 case 'Library Catalog':
-                    $("#search").attr("action", 'https://search.library.cornell.edu');
+                    $(this).attr("action", 'https://search.library.cornell.edu');
                     break;
 
                 case 'WorldCat':
-                    $("#search").attr("action", 'http://cornell.worldcat.org/search?qt=wc_org_cornell');
+                    $(this).attr("action", 'http://cornell.worldcat.org/search?qt=wc_org_cornell');
                     break;
 
                 case 'Site Search':
 
-                    $("#search").attr("method", 'get');
+                    $(this).attr("method", 'get');
                     $('#edit_keys').name = "keys";
-                    $("#search").attr("action", '/search/node/');
+                    $(this).attr("action", '/search/node/');
                     break;
             }
 
