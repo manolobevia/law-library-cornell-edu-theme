@@ -200,7 +200,7 @@ $(document).ready(function () {
        
 
 
-       $( '#search' ).submit(function(ev) {
+       $( '#search' ).click(function(ev) {
           
           var send = $('.search-homepage').val() + '    ' + $selectedFilter;
           console.log(send);
