@@ -1100,7 +1100,7 @@ h3 {
             ul {
 
                 color: #64686a;
-                font-family: "Montserrat",sans-serif;
+                font-family: $fontBody;
                 font-size: 18px;
                 list-style-type: disc !important;
                 padding-bottom: 20px;
@@ -1109,7 +1109,7 @@ h3 {
             ol {
 
                 color: #64686a !important;
-                font-family: "Montserrat",sans-serif;
+                font-family: $fontBody;
                 font-size: 18px;
                 list-style-type: disc !important;
                 padding-bottom: 20px;
@@ -1118,6 +1118,13 @@ h3 {
             img {
 
                 border: 5px solid #ebebeb;
+            }
+
+            .right {
+
+                float: right;
+                padding-left: 20px;
+                padding-right: 20px;
             }
         }
     }
@@ -1160,7 +1167,7 @@ h3 {
             ul {
 
                 color: #64686a;
-                font-family: "Montserrat",sans-serif;
+                font-family: $fontBody;
                 font-size: 18px;
                 list-style-type: disc !important;
                 padding-bottom: 20px;
@@ -1169,7 +1176,7 @@ h3 {
             ol {
 
                 color: #64686a !important;
-                font-family: "Montserrat",sans-serif;
+                font-family: $fontBody;
                 font-size: 18px;
                 list-style-type: disc !important;
                 padding-bottom: 20px;
@@ -1178,6 +1185,15 @@ h3 {
             img {
 
                 border: 5px solid #ebebeb;
+            }
+
+
+
+            .right {
+
+                float: right;
+                padding-left: 20px;
+                padding-right: 20px;
             }
 
         }

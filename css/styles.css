@@ -5854,18 +5854,22 @@ h3 {
         margin-bottom: 10px; }
       .page-content .main-content .content ul {
         color: #64686a;
-        font-family: "Montserrat",sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content .content ol {
         color: #64686a !important;
-        font-family: "Montserrat",sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content .content img {
         border: 5px solid #ebebeb; }
+      .page-content .main-content .content .right {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px; }
   .page-content .main-content-one-column {
     padding: 0;
     padding-left: 54px; }
@@ -5892,18 +5896,22 @@ h3 {
         margin-bottom: 10px; }
       .page-content .main-content-one-column .content ul {
         color: #64686a;
-        font-family: "Montserrat",sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content-one-column .content ol {
         color: #64686a !important;
-        font-family: "Montserrat",sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content-one-column .content img {
         border: 5px solid #ebebeb; }
+      .page-content .main-content-one-column .content .right {
+        float: right;
+        padding-left: 20px;
+        padding-right: 20px; }
   .page-content .sidebar-nav {
     padding-left: 40px;
     padding-right: 40px;
