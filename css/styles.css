@@ -5859,7 +5859,7 @@ h3 {
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content .content ol {
-        color: #64686a;
+        color: #64686a !important;
         font-family: "Montserrat",sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
@@ -5897,7 +5897,7 @@ h3 {
         list-style-type: disc !important;
         padding-bottom: 20px; }
       .page-content .main-content-one-column .content ol {
-        color: #64686a;
+        color: #64686a !important;
         font-family: "Montserrat",sans-serif;
         font-size: 18px;
         list-style-type: disc !important;
