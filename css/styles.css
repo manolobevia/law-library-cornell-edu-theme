@@ -5837,8 +5837,8 @@ h3 {
       .page-content .main-content .content h3 {
         font-size: 36px;
         font-family: "Montserrat", sans-serif;
-        color: #33333;
-        font-weight: bold;
+        color: #333333;
+        font-weight: normal;
         margin-bottom: 20px; }
       .page-content .main-content .content h4 {
         font-size: 28px;
@@ -5888,8 +5888,8 @@ h3 {
       .page-content .main-content-one-column .content h3 {
         font-size: 36px;
         font-family: "Montserrat", sans-serif;
-        color: #33333;
-        font-weight: bold;
+        color: #333333;
+        font-weight: normal;
         margin-bottom: 20px; }
       .page-content .main-content-one-column .content h4 {
         font-size: 28px;
