@@ -232,7 +232,7 @@ $(document).ready(function () {
 
   var url = window.location.href.split('/')[3];
   console.log(url);
-  var selector = "a:contains("'+ url +'")";
+  var selector = "a:contains('" + url + "')";
   console.log(selector);
 
 
