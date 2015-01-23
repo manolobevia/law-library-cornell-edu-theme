@@ -230,7 +230,7 @@ $(document).ready(function () {
         });
 
 
-  var url = window.location.href.split('/')[0];
+  var url = window.location.hash.split('/')[0];
 
 $('nav li a').filter(function() {
     return this.href == url;
