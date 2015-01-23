@@ -229,23 +229,15 @@ $(document).ready(function () {
 
         });
 
-    $(function() {
-      var loc = window.location.href; // returns the full URL
-      if(/about/.test(loc)) {
-        $('#about').addClass('active');
-  }
+    
+      var url = window.location.href;
 
-  var url = window.location.href;
-
+      $('nav li a').filter(function() {
+          return this.href == url;
+      }).addClass('active');
 
 
-// Will also work for relative and absolute hrefs
-$('nav li a').filter(function() {
-    return this.href == url;
-}).addClass('active');
-
-
-});
+      });
 
 
 });
