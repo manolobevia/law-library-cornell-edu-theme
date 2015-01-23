@@ -240,7 +240,6 @@ $('nav li a').filter(function() {
 });
 
 
-});
 
 
 
