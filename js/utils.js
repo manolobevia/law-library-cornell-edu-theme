@@ -229,19 +229,26 @@ $(document).ready(function () {
 
         });
 
+    $(function() {
+      var loc = window.location.href; // returns the full URL
+      if(/about/.test(loc)) {
+        $('#about').addClass('active');
+  }
 
   var url = window.location.href.split('/')[3];
-  console.log(url);
-  var selector = "a:contains('" + url + "')";
-  console.log(selector);
 
 
-$(selector).addClass("active");
+
+// Will also work for relative and absolute hrefs
+$('nav a').filter(function() {
+    return this.href.split('/')[2] == url;
+}).addClass('active');
 
 
 });
 
 
+});
 
 
 
