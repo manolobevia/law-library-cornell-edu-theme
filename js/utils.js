@@ -229,15 +229,15 @@ $(document).ready(function () {
 
         });
 
-    
-      var url = window.location.href;
 
-      $('nav li a').filter(function() {
-          return this.href == url;
-      }).addClass('active');
+  var url = window.location.href;
+
+$('nav li a').filter(function() {
+    return this.href == url;
+}).addClass('active');
 
 
-      });
+});
 
 
 });
