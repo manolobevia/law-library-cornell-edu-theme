@@ -241,9 +241,9 @@ $(document).ready(function () {
         $('#facultyservices').addClass('active');
       if(/specialcollections/.test(loc)) {
         $('#specialcollections').addClass('active');
-  }
+  });
 
-  var url = window.location.href
+  var url = window.location.href;
 
 $('nav a').filter(function() {
     return this.href == url;
