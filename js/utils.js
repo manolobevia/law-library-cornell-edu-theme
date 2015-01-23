@@ -231,6 +231,7 @@ $(document).ready(function () {
 
 
   var url = window.location.hash.split('/')[1];
+  console.log(url);
 
 $( "li:contains(url)" ).addClass( "active" );
 
