@@ -229,7 +229,12 @@ $(document).ready(function () {
 
         });
 
-    
+    $(function() {
+      var loc = window.location.href; // returns the full URL
+      if(/about/.test(loc)) {
+        $('#about').addClass('active');
+  }
+});
 
 
 });
