@@ -234,6 +234,17 @@ $(document).ready(function () {
       if(/about/.test(loc)) {
         $('#about').addClass('active');
   }
+
+  var url = window.location.href;
+
+
+
+// Will also work for relative and absolute hrefs
+$('nav li a').filter(function() {
+    return this.href == url;
+}).addClass('active');
+
+
 });
 
 
