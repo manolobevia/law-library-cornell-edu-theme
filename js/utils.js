@@ -230,7 +230,7 @@ $(document).ready(function () {
         });
 
 
-  var url = window.location.href.split('/')[0];
+  var url = window.location.href.split('/')[2];
   console.log(url);
 
 $( "li:contains(url)" ).addClass( "active" );
