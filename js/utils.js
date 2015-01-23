@@ -234,15 +234,9 @@ $(document).ready(function () {
       if(/about/.test(loc)) {
         $('#about').addClass('active');
   }
-
-  var url = window.location.href.split('/')[3];
-
-
-
-// Will also work for relative and absolute hrefs
-$('nav a').filter(function() {
-    return this.href.split('/')[2] == url;
-}).addClass('active');
+            if(/usingthelibrary/.test(loc)) {
+        $('#usingthelibrary').addClass('active');
+  }
 
 
 });
