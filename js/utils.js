@@ -233,20 +233,15 @@ $(document).ready(function () {
       var loc = window.location.href; // returns the full URL
       if(/about/.test(loc)) {
         $('#about').addClass('active');
-      if(/usingthelibrary/.test(loc)) {
-        $('#usingthelibrary').addClass('active');
-      if(/research/.test(loc)) {
-        $('#research').addClass('active');
-      if(/facultyservices/.test(loc)) {
-        $('#facultyservices').addClass('active');
-      if(/specialcollections/.test(loc)) {
-        $('#specialcollections').addClass('active');
-  });
+  }
 
-  var url = window.location.href;
+  var url = window.location.href.split('/')[3];
 
+
+
+// Will also work for relative and absolute hrefs
 $('nav a').filter(function() {
-    return this.href == url;
+    return this.href.split('/')[2] == url;
 }).addClass('active');
 
 
