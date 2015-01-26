@@ -5686,10 +5686,7 @@ a:hover {
     margin: 0 auto; }
   .media .owl-stage .owl-item {
     position: relative;
-    width: 243px;
     margin-right: 30px; }
-    .media .owl-stage .owl-item .image-media {
-      width: 243px; }
     .media .owl-stage .owl-item .mask-media {
       position: absolute;
       top: 0;

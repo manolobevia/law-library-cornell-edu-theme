@@ -31,6 +31,26 @@
 
         </div>
 
+
+
+
+
+        <figure>
+            <a href="[field_featured_post_link]">
+                <img class="image-media" src="/sites/law-dev.stg.library.cornell.edu/files/[filename]">
+                <img class="mask-media" src="<?php print $theme_path; ?>images/carousel-media/mask-media.png" />
+            </a>
+
+            <figcaption>
+                [title]
+            </figcaption>                    
+        </figure>
+
+
+
+
+
+
         <!--Media item-->
         <div class="item">
 
