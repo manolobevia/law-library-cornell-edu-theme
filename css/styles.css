@@ -6352,7 +6352,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     top: 22%;
     font-family: "HeroLight";
     color: #1ebae1;
-    font-size: 90px;
+    font-size: 50px;
     display: block;
     padding-right: 10px; }
   .media .customPrevBtn:hover,
@@ -6364,7 +6364,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     top: 22%;
     font-family: "HeroLight";
     color: #1ebae1;
-    font-size: 90px;
+    font-size: 50px;
     display: block;
     padding-left: 10px; }
   .media .customNextBtn:hover,
@@ -6408,6 +6408,11 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   body.front footer.row .wrapper {
     padding-top: 0; }
+
+  .media .customPrevBtn {
+    font-size: 90px; }
+  .media .customNextBtn {
+    font-size: 90px; }
 
   .people .people-photo img {
     width: 100%;

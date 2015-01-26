@@ -2102,7 +2102,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
             font-family: $fontHeroLight;
             color: #1ebae1;
-            font-size: 90px;
+            font-size: 50px;
             display: block;
             padding-right: 10px;
 
@@ -2124,7 +2124,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
             font-family: $fontHeroLight;
             color: #1ebae1;
-            font-size: 90px;
+            font-size: 50px;
             display: block;
             padding-left: 10px;
 
@@ -2229,6 +2229,20 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         }
     }
 
+
+    .media {
+
+        .customPrevBtn {
+
+            font-size: 90px; 
+        }  
+
+        .customNextBtn {
+
+            font-size: 90px;
+        } 
+
+    }
 
     .people {
 
