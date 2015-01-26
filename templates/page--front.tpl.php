@@ -159,9 +159,13 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         
         <?php print render($page['owlcarousel']); ?>
 
-        <a class="customPrevBtn" href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+        <!--<a class="customPrevBtn" href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
 
-        <a class="customNextBtn" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+        <a class="customNextBtn" href="#"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>-->
+
+        <a class="customPrevBtn" href="#"><</a>
+
+        <a class="customNextBtn" href="#">></span></a>
   
 </section>
 

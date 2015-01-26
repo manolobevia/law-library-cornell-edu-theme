@@ -20,9 +20,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- removing initial-scale=1.0 disables zooming capabilities -->
 
         <!-- Google fonts -->
-        <!--<link href='//fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>-->
         <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-        <!--<link href='//fonts.googleapis.com/css?family=Dosis:400,300' rel='stylesheet' type='text/css'>-->
         <link href='//fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 
         <?php print $styles; ?>

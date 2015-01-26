@@ -5210,26 +5210,18 @@ button.close {
 ul {
   list-style-type: none !important; }
 
-/*@font-face {
-    font-family: 'HeroRegular';
-    src: url('../fonts/hero-webfont.eot');
-    src: url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/hero-webfont.woff') format('woff'),
-    url('../fonts/hero-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 @font-face {
-    font-family: 'HeroLight';
-    src: url('../fonts/hero_light-webfont.eot');
-    src: url('../fonts/hero_light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/hero_light-webfont.woff') format('woff'),
-    url('../fonts/hero_light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-*/
+  font-family: 'HeroRegular';
+  src: url("../fonts/hero-webfont.eot");
+  src: url("../fonts/hero-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero-webfont.woff") format("woff"), url("../fonts/hero-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'HeroLight';
+  src: url("../fonts/hero_light-webfont.eot");
+  src: url("../fonts/hero_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero_light-webfont.woff") format("woff"), url("../fonts/hero_light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
   font-family: "Glyphicons Halflings";
   src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
@@ -5707,7 +5699,9 @@ a:hover {
     .media .customPrevBtn a {
       color: #1ebae1; }
     .media .customPrevBtn .glyphicon-chevron-left {
-      font-size: 25px; }
+      font-family: 'HeroRegular';
+      font-size: 25px;
+      color: #1ebae1; }
   .media .customNextBtn {
     position: absolute;
     right: 5px;
@@ -5715,6 +5709,7 @@ a:hover {
     .media .customNextBtn .glyphicon-chevron-right {
       font-size: 25px; }
     .media .customNextBtn a {
+      font-family: 'HeroRegular';
       color: #1ebae1; }
 
 /*

@@ -41,7 +41,7 @@ ul {
 
 // FONT ADQUIRED FROM https://github.com/luopio/dottedlandscape
 
-/*@font-face {
+@font-face {
     font-family: 'HeroRegular';
     src: url('../fonts/hero-webfont.eot');
     src: url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
@@ -60,7 +60,7 @@ ul {
     font-weight: normal;
     font-style: normal;
 }
-*/
+
 
 @font-face {
     font-family: "Glyphicons Halflings";
@@ -846,6 +846,7 @@ a:hover {
     }  
 
     .customPrevBtn {
+
         position: absolute;
         left: 5px;
         top: 40%;
@@ -857,11 +858,14 @@ a:hover {
 
         .glyphicon-chevron-left {
 
+            font-family: 'HeroRegular';
             font-size: 25px;
+             color: #1ebae1;
         }
     }  
 
     .customNextBtn {
+
         position: absolute;
         right: 5px;
         top: 40%;
@@ -872,7 +876,7 @@ a:hover {
         }
 
         a {
-
+            font-family: 'HeroRegular';
             color: #1ebae1;
         }
 
