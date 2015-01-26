@@ -851,17 +851,16 @@ a:hover {
         left: 5px;
         top: 40%;
 
-        a {
+        font-family: 'HeroRegular' !important;
+        color: #1ebae1;
+        font-size: 25px;
 
-            color: #1ebae1;
-        }
-
-        .glyphicon-chevron-left {
+        /*.glyphicon-chevron-left {
 
             font-family: 'HeroRegular' !important;
             font-size: 25px;
             color: #1ebae1;
-        }
+        }*/
     }  
 
     .customNextBtn {
@@ -870,16 +869,14 @@ a:hover {
         right: 5px;
         top: 40%;
 
-        .glyphicon-chevron-right {
+        font-family: 'HeroRegular' !important;
+        color: #1ebae1;
+        font-size: 25px;
+
+        /*.glyphicon-chevron-right {
 
             font-size: 25px;
-        }
-
-        a {
-            font-family: 'HeroRegular' !important;
-            color: #1ebae1;
-        }
-
+        }*/
     } 
 
 }

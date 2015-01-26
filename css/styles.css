@@ -5695,22 +5695,27 @@ a:hover {
   .media .customPrevBtn {
     position: absolute;
     left: 5px;
-    top: 40%; }
-    .media .customPrevBtn a {
-      color: #1ebae1; }
-    .media .customPrevBtn .glyphicon-chevron-left {
-      font-family: 'HeroRegular' !important;
-      font-size: 25px;
-      color: #1ebae1; }
+    top: 40%;
+    font-family: 'HeroRegular' !important;
+    color: #1ebae1;
+    font-size: 25px;
+        /*.glyphicon-chevron-left {
+
+            font-family: 'HeroRegular' !important;
+            font-size: 25px;
+            color: #1ebae1;
+        }*/ }
   .media .customNextBtn {
     position: absolute;
     right: 5px;
-    top: 40%; }
-    .media .customNextBtn .glyphicon-chevron-right {
-      font-size: 25px; }
-    .media .customNextBtn a {
-      font-family: 'HeroRegular' !important;
-      color: #1ebae1; }
+    top: 40%;
+    font-family: 'HeroRegular' !important;
+    color: #1ebae1;
+    font-size: 25px;
+        /*.glyphicon-chevron-right {
+
+            font-size: 25px;
+        }*/ }
 
 /*
 ##############################################
