@@ -5684,24 +5684,24 @@ a:hover {
   .media .owl-carousel {
     width: 90%;
     margin: 0 auto; }
-  .media .media-items {
+  .media .owl-stage {
     overflow: hidden; }
-    .media .media-items .item {
+    .media .owl-stage .owl-item {
       position: relative;
       width: 243px;
       margin-right: 30px; }
-      .media .media-items .item .image-media {
+      .media .owl-stage .owl-item .image-media {
         width: 243px; }
-      .media .media-items .item .mask-media {
+      .media .owl-stage .owl-item .mask-media {
         position: absolute;
         top: 0;
         left: 0; }
-      .media .media-items .item figcaption {
+      .media .owl-stage .owl-item figcaption {
         font-size: 18px;
         color: #aabec7;
         text-align: left;
         padding-top: 17px; }
-        .media .media-items .item figcaption a {
+        .media .owl-stage .owl-item figcaption a {
           font-size: 17px;
           color: #aabec7;
           padding-top: 16px; }
