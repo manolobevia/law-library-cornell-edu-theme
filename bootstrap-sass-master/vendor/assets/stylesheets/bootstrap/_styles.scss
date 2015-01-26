@@ -2104,6 +2104,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             color: #1ebae1;
             font-size: 90px;
             display: block;
+            padding-right: 10px;
+
+            &:hover,
+            &:hover {
+
+                text-decoration: none;
+            }
         }  
 
         .customNextBtn {
@@ -2116,6 +2123,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             color: #1ebae1;
             font-size: 90px;
             display: block;
+            padding-left: 10px;
+
+            &:hover,
+            &:hover {
+
+                text-decoration: none;
+            }
         } 
 
     }
