@@ -2106,12 +2106,15 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             display: block;
             padding-right: 10px;
 
-            &:hover,
-            &:hover {
-
-                text-decoration: none;
-            }
+            
         }  
+
+
+        .owl-carousel:hover,
+        .owl-carousel:hover {
+
+            text-decoration: none;
+        }
 
         .customNextBtn {
 
@@ -2125,12 +2128,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
             display: block;
             padding-left: 10px;
 
-            &:hover,
-            &:hover {
-
-                text-decoration: none;
-            }
         } 
+
+        .owl-carousel:hover,
+        .owl-carousel:hover {
+
+            text-decoration: none;
+        }
 
     }
 }

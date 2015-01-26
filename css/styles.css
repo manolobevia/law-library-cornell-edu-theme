@@ -6355,8 +6355,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     font-size: 90px;
     display: block;
     padding-right: 10px; }
-    .media .customPrevBtn:hover, .media .customPrevBtn:hover {
-      text-decoration: none; }
+  .media .owl-carousel:hover,
+  .media .owl-carousel:hover {
+    text-decoration: none; }
   .media .customNextBtn {
     position: absolute;
     right: 5px;
@@ -6366,8 +6367,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     font-size: 90px;
     display: block;
     padding-left: 10px; }
-    .media .customNextBtn:hover, .media .customNextBtn:hover {
-      text-decoration: none; } }
+  .media .owl-carousel:hover,
+  .media .owl-carousel:hover {
+    text-decoration: none; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 
