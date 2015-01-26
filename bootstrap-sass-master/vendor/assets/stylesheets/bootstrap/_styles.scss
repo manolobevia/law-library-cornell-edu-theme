@@ -8,8 +8,8 @@ $colorBody: #64686a;
 $activeLinkColor: #95d8fe;
 $fontMainNav: 'HeroRegular';
 
-//$fontHeroLight: 'HeroLight';
-//$fontHero: 'HeroRegular';
+$fontHeroLight: 'HeroLight';
+$fontHero: 'HeroRegular';
 
 $fontBody: 'Montserrat', sans-serif;
 
@@ -43,20 +43,20 @@ ul {
 
 @font-face {
     font-family: 'HeroRegular';
-    src: url('../fonts/hero-webfont.eot');
-    src: url('../fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/hero-webfont.woff') format('woff'),
-    url('../fonts/hero-webfont.ttf') format('truetype');
+    src: url('/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.eot');
+    src: url('/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.woff') format('woff'),
+    url('/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
     font-family: 'HeroLight';
-    src: url('../fonts/hero_light-webfont.eot');
-    src: url('../fonts/hero_light-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/hero_light-webfont.woff') format('woff'),
-    url('../fonts/hero_light-webfont.ttf') format('truetype');
+    src: url('/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.eot');
+    src: url('/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.woff') format('woff'),
+    url('/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -858,7 +858,7 @@ a:hover {
 
         .glyphicon-chevron-left {
 
-            font-family: 'HeroRegular';
+            font-family: $fontHero;
             font-size: 25px;
              color: #1ebae1;
         }
@@ -876,7 +876,7 @@ a:hover {
         }
 
         a {
-            font-family: 'HeroRegular';
+            font-family: $fontHero;
             color: #1ebae1;
         }
 

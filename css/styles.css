@@ -5212,14 +5212,14 @@ ul {
 
 @font-face {
   font-family: 'HeroRegular';
-  src: url("../fonts/hero-webfont.eot");
-  src: url("../fonts/hero-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero-webfont.woff") format("woff"), url("../fonts/hero-webfont.ttf") format("truetype");
+  src: url("/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.eot");
+  src: url("/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.eot?#iefix") format("embedded-opentype"), url("/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.woff") format("woff"), url("/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
   font-family: 'HeroLight';
-  src: url("../fonts/hero_light-webfont.eot");
-  src: url("../fonts/hero_light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/hero_light-webfont.woff") format("woff"), url("../fonts/hero_light-webfont.ttf") format("truetype");
+  src: url("/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.eot");
+  src: url("/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.eot?#iefix") format("embedded-opentype"), url("/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.woff") format("woff"), url("/sites/all/themes/law_library_bootstrap/fonts/hero_light-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 @font-face {
@@ -5699,7 +5699,7 @@ a:hover {
     .media .customPrevBtn a {
       color: #1ebae1; }
     .media .customPrevBtn .glyphicon-chevron-left {
-      font-family: 'HeroRegular';
+      font-family: "HeroRegular";
       font-size: 25px;
       color: #1ebae1; }
   .media .customNextBtn {
@@ -5709,7 +5709,7 @@ a:hover {
     .media .customNextBtn .glyphicon-chevron-right {
       font-size: 25px; }
     .media .customNextBtn a {
-      font-family: 'HeroRegular';
+      font-family: "HeroRegular";
       color: #1ebae1; }
 
 /*
