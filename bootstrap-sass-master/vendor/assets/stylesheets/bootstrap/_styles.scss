@@ -858,9 +858,9 @@ a:hover {
 
         .glyphicon-chevron-left {
 
-            font-family: $fontHero;
+            font-family: 'HeroRegular' !important;
             font-size: 25px;
-             color: #1ebae1;
+            color: #1ebae1;
         }
     }  
 
@@ -876,7 +876,7 @@ a:hover {
         }
 
         a {
-            font-family: $fontHero;
+            font-family: 'HeroRegular' !important;
             color: #1ebae1;
         }
 

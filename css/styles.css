@@ -5699,7 +5699,7 @@ a:hover {
     .media .customPrevBtn a {
       color: #1ebae1; }
     .media .customPrevBtn .glyphicon-chevron-left {
-      font-family: "HeroRegular";
+      font-family: 'HeroRegular' !important;
       font-size: 25px;
       color: #1ebae1; }
   .media .customNextBtn {
@@ -5709,7 +5709,7 @@ a:hover {
     .media .customNextBtn .glyphicon-chevron-right {
       font-size: 25px; }
     .media .customNextBtn a {
-      font-family: "HeroRegular";
+      font-family: 'HeroRegular' !important;
       color: #1ebae1; }
 
 /*
