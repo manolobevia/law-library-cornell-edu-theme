@@ -229,29 +229,34 @@ $(document).ready(function () {
 
         });
 
-    $(function() {
+      
+      //Add active class to parent link in megamenus
+      
       var loc = window.location.href; // returns the full URL
+      
       if(/about/.test(loc)) {
         $('#about').addClass('active');
-  }
+      }
+
       if(/usingthelibrary/.test(loc)) {
         $('#usingthelibrary').addClass('active');
-  }
+      }
+
       if(/research/.test(loc)) {
         $('#research').addClass('active');
-  }
+      }
+
       if(/facultyservices/.test(loc)) {
         $('#facultyservices').addClass('active');
-  }
+      }
+
       if(/specialcollections/.test(loc)) {
         $('#specialcollections').addClass('active');
-  }
+      }
+
       if('/'.test(loc)) {
         $('#home').addClass('active');
-  }
-
-});
-
+      }
 
 });
 
