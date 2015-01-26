@@ -5674,7 +5674,7 @@ a:hover {
   position: relative;
   margin-top: 14px; }
   .media .owl-carousel {
-    width: 90%;
+    width: 98%;
     margin: 0 auto; }
   .media .owl-stage .owl-item {
     position: relative;
@@ -5695,27 +5695,19 @@ a:hover {
   .media .customPrevBtn {
     position: absolute;
     left: 5px;
-    top: 40%;
-    font-family: 'HeroRegular' !important;
+    top: 22%;
+    font-family: "HeroLight";
     color: #1ebae1;
-    font-size: 25px;
-        /*.glyphicon-chevron-left {
-
-            font-family: 'HeroRegular' !important;
-            font-size: 25px;
-            color: #1ebae1;
-        }*/ }
+    font-size: 90px;
+    display: none; }
   .media .customNextBtn {
     position: absolute;
     right: 5px;
-    top: 40%;
-    font-family: 'HeroRegular' !important;
+    top: 22%;
+    font-family: "HeroLight";
     color: #1ebae1;
-    font-size: 25px;
-        /*.glyphicon-chevron-right {
-
-            font-size: 25px;
-        }*/ }
+    font-size: 90px;
+    display: none; }
 
 /*
 ##############################################
@@ -6351,6 +6343,25 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     border-top: 1px solid #f0f0f0; }
     footer.row .wrapper {
       padding-top: 30px; } }
+@media (min-width: 600px) {
+  .media .owl-carousel {
+    width: 90%; }
+  .media .customPrevBtn {
+    position: absolute;
+    left: 5px;
+    top: 22%;
+    font-family: "HeroLight";
+    color: #1ebae1;
+    font-size: 90px;
+    display: block; }
+  .media .customNextBtn {
+    position: absolute;
+    right: 5px;
+    top: 22%;
+    font-family: "HeroLight";
+    color: #1ebae1;
+    font-size: 90px;
+    display: block; } }
 /*
  _____      _     _      _       
 /__   \__ _| |__ | | ___| |_ ___ 

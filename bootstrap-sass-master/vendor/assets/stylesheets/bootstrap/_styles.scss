@@ -803,7 +803,7 @@ a:hover {
     
     .owl-carousel {
 
-        width: 90%;
+        width: 98%;
         margin: 0 auto;
     }
 
@@ -849,34 +849,24 @@ a:hover {
 
         position: absolute;
         left: 5px;
-        top: 40%;
+        top: 22%;
 
-        font-family: 'HeroRegular' !important;
+        font-family: $fontHeroLight;
         color: #1ebae1;
-        font-size: 25px;
-
-        /*.glyphicon-chevron-left {
-
-            font-family: 'HeroRegular' !important;
-            font-size: 25px;
-            color: #1ebae1;
-        }*/
+        font-size: 90px;
+        display: none;
     }  
 
     .customNextBtn {
 
         position: absolute;
         right: 5px;
-        top: 40%;
+        top: 22%;
 
-        font-family: 'HeroRegular' !important;
+        font-family: $fontHeroLight;
         color: #1ebae1;
-        font-size: 25px;
-
-        /*.glyphicon-chevron-right {
-
-            font-size: 25px;
-        }*/
+        font-size: 90px;
+        display: none;
     } 
 
 }
@@ -2092,6 +2082,45 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     }
 
 }
+
+
+
+@media (min-width: 600px) {
+
+    .media {
+        
+        .owl-carousel {
+
+            width: 90%;
+        }
+
+        .customPrevBtn {
+
+            position: absolute;
+            left: 5px;
+            top: 22%;
+
+            font-family: $fontHeroLight;
+            color: #1ebae1;
+            font-size: 90px;
+            display: block;
+        }  
+
+        .customNextBtn {
+
+            position: absolute;
+            right: 5px;
+            top: 22%;
+
+            font-family: $fontHeroLight;
+            color: #1ebae1;
+            font-size: 90px;
+            display: block;
+        } 
+
+    }
+}
+
 
 
 /*
