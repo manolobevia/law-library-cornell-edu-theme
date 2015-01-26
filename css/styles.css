@@ -5500,7 +5500,7 @@ a:hover {
       padding-top: 0;
       background-color: transparent;
       border: none;
-      color: #313537;
+      color: #fff;
       padding-left: 15px; }
   .search-home .external-search {
     clear: both;
@@ -5622,7 +5622,7 @@ a:hover {
       padding-top: 0;
       background-color: transparent;
       border: none;
-      color: #313537;
+      color: #fff;
       padding-left: 15px; }
   .search-interior .external-search {
     clear: both;
@@ -6315,7 +6315,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       text-align: left; }
 
   .search-interior {
-    top: 20px; }
+    top: 20px;
+    left: 38px; }
     .search-interior .filtered-search .search-homepage {
       width: 353px; }
     .search-interior .filtered-search .filter-search {
