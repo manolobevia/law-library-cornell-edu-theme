@@ -24,6 +24,9 @@ $(document).ready(function () {
                 0:{
                     items:1
                 },
+                320:{
+                    items:2
+                },
                 600:{
                     items:3
                 },
@@ -231,7 +234,7 @@ $(document).ready(function () {
 
       
       //Add active class to parent link in megamenus
-      
+
       var loc = window.location.href; // returns the full URL
       
       if(/about/.test(loc)) {
