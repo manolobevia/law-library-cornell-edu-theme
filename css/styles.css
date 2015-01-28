@@ -5292,11 +5292,11 @@ a:hover {
                 font-size: 25px;
                 color: #fff;
 
-                .glyphicon-search {
+            }
 
-                    font-size: 28px;
-                }
+            a.reservations-icon span {
 
+                padding-left: 2px;
             }
         }
     }
@@ -6156,16 +6156,16 @@ padding: 0.75em; /* 15 (20) */
     display: block; }
 
   .row {
-    display: block; }
+    display: block;
+    padding-bottom: 20px; }
 
   .cell {
     display: block;
     width: 100%;
-    padding: 1em; }
+    padding: 0; }
 
   .cell li {
     display: block;
-    border-bottom: 1px dotted #bdc7c4;
     float: left;
     width: 100%; }
 
@@ -6235,7 +6235,13 @@ padding: 0.75em; /* 15 (20) */
     position: static;
     padding: 1.25em;
     /* 20 */
+    padding-bottom: 0;
     padding-top: 0; }
+
+  #nav li ul .sub-items a {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: 0; }
 
   #nav li ul .sub-items > a.sub-sub-items {
     padding-left: 20px;

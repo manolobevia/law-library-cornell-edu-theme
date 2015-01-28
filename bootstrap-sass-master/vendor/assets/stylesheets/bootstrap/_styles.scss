@@ -162,11 +162,11 @@ a:hover {
                 font-size: 25px;
                 color: #fff;
 
-                .glyphicon-search {
+            }
 
-                    font-size: 28px;
-                }
+            a.reservations-icon span {
 
+                padding-left: 2px;
             }
         }
     }
@@ -1611,23 +1611,24 @@ h3 {
     .container-nav {
         clear: both;
         display: block;
+
     }
 
     .row {
       display: block;
+      padding-bottom: 20px;
     }
 
     .cell {
       display: block;
       width: 100%;
-      padding: 1em;
-      //border: 1px solid blue;
+      padding: 0;
 
     }
 
     .cell li {
         display: block;
-        border-bottom: 1px dotted #bdc7c4;
+        //border-bottom: 1px dotted #bdc7c4;
         float: left;
         width: 100%;
         
@@ -1707,6 +1708,7 @@ h3 {
                 text-align: left;
                 padding: 0 0.833em; /* 20 (24) */
                 color: #000;
+
             }
                 #nav > ul > li:not( :last-child ) > a
                 {
@@ -1720,10 +1722,17 @@ h3 {
         {
             position: static;
             padding: 1.25em; /* 20 */
+            padding-bottom: 0;
             padding-top: 0;
+            //border: 1px solid blue;
         }
 
+        #nav li ul .sub-items a {
 
+            padding-bottom: 0;
+            padding-top: 0;
+            margin: 0;
+        }
 
         #nav li ul .sub-items > a.sub-sub-items {
 
