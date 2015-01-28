@@ -5811,142 +5811,143 @@ h3 {
     bottom: 0;
     right: 0; }
 
-.page-content {
-  margin-bottom: 30px;
-  padding-bottom: 40px; }
-  .page-content .main-content {
-    padding: 0;
-    border-right: 1px solid #ebebeb;
-    padding-left: 54px; }
-    .page-content .main-content .content {
-      margin-top: 0;
-      padding-right: 30px; }
-      .page-content .main-content .content h3 {
-        font-size: 32px;
-        font-family: "Montserrat", sans-serif;
-        color: #333333;
-        font-weight: normal;
-        margin-bottom: 20px; }
-      .page-content .main-content .content h4 {
-        font-size: 28px;
-        font-family: "Montserrat", sans-serif;
-        color: #b11d22;
-        font-weight: bold;
-        margin-bottom: 20px; }
-      .page-content .main-content .content h5 {
-        font-size: 24px;
-        font-family: "Montserrat", sans-serif;
-        color: #b11d22;
-        font-weight: bold;
-        margin-bottom: 20px; }
-      .page-content .main-content .content ul {
-        color: #64686a;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        list-style-type: disc !important;
-        padding-bottom: 20px; }
-      .page-content .main-content .content ol {
-        color: #64686a !important;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        list-style-type: disc !important;
-        padding-bottom: 20px; }
-      .page-content .main-content .content table {
-        color: #64686a !important;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px; }
-      .page-content .main-content .content img {
-        border: 5px solid #ebebeb !important;
-        display: block !important;
-        max-width: 100% !important;
-        height: auto !important;
-        margin-bottom: 30px; }
-      .page-content .main-content .content .right {
-        float: right;
-        margin: 0 !important;
-        margin-left: 20px !important;
-        margin-bottom: 30px !important; }
-  .page-content .main-content-one-column {
-    padding: 0;
-    padding-left: 54px; }
-    .page-content .main-content-one-column .content {
-      margin-top: 0;
-      padding-right: 30px; }
-      .page-content .main-content-one-column .content h3 {
-        font-size: 32px;
-        font-family: "Montserrat", sans-serif;
-        color: #333333;
-        font-weight: normal;
-        margin-bottom: 20px; }
-      .page-content .main-content-one-column .content h4 {
-        font-size: 28px;
-        font-family: "Montserrat", sans-serif;
-        color: #b11d22;
-        font-weight: bold;
-        margin-bottom: 20px; }
-      .page-content .main-content-one-column .content h5 {
-        font-size: 24px;
-        font-family: "Montserrat", sans-serif;
-        color: #b11d22;
-        font-weight: bold;
-        margin-bottom: 20px; }
-      .page-content .main-content-one-column .content ul {
-        color: #64686a;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        list-style-type: disc !important;
-        padding-bottom: 20px; }
-      .page-content .main-content-one-column .content ol {
-        color: #64686a !important;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px;
-        list-style-type: disc !important;
-        padding-bottom: 20px; }
-      .page-content .main-content-one-column .content table {
-        color: #64686a !important;
-        font-family: "Montserrat", sans-serif;
-        font-size: 18px; }
-      .page-content .main-content-one-column .content img {
-        border: 5px solid #ebebeb !important;
-        display: block !important;
-        max-width: 100% !important;
-        height: auto !important;
-        margin-bottom: 30px; }
-      .page-content .main-content-one-column .content .right {
-        float: right;
-        margin: 0 !important;
-        margin-left: 20px !important;
-        margin-bottom: 30px; }
-  .page-content .sidebar-nav {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 40px; }
-    .page-content .sidebar-nav h4 {
+.page-content .main-content {
+  border-right: 1px solid #ebebeb; }
+  .page-content .main-content .content {
+    margin-top: 0; }
+    .page-content .main-content .content h3 {
+      font-size: 32px;
+      font-family: "Montserrat", sans-serif;
+      color: #333333;
+      font-weight: normal;
+      margin-bottom: 20px; }
+    .page-content .main-content .content h4 {
+      font-size: 28px;
+      font-family: "Montserrat", sans-serif;
+      color: #b11d22;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .page-content .main-content .content h5 {
+      font-size: 24px;
+      font-family: "Montserrat", sans-serif;
+      color: #b11d22;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .page-content .main-content .content ul {
+      color: #64686a;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      list-style-type: disc !important;
+      padding-bottom: 20px; }
+    .page-content .main-content .content ol {
+      color: #64686a !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      list-style-type: disc !important;
+      padding-bottom: 20px; }
+    .page-content .main-content .content table {
+      color: #64686a !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px; }
+    .page-content .main-content .content img {
+      border: 5px solid #ebebeb !important;
+      display: block !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin-bottom: 30px; }
+    .page-content .main-content .content .right {
+      float: right;
+      margin: 0 !important;
+      margin-left: 20px !important;
+      margin-bottom: 30px !important; }
+.page-content .sidebar-nav {
+  margin-top: 40px; }
+  .page-content .sidebar-nav h4 {
+    font-size: 22px;
+    color: #b11d22; }
+    .page-content .sidebar-nav h4.linked {
+      border-bottom: 1px solid #c6c7c8;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      margin: 0; }
+    .page-content .sidebar-nav h4 a {
       font-size: 22px;
       color: #b11d22; }
-      .page-content .sidebar-nav h4.linked {
-        border-bottom: 1px solid #c6c7c8;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        margin: 0; }
-      .page-content .sidebar-nav h4 a {
+      .page-content .sidebar-nav h4 a .separator {
         font-size: 22px;
-        color: #b11d22; }
-        .page-content .sidebar-nav h4 a .separator {
-          font-size: 22px;
-          padding-left: 5px; }
-    .page-content .sidebar-nav ul {
-      padding-left: 30px;
-      padding-bottom: 28px;
-      margin-bottom: 0; }
-      .page-content .sidebar-nav ul li {
-        font-size: 18px;
-        line-height: 1.2em;
+        padding-left: 5px; }
+  .page-content .sidebar-nav ul {
+    padding-top: 28px;
+    padding-bottom: 28px;
+    margin-bottom: 0;
+    border-top: 2px dotted #ebebeb; }
+    .page-content .sidebar-nav ul li {
+      font-size: 16px;
+      line-height: 1.2em;
+      padding-bottom: 5px; }
+      .page-content .sidebar-nav ul li a {
+        padding: 0;
         padding-bottom: 5px; }
-        .page-content .sidebar-nav ul li a::after {
-          font-size: 22px;
-          padding-left: 5px;
-          content: ">"; }
+      .page-content .sidebar-nav ul li a:hover,
+      .page-content .sidebar-nav ul li a:focus {
+        background-color: transparent; }
+      .page-content .sidebar-nav ul li a::after {
+        font-family: "HeroRegular";
+        font-size: 24px;
+        padding-left: 5px;
+        content: ">";
+        vertical-align: middle; }
+.page-content .main-content-one-column {
+  padding: 0;
+  padding-left: 15px; }
+  .page-content .main-content-one-column .content {
+    margin-top: 0;
+    padding-right: 30px; }
+    .page-content .main-content-one-column .content h3 {
+      font-size: 32px;
+      font-family: "Montserrat", sans-serif;
+      color: #333333;
+      font-weight: normal;
+      margin-bottom: 20px; }
+    .page-content .main-content-one-column .content h4 {
+      font-size: 28px;
+      font-family: "Montserrat", sans-serif;
+      color: #b11d22;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .page-content .main-content-one-column .content h5 {
+      font-size: 24px;
+      font-family: "Montserrat", sans-serif;
+      color: #b11d22;
+      font-weight: bold;
+      margin-bottom: 20px; }
+    .page-content .main-content-one-column .content ul {
+      color: #64686a;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      list-style-type: disc !important;
+      padding-bottom: 20px; }
+    .page-content .main-content-one-column .content ol {
+      color: #64686a !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px;
+      list-style-type: disc !important;
+      padding-bottom: 20px; }
+    .page-content .main-content-one-column .content table {
+      color: #64686a !important;
+      font-family: "Montserrat", sans-serif;
+      font-size: 18px; }
+    .page-content .main-content-one-column .content img {
+      border: 5px solid #ebebeb !important;
+      display: block !important;
+      max-width: 100% !important;
+      height: auto !important;
+      margin-bottom: 30px; }
+    .page-content .main-content-one-column .content .right {
+      float: right;
+      margin: 0 !important;
+      margin-left: 20px !important;
+      margin-bottom: 30px; }
 
 .container-nav {
   clear: both;
@@ -6320,11 +6321,41 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
       width: 190px;
       text-align: left; }
 
-  .page-content .main-content {
-    width: 100%; }
-  .page-content .main-content-one-column {
-    width: 100%; }
+  .page-content {
+    display: block; }
 
+    /*.page-content {
+
+
+        .main-content {
+
+            width: 100%;
+
+            .content {
+                
+            }
+        }
+
+        .sidebar-nav {
+    
+        }
+        
+        /////////////
+
+        .main-content-one-column {
+
+            width: 100%;
+
+            .content {
+                
+                img {
+
+                    
+                }
+            }
+
+        }
+    }*/
   footer.row {
     border-top: 1px solid #f0f0f0; }
     footer.row .wrapper {
@@ -6391,6 +6422,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     background-size: contain;
     min-height: 1085px;
     margin-top: 40px; }
+    .page-content .sidebar-nav ul {
+      border-top: none; }
 
   body.front footer.row .wrapper {
     padding-top: 0; }
