@@ -5316,8 +5316,8 @@ a:hover {
       .user-tools ul li a {
         font-size: 25px;
         color: #fff; }
-        .user-tools ul li a .glyphicon-search {
-          font-size: 28px; }
+      .user-tools ul li a.reservations-icon span {
+        padding-left: 2px; }
 
 .main-nav {
   top: 65px;
