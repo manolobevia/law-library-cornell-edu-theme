@@ -1532,22 +1532,7 @@ h3 {
 
 
 
-@media only screen and ( max-width: 667px ) {
 
-    .header-interior {
-
-        height: 240px;
-    }
-
-    #nav {
-            margin-top: 130px;
-        }
-
-        #nav  ul
-        {
-            float: left;   
-        }
-}
 
 
 @media only screen and ( max-width: 1500px ) {
@@ -1719,6 +1704,17 @@ h3 {
 // ##########################################
 // ##########################################
 // ##########################################
+
+
+
+
+
+
+
+
+
+
+
 
 /* drupal overrides */
 .contextual-links-region {
