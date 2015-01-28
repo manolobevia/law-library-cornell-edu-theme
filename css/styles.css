@@ -6487,17 +6487,17 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 @media (min-width: 1350px) {
   .main-nav {
     z-index: 9998; } }
-@media (min-width: 1600px) {
+@media (min-width: 1300px) {
   .page-content {
     margin: 0 auto;
     display: block;
-    width: 1400px; }
+    width: 1200px; }
     .page-content .main-content {
-      width: 1100px; }
+      width: 900px; }
       .page-content .main-content .content {
         margin-top: 0; }
     .page-content .main-content-one-column {
-      width: 1400px; }
+      width: 1200px; }
     .page-content .sidebar-nav {
       width: 300px;
       padding-right: 0;

@@ -2393,6 +2393,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 }
 
 @media (min-width: 1350px) {
+
     .main-nav {
         z-index: 9998;
     }
@@ -2407,7 +2408,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 }
 
 
-@media (min-width: 1600px) { 
+@media (min-width: 1300px) { 
 
     body {
 
@@ -2418,12 +2419,12 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
         margin: 0 auto;
         display: block;
-        width: 1400px;
+        width: 1200px;
 
 
         .main-content {
 
-            width: 1100px;
+            width: 900px;
 
             .content {
                 
@@ -2433,7 +2434,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
         .main-content-one-column {
 
-            width: 1400px;
+            width: 1200px;
 
         }
 
