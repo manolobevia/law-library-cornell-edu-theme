@@ -5272,20 +5272,52 @@ a:hover {
     height: 45px;
     display: inline-block; }
 
+/*.user-tools {
+
+    float: right;
+    z-index: 9999;
+    margin-right: 50px;
+
+    ul {    
+
+        li {
+
+            display: inline-block;
+            float: left;
+            padding-right: 13px;
+            padding-top: 7px;
+
+            a {
+
+                font-size: 25px;
+                color: #fff;
+
+                .glyphicon-search {
+
+                    font-size: 28px;
+                }
+
+            }
+        }
+    }
+}*/
 .user-tools {
   float: right;
   z-index: 9999;
-  margin-right: 50px; }
-  .user-tools ul li {
-    display: inline-block;
-    float: left;
-    padding-right: 13px;
-    padding-top: 7px; }
-    .user-tools ul li a {
-      font-size: 25px;
-      color: #fff; }
-      .user-tools ul li a .glyphicon-search {
-        font-size: 28px; }
+  margin-right: 38px;
+  width: 100px; }
+  .user-tools ul {
+    padding-left: 0; }
+    .user-tools ul li {
+      display: inline-block;
+      float: left;
+      padding-right: 5px;
+      padding-top: 7px; }
+      .user-tools ul li a {
+        font-size: 25px;
+        color: #fff; }
+        .user-tools ul li a .glyphicon-search {
+          font-size: 28px; }
 
 .main-nav {
   top: 65px;
@@ -6275,8 +6307,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 @media (min-width: 640px) {
   .cul-branding {
     width: 80%; }
-    .cul-branding .user-tools {
-      margin-right: 0; }
+
+  .user-tools {
+    margin-right: 0; }
 
   body.front footer.row {
     border-top: 1px solid #f0f0f0; }

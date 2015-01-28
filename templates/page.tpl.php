@@ -83,7 +83,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 <!-- CUL BRANDING  <?php print $theme_path; ?> -->
 <section class="cul-branding">
     
-        <a href="#" class="cu-logo"></a>
+        <a href="http://www.lawschool.cornell.edu/" class="cu-logo"></a>
 
         <nav class="user-tools">
 
