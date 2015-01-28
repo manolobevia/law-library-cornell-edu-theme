@@ -6110,6 +6110,15 @@ padding: 0.75em; /* 15 (20) */
     {
         background-color: #cc470d;
     }*/
+@media only screen and (max-width: 667px) {
+  .header-interior {
+    height: 240px; }
+
+  #nav {
+    margin-top: 130px; }
+
+  #nav ul {
+    float: left; } }
 @media only screen and (max-width: 1500px) {
   .header-interior {
     height: 200px; }
