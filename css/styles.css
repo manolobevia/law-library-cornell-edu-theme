@@ -5581,8 +5581,9 @@ a:hover {
   .search-interior label {
     font-size: 27px;
     color: #fff;
-    padding-top: 24px;
-    font-weight: 400; }
+    padding-top: 18px;
+    font-weight: 400;
+    line-height: 1.1em; }
     .search-interior label .search-filter-selected {
       opacity: .5; }
   .search-interior .filtered-search {
