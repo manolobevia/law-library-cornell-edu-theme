@@ -6057,14 +6057,14 @@ h3 {
   line-height: 2.5em;
   /* 60 (24) */
   text-align: center;
-  padding-left: 10px;
+  padding-left: 0;
+  padding-right: 5px;
   color: #fff; }
   #nav > ul > li > a span {
-    font-size: 18px; }
+    font-size: 12px; }
 
 #nav > ul > li > a:after {
-  content: "/";
-  padding-left: 10px;
+  content: " /";
   font-weight: 100; }
 
 #nav > ul > li:last-child > a:after {
