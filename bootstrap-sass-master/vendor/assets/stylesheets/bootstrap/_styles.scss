@@ -2415,7 +2415,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     .header-interior {
 
         height: 160px;
-        border: 3px solid pink;
+        //border: 3px solid pink;
 
     }
 
@@ -2425,8 +2425,8 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
     .header-interior {
 
-        height: 220px;
-        border: 3px solid red;
+        height: 240px;
+        //border: 3px solid red;
 
     }
 
@@ -2451,7 +2451,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     .header-interior {
 
         height: 220px;
-        border: 3px solid blue;
+        //border: 3px solid blue;
 
     }
 
@@ -2468,12 +2468,12 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 }
 
-@media only screen and ( min-width: 1420px ) {
+@media only screen and ( min-width: 1511px ) {
 
     .header-interior {
 
         height: 160px;
-        border: 3px solid white;
+        //border: 3px solid white;
 
     }
 
