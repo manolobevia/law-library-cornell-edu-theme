@@ -406,8 +406,10 @@ a:hover {
     label {
         font-size: 27px;
         color: #fff;
-        padding-top: 24px;
+        padding-top: 15px;
         font-weight: 400;
+        line-height: 1.1em;
+        padding-bottom: 5px;
 
         .search-filter-selected {
 
@@ -1857,6 +1859,20 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
 */
 
+
+@media (min-width: 323px) { 
+    
+    .search-home {
+
+        label {
+
+            padding-top: 27px;
+        
+        }
+    }
+
+}  
+
 @media (min-width: 480px) { 
     
     body {
@@ -2307,11 +2323,13 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         .customPrevBtn {
 
             font-size: 90px; 
+            margin-left: 20px;
         }  
 
         .customNextBtn {
 
             font-size: 90px;
+            margin-right: 20px;
         } 
 
     }
@@ -2410,6 +2428,16 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
         left: 200px;
         width: 677px;
+
+        #search {
+
+            padding-left: 20px;
+
+            label {
+
+                padding-top: 35px;
+            }
+        }
     }
 
     .page-content {
