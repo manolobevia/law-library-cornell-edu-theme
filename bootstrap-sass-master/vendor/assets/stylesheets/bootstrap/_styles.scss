@@ -130,9 +130,9 @@ a:hover {
 
     .cu-logo {
 
-        background: url("../images/cul-branding/cu-logo-mobile.png") no-repeat top right;
+        background: url("../images/cul-branding/cu-logo-small.png") no-repeat top right;
         margin-left: 10px;
-        width: 46px;
+        width: 153px;
         height: 45px;
         display: inline-block;
     }
@@ -1840,9 +1840,9 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
         .cu-logo {
 
-            background: url("../images/cul-branding/cu-logo.png") no-repeat top right;
+            background: url("../images/cul-branding/cu-logo-medium.png") no-repeat top right;
             margin-left: 10px;
-            width: 234px;
+            width: 232px;
             height: 45px;
             display: inline-block;
         }  
@@ -1874,6 +1874,23 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         }
     }
     
+}
+
+@media (min-width: 560px) { 
+
+
+    .cul-branding {
+
+        .cu-logo {
+
+            background: url("../images/cul-branding/cu-logo.png") no-repeat top right;
+            margin-left: 10px;
+            width: 343px;
+            height: 45px;
+            display: inline-block;
+        }  
+    }
+
 }
 
 @media (min-width: 640px) {
@@ -2093,7 +2110,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
     footer.row {
 
-        border-top: 1px solid #f0f0f0 !important;
+        border-top: 1px solid #f0f0f0;
 
         .wrapper {
             padding-top: 30px;
