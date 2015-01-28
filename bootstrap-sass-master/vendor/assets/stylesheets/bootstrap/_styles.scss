@@ -1029,6 +1029,7 @@ h3 {
     background-size: cover;
     height: 160px;
     position: relative;
+    border: 3px solid blue;
 
     .mask-interior {
 
@@ -1533,46 +1534,17 @@ h3 {
 
 
 
-
-
-@media only screen and ( max-width: 1500px ) {
-
-    .header-interior {
-
-        height: 200px;
-    }
-
-    #nav {
-            margin-top: 130px;
-        }
-
-        #nav  ul
-        {
-            float: left;
-
-            
-        }
-}
-
-@media only screen and ( max-width: 1033px ) {
-
-    .header-interior {
-
-        height: 220px;
-    }
-
-}
-
 @media only screen and ( max-width: 640px ) {
     html
     {
         font-size: 75%; /* 12 */
     }
 
-    .header-interior {
+    //.header-interior {
 
-        height: 160px;
-    }
+        //height: 160px;
+        //border: 3px solid red;
+    //}
 
     .container-nav {
         clear: both;
@@ -2434,6 +2406,89 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         width: 100%;
     }
 }
+
+
+//##################### header
+
+@media only screen and ( min-width: 480px ) {
+
+    .header-interior {
+
+        height: 160px;
+        border: 3px solid pink;
+
+    }
+
+}
+
+@media only screen and ( min-width: 640px ) {
+
+    .header-interior {
+
+        height: 220px;
+        border: 3px solid red;
+
+    }
+
+    #nav {
+            margin-top: 130px;
+        }
+
+        #nav  ul
+        {
+            float: left;
+
+            
+        }
+
+}
+
+
+
+
+@media only screen and ( min-width: 1080px ) {
+
+    .header-interior {
+
+        height: 220px;
+        border: 3px solid blue;
+
+    }
+
+    #nav {
+            margin-top: 130px;
+        }
+
+        #nav  ul
+        {
+            float: left;
+
+            
+        }
+
+}
+
+@media only screen and ( min-width: 1420px ) {
+
+    .header-interior {
+
+        height: 160px;
+        border: 3px solid white;
+
+    }
+
+    #nav {
+            margin-top: 83px;
+        }
+
+        #nav  ul
+        {
+            float: right;
+
+            
+        }
+}
+
 
 
 

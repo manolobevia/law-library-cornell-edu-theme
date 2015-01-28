@@ -5802,7 +5802,8 @@ h3 {
   background: white url("../images/header-interior.jpg") no-repeat top center;
   background-size: cover;
   height: 160px;
-  position: relative; }
+  position: relative;
+  border: 3px solid blue; }
   .header-interior .mask-interior {
     background: transparent url("../images/mask-interior.png") no-repeat bottom right;
     height: 18px;
@@ -6110,25 +6111,10 @@ padding: 0.75em; /* 15 (20) */
     {
         background-color: #cc470d;
     }*/
-@media only screen and (max-width: 1500px) {
-  .header-interior {
-    height: 200px; }
-
-  #nav {
-    margin-top: 130px; }
-
-  #nav ul {
-    float: left; } }
-@media only screen and (max-width: 1033px) {
-  .header-interior {
-    height: 220px; } }
 @media only screen and (max-width: 640px) {
   html {
     font-size: 75%;
     /* 12 */ }
-
-  .header-interior {
-    height: 160px; }
 
   .container-nav {
     clear: both;
@@ -6487,3 +6473,37 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
 
   footer.row {
     width: 100%; } }
+@media only screen and (min-width: 480px) {
+  .header-interior {
+    height: 160px;
+    border: 3px solid pink; } }
+@media only screen and (min-width: 640px) {
+  .header-interior {
+    height: 220px;
+    border: 3px solid red; }
+
+  #nav {
+    margin-top: 130px; }
+
+  #nav ul {
+    float: left; } }
+@media only screen and (min-width: 1080px) {
+  .header-interior {
+    height: 220px;
+    border: 3px solid blue; }
+
+  #nav {
+    margin-top: 130px; }
+
+  #nav ul {
+    float: left; } }
+@media only screen and (min-width: 1420px) {
+  .header-interior {
+    height: 160px;
+    border: 3px solid white; }
+
+  #nav {
+    margin-top: 83px; }
+
+  #nav ul {
+    float: right; } }
