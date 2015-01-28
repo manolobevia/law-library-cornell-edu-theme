@@ -6112,7 +6112,7 @@ padding: 0.75em; /* 15 (20) */
     }*/
 @media only screen and (max-width: 667px) {
   .header-interior {
-    height: 240px; }
+    height: 240px !important; }
 
   #nav {
     margin-top: 130px; }
