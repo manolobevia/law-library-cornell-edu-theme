@@ -5726,7 +5726,7 @@ footer.row {
   background-color: #fff;
   margin-top: 5px;
   padding-top: 30px;
-  border-top: 1px solid #f0f0f0; }
+  border-top: 1px solid #f0f0f0 !important; }
   footer.row .wrapper {
     width: 93%;
     margin: 0 auto;
@@ -6357,7 +6357,7 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
         }
     }*/
   footer.row {
-    border-top: 1px solid #f0f0f0; }
+    border-top: 1px solid #f0f0f0 !important; }
     footer.row .wrapper {
       padding-top: 30px; } }
 @media (min-width: 600px) {
@@ -6443,7 +6443,10 @@ _\ \ | | | | | (_| | | |  / / | (_| | |_) | |  __/ |_\__ \
     footer.row .wrapper {
       padding-top: 30; }
     footer.row .address-copyright {
-      text-align: left; } }
+      text-align: left; }
+    footer.row .social-media {
+      text-align: right;
+      display: inline-block; } }
 @media (min-width: 998px) {
   .search-home {
     top: 215px; } }

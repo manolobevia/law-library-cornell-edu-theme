@@ -68,29 +68,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
     <!-- Utils -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/utils.js"></script>
-    <script>
-        /*function chgAction() {
-
-            var form = document.form1;
-            
-            //console.log('chgAction()');
-            //console.log(form.search_type.selectedIndex);
-            
-            switch (form.search_type.selectedIndex) {
-                case 0:
-                    form.action = "https://search.library.cornell.edu";
-                    break;
-                case 1:
-                    form.action = "http://cornell.worldcat.org/search?qt=wc_org_cornell";
-                    break;
-                case 2:
-                    form.method = "get";
-                    form.action = "/search/node/";
-                    form.edit_keys.name = "keys";
-                    break;
-            }
-        }*/
-    </script>
+    
     </body>
 </html>
 
