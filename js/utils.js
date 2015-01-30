@@ -8,8 +8,16 @@ $(document).ready(function () {
     $('#myCarousel').carousel('pause');
 
 
+    // Init megamenu for touch devices
+    //$( '#nav li:has(ul)' ).doubleTapToGo();
+    $( '#nav li:has(.wrapper)' ).doubleTapToGo();
 
-    $( '#nav li:has(ul)' ).doubleTapToGo();
+    $('.sandwich').click(function(e){
+
+        e.preventDefault();
+        $(' #nav ').toggle();
+
+      });
 
         
         var $owl = $('.owl-carousel');
