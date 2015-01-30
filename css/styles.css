@@ -6890,7 +6890,8 @@ a.sandwich {
               border-bottom: none; } }
 @media (min-width: 768px) {
   #nav ul.first-level li .wrapper .row div {
-    border-bottom: none; } }
+    border-bottom: none;
+    border-right: 1px solid #ebebeb; } }
 @media (min-width: 1386px) {
   #nav {
     position: absolute;
