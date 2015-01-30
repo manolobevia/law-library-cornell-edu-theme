@@ -6850,11 +6850,14 @@ a.sandwich {
             display: block;
             background-color: #fff; }
             #nav ul.first-level li .wrapper .row div {
-              border-right: 1px solid #ebebeb; }
+              border-bottom: 1px solid #ebebeb;
+              padding-bottom: 10px;
+              margin-bottom: 30px; }
               #nav ul.first-level li .wrapper .row div .center {
                 width: 70%;
                 margin: 0 auto;
-                border-right: none; }
+                border-right: none;
+                border-bottom: none; }
                 #nav ul.first-level li .wrapper .row div .center .second-level {
                   font-weight: bold;
                   margin-bottom: 2px;
@@ -6883,7 +6886,11 @@ a.sandwich {
                     background: #fff;
                     color: gray; }
             #nav ul.first-level li .wrapper .row div:last-child {
-              border-right: none; } }
+              border-right: none;
+              border-bottom: none; } }
+@media (min-width: 768px) {
+  #nav ul.first-level li .wrapper .row div {
+    border-bottom: none; } }
 @media (min-width: 1386px) {
   #nav {
     position: absolute;

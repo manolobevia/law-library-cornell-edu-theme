@@ -2782,12 +2782,15 @@ a.sandwich {
 
                         div {
 
-                            border-right: 1px solid #ebebeb;
+                            border-bottom: 1px solid #ebebeb;
+                            padding-bottom: 10px;
+                            margin-bottom: 30px;
 
                             .center {
                                 width: 70%;
                                 margin: 0 auto;
                                 border-right: none;
+                                border-bottom: none;
 
                                 .second-level {
 
@@ -2846,6 +2849,7 @@ a.sandwich {
                         div:last-child {
 
                             border-right: none;
+                            border-bottom: none;
                         }
                     }
                 }
@@ -2853,6 +2857,32 @@ a.sandwich {
         }
     }
 }
+
+
+@media (min-width: 768px) { 
+
+    #nav {
+    
+        ul.first-level {
+
+            li {
+
+                .wrapper {
+
+                    .row {
+
+                        div {
+
+                            border-bottom: none;
+                        }
+                    }  
+                }
+            }
+        }
+    }
+    
+}
+
 
 @media (min-width: 1386px) { 
 
