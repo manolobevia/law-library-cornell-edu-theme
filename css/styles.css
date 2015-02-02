@@ -6732,7 +6732,7 @@ a.sandwich {
       display: block;
       height: auto; }
     #nav ul.first-level li {
-      font-size: 22px;
+      font-size: 21px;
       display: inline-block;
       width: 100%;
       float: left;
@@ -6762,7 +6762,7 @@ a.sandwich {
               border-right: none; }
               #nav ul.first-level li .wrapper .row div .center .second-level {
                 margin-bottom: 2px;
-                font-size: 22px;
+                font-size: 21px;
                 font-family: 'abel', sans-serif; }
                 #nav ul.first-level li .wrapper .row div .center .second-level a {
                   display: inline-block;
@@ -6776,7 +6776,7 @@ a.sandwich {
                 color: #333333;
                 padding-left: 20px;
                 display: none;
-                font-size: 22px;
+                font-size: 21px;
                 font-family: 'abel', sans-serif; }
                 #nav ul.first-level li .wrapper .row div .center .third-level li {
                   display: block; }
@@ -6821,7 +6821,7 @@ a.sandwich {
         height: auto; }
       #nav ul.first-level li {
         text-align: left;
-        font-size: 22px;
+        font-size: 21px;
         display: inline-block;
         width: auto;
         padding-right: 10px;
@@ -6861,7 +6861,7 @@ a.sandwich {
                 #nav ul.first-level li .wrapper .row div .center .second-level {
                   font-weight: bold;
                   margin-bottom: 2px;
-                  font-size: 22px;
+                  font-size: 21px;
                   font-family: 'abel', sans-serif; }
                   #nav ul.first-level li .wrapper .row div .center .second-level a {
                     display: inline-block;
@@ -6872,7 +6872,7 @@ a.sandwich {
                 #nav ul.first-level li .wrapper .row div .center .third-level {
                   padding-left: 20px;
                   display: block;
-                  font-size: 22px;
+                  font-size: 21px;
                   font-family: 'abel', sans-serif; }
                   #nav ul.first-level li .wrapper .row div .center .third-level li {
                     display: block; }
