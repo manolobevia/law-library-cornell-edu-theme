@@ -2569,7 +2569,7 @@ a.sandwich {
         // FIRST LEVEL
         li {
 
-            font-size: 21px;
+            font-size: 21px !important;
             display: inline-block;
             width: 100%;
             float: left;
@@ -2622,7 +2622,7 @@ a.sandwich {
 
                                 //font-weight: bold;
                                 margin-bottom: 2px;
-                                font-size: 21px;
+                                font-size: 21px !important;
                                 font-family: 'abel', sans-serif;
 
                                 a {
@@ -2649,7 +2649,7 @@ a.sandwich {
                                 color: #333333;
                                 padding-left: 20px;
                                 display: none;
-                                font-size: 21px;
+                                font-size: 21px !important;
                                 font-family: 'abel', sans-serif;
 
                                 li {
@@ -2738,7 +2738,7 @@ a.sandwich {
             li {
 
                 text-align: left;
-                font-size: 21px;
+                font-size: 21px !important;
                 display: inline-block;
                 width: auto;
                 padding-right: 10px;
@@ -2796,7 +2796,7 @@ a.sandwich {
 
                                     font-weight: bold;
                                     margin-bottom: 2px;
-                                    font-size: 21px;
+                                    font-size: 21px !important;
                                     font-family: 'abel', sans-serif;
 
                                     a {
@@ -2816,7 +2816,7 @@ a.sandwich {
 
                                     padding-left: 20px;
                                     display: block;
-                                    font-size: 21px;
+                                    font-size: 21px !important;
                                     font-family: 'abel', sans-serif;
 
 
