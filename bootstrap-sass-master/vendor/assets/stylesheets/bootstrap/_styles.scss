@@ -348,8 +348,9 @@ a:hover {
             border: none;
             margin-right: 3px;
         }
-        .active {
-            background-color: #1ebae1;
+
+        li.active {
+            background-color: #1ebae1 !important;
             margin-top: 1px;
 
         }

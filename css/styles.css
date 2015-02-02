@@ -5410,8 +5410,8 @@ a:hover {
       border-radius: 0;
       border: none;
       margin-right: 3px; }
-    .hero .carousel-indicators .active {
-      background-color: #1ebae1;
+    .hero .carousel-indicators li.active {
+      background-color: #1ebae1 !important;
       margin-top: 1px; }
   .hero .carousel-control.left,
   .hero .carousel-control.right {
