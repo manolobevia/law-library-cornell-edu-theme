@@ -2546,7 +2546,8 @@ a.sandwich {
         position: relative;
         padding-left: 20px;
 
-        li.active {
+        li.active,
+        li.active a {
 
             color: #95d8fe;
         }
@@ -2713,7 +2714,8 @@ a.sandwich {
             font-family: 'abel', sans-serif;
             position: relative;
 
-            li.active {
+            li.active,
+            li.active a {
 
                 color: #95d8fe;
             }

@@ -6723,7 +6723,8 @@ a.sandwich {
     font-family: 'abel', sans-serif;
     position: relative;
     padding-left: 20px; }
-    #nav ul.first-level li.active {
+    #nav ul.first-level li.active,
+    #nav ul.first-level li.active a {
       color: #95d8fe; }
     #nav ul.first-level li:hover a {
       color: #95d8fe;
@@ -6811,7 +6812,8 @@ a.sandwich {
       list-style: none;
       font-family: 'abel', sans-serif;
       position: relative; }
-      #nav ul.first-level li.active {
+      #nav ul.first-level li.active,
+      #nav ul.first-level li.active a {
         color: #95d8fe; }
       #nav ul.first-level li:hover a {
         color: #95d8fe;
