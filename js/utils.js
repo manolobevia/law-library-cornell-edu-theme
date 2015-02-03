@@ -69,6 +69,7 @@ $(document).ready(function () {
             //var $culBranding = $('.cul-branding .cu-logo');
             var $culBranding = $('.cul-branding');
             //var $userTools = $('.cul-branding .user-tools');
+            var $sandwich = $('.sandwich');
   
 
 
@@ -78,6 +79,7 @@ $(document).ready(function () {
 
                     $slider.show();
                     $culBranding.hide();
+                    $sandwich.hide()
                     
                     $('.close-search').show();
                     searchHide = false;
@@ -90,6 +92,8 @@ $(document).ready(function () {
                 e.preventDefault();
                 $slider.hide();
                 $culBranding.show();
+                $sandwich.show()
+
                 $('.close-search').hide();
                 searchHide = true;
               });
