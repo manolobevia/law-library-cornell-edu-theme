@@ -5468,11 +5468,19 @@ a:hover {
         font-size: 25px;
         line-height: 51px;
         padding-left: 10px; }
-      .search-home .filtered-search .filter-search .glyphicon-chevron-up {
-        color: #1ebae1;
-        font-size: 25px;
-        line-height: 51px;
-        padding-left: 10px; }
+      .search-home .filtered-search .filter-search .filter-default {
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(0deg); }
+      .search-home .filtered-search .filter-search .filter-active {
+        -ms-transform: rotate(180deg);
+        /* IE 9 */
+        -webkit-transform: rotate(180deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(180deg);
+        padding-right: 12px; }
     .search-home .filtered-search #filter-search-nav {
       position: absolute;
       display: none;

@@ -117,8 +117,8 @@ $(document).ready(function () {
 
              //Change button filter state to selected
              
-             $(this).find('span').removeClass('filter-default');
-             $(this).find('span').addClass('filter-active');
+             $(this).find('span').removeClass('.glyphicon-chevron-down');
+             $(this).find('span').addClass('.glyphicon-chevron-up');
 
              //Reveal filter select list
              $searchFilterList.css('display','block');
@@ -128,8 +128,8 @@ $(document).ready(function () {
          } else {
              //Change button filter state to default
              
-             $(this).find('span').removeClass('filter-active');
-             $(this).find('span').addClass('filter-default');
+             $(this).find('span').removeClass('.glyphicon-chevron-up');
+             $(this).find('span').addClass('.glyphicon-chevron-down');
 
              //Hide filter select list
              $searchFilterList.css('display','none');
