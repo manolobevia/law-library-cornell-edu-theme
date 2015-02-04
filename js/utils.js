@@ -203,8 +203,8 @@ $(document).ready(function () {
 
                     //Change button filter state to default
                     //$('a.filter-search').css('background','url(../../themes/vivo-cornell/images/filteredSearch.gif) no-repeat right top');
-                    $('div.filter-search').find('span').removeClass('filter-active');
-                    $('div.filter-search').find('span').addClass('.glyphicon-chevron-down');
+                    $('div.filter-search').find('span').removeClass('glyphicon-chevron-up');
+                    $('div.filter-search').find('span').addClass('glyphicon-chevron-down');
 
                     $isFilterOpen = false;
 
