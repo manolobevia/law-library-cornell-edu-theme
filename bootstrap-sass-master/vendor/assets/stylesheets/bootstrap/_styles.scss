@@ -885,6 +885,15 @@ a:hover {
         display: none;
     } 
 
+    .customPrevBtn:hover,
+    .customPrevBtn:focus,
+    .customNextBtn:hover,
+    .customNextBtn:focus {
+
+        text-decoration: none;
+    }
+
+
 }
 
 /*
