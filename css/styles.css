@@ -5707,8 +5707,10 @@ a:hover {
     color: #1ebae1;
     font-size: 90px;
     display: none; }
+  .media .customPrevBtn,
   .media .customPrevBtn:hover,
   .media .customPrevBtn:focus,
+  .media .customNextBtn,
   .media .customNextBtn:hover,
   .media .customNextBtn:focus {
     text-decoration: none;
