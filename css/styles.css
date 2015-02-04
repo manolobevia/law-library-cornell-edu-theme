@@ -5712,7 +5712,7 @@ a:hover {
   .media .customNextBtn:hover,
   .media .customNextBtn:focus {
     text-decoration: none;
-    outline: none; }
+    outline: none !important; }
 
 /*
 ##############################################
