@@ -117,8 +117,8 @@ $(document).ready(function () {
 
              //Change button filter state to selected
              
-             $(this).find('span').removeClass('.glyphicon-chevron-down');
-             $(this).find('span').addClass('.glyphicon-chevron-up');
+             $(this).find('span').removeClass('glyphicon-chevron-down');
+             $(this).find('span').addClass('glyphicon-chevron-up');
 
              //Reveal filter select list
              $searchFilterList.css('display','block');
@@ -128,8 +128,8 @@ $(document).ready(function () {
          } else {
              //Change button filter state to default
              
-             $(this).find('span').removeClass('.glyphicon-chevron-up');
-             $(this).find('span').addClass('.glyphicon-chevron-down');
+             $(this).find('span').removeClass('glyphicon-chevron-up');
+             $(this).find('span').addClass('glyphicon-chevron-down');
 
              //Hide filter select list
              $searchFilterList.css('display','none');
@@ -169,8 +169,8 @@ $(document).ready(function () {
 
                //Change button filter state to default
                //$('a.filter-search').css('background','url(../../themes/vivo-cornell/images/filteredSearch.gif) no-repeat right top');
-               $('a.filter-search').removeClass('filter-active');
-               $('a.filter-search').addClass('filter-default');
+               $('a.filter-search').removeClass('glyphicon-chevron-up');
+               $('a.filter-search').addClass('glyphicon-chevron-down');
 
                
                $isFilterOpen = false;
@@ -204,7 +204,7 @@ $(document).ready(function () {
                     //Change button filter state to default
                     //$('a.filter-search').css('background','url(../../themes/vivo-cornell/images/filteredSearch.gif) no-repeat right top');
                     $('div.filter-search').find('span').removeClass('filter-active');
-                    $('div.filter-search').find('span').addClass('filter-default');
+                    $('div.filter-search').find('span').addClass('.glyphicon-chevron-down');
 
                     $isFilterOpen = false;
 
