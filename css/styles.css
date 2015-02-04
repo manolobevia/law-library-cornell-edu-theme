@@ -5691,7 +5691,7 @@ a:hover {
         font-size: 17px;
         color: #aabec7;
         padding-top: 16px; }
-  .media .customPrevBtn {
+  .media a.customPrevBtn {
     position: absolute;
     left: 5px;
     top: 22%;
@@ -5699,7 +5699,7 @@ a:hover {
     color: #1ebae1;
     font-size: 90px;
     display: none; }
-  .media .customNextBtn {
+  .media a.customNextBtn {
     position: absolute;
     right: 5px;
     top: 22%;
@@ -5707,13 +5707,13 @@ a:hover {
     color: #1ebae1;
     font-size: 90px;
     display: none; }
-  .media .customPrevBtn,
-  .media .customPrevBtn:hover,
-  .media .customPrevBtn:focus,
-  .media .customNextBtn,
-  .media .customNextBtn:hover,
-  .media .customNextBtn:focus {
-    text-decoration: none;
+  .media a.customPrevBtn,
+  .media a.customPrevBtn:hover,
+  .media a.customPrevBtn:focus,
+  .media a.customNextBtn,
+  .media a.customNextBtn:hover,
+  .media a.customNextBtn:focus {
+    text-decoration: none !important;
     outline: none !important; }
 
 /*

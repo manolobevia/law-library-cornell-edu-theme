@@ -861,7 +861,7 @@ a:hover {
         }
     }  
 
-    .customPrevBtn {
+    a.customPrevBtn {
 
         position: absolute;
         left: 5px;
@@ -873,7 +873,7 @@ a:hover {
         display: none;
     }  
 
-    .customNextBtn {
+    a.customNextBtn {
 
         position: absolute;
         right: 5px;
@@ -885,14 +885,14 @@ a:hover {
         display: none;
     } 
 
-    .customPrevBtn,
-    .customPrevBtn:hover,
-    .customPrevBtn:focus,
-    .customNextBtn,
-    .customNextBtn:hover,
-    .customNextBtn:focus {
+    a.customPrevBtn,
+    a.customPrevBtn:hover,
+    a.customPrevBtn:focus,
+    a.customNextBtn,
+    a.customNextBtn:hover,
+    a.customNextBtn:focus {
 
-        text-decoration: none;
+        text-decoration: none !important;
         outline: none !important;
     }
 
