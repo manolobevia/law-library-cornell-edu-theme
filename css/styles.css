@@ -5711,7 +5711,8 @@ a:hover {
   .media .customPrevBtn:focus,
   .media .customNextBtn:hover,
   .media .customNextBtn:focus {
-    text-decoration: none; }
+    text-decoration: none;
+    outline: none; }
 
 /*
 ##############################################
