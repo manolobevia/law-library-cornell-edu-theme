@@ -114,6 +114,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <div class="filtered-search">
 
             <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
+            <input type="hidden" id="collection-search">
 
             <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
 
