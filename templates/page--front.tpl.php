@@ -123,9 +123,10 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
             </select>-->
 
-            <div class="filter-search"><span class="active">Library Catalog</span> <span class="glyphicon glyphicon-chevron-down"></span>
+            <div class="filter-search"><span class="active">Law Library Collection</span> <span class="glyphicon glyphicon-chevron-down"></span>
 
               <ul id="filter-search-nav">
+                  <li role="listitem"><a href="#" title="">Library Catalog</a></li>
                   <li role="listitem"><a href="#" title="">Library Catalog</a></li>
                   <li role="listitem"><a href="#" title="">WorldCat</a></li>
                   <li role="listitem"><a href="#" title="">Site Search</a></li>
