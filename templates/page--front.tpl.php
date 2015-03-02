@@ -114,7 +114,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
         <div class="filtered-search">
 
             <input type="text" class="search-homepage" name="q" value="" id="edit_keys" />
-            <input type="hidden" id="collection-search">
+            <input type="hidden" class="collection-search" name="" value="">
 
             <!--<select name="search_type" id="search_type" size="1" onChange="chgAction()" class="form-control filter">
 
@@ -128,7 +128,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
               <ul id="filter-search-nav">
                   <li role="listitem"><a href="#" title="">Library Catalog</a></li>
-                  <li role="listitem"><a href="#" title="">Law Library Collection</a></li>
+                  <li role="listitem"><a href="#" title="">Law Collection</a></li>
                   <li role="listitem"><a href="#" title="">WorldCat</a></li>
                   <li role="listitem"><a href="#" title="">Site Search</a></li>
               </ul>

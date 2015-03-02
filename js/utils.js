@@ -228,10 +228,10 @@ $(document).ready(function () {
                     $(this).attr("action", 'https://search.library.cornell.edu');
                     break;
 
-                case 'Law Library Collection':
+                case 'Law Collection':
                     $(this).attr("action", 'http://jrc88-dev.library.cornell.edu:8003/?f[collection][]');
-                    $('input#collection-search').attr("name",'f[collection][]');
-                    $('input#collection-search').attr("value",'collection=Law Library')
+                    $('input.collection-search').attr("name",'f[collection][]');
+                    $('input.collection-search').attr("value",'collection=Law Library')
                     break;
 
                 case 'WorldCat':
