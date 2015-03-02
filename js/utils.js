@@ -229,9 +229,9 @@ $(document).ready(function () {
                     break;
 
                 case 'Law Library Collection':
-                    $(this).attr("action", 'http://jrc88-dev.library.cornell.edu:8003/?f%5Bcollection%5D%5B%5D=collection%3DLaw+Library');
+                    $(this).attr("action", 'http://jrc88-dev.library.cornell.edu:8003/?f[collection[]=collection=Law+Library');
                     break;
-                    
+
                 case 'WorldCat':
                     $(this).attr("action", 'https://cornell.worldcat.org/search?qt=wc_org_cornell');
                     break;
