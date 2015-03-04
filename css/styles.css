@@ -1736,3 +1736,5 @@ a.sandwich {
     font-size: 1em; }
     .page-content .main-content h2.title-content {
       font-size: 1.3em; } }
+.page-timeline .media-image {
+  margin-bottom: 0; }
