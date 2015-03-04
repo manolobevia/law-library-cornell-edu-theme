@@ -1719,3 +1719,7 @@ a.sandwich {
     height: 160px; } }
 .page-timeline .page-content .main-content .content img {
   margin-bottom: 0; }
+
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-frame,
+.vco-slider .slider-item .content .content-container .media .media-wrapper .media-container .media-image img {
+  margin-bottom: 0; }
