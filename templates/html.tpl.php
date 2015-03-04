@@ -25,8 +25,10 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
         <?php print $styles; ?>
 
-        <!-- Optional theme -->
+        
         <link href="<?php print $theme_path; ?>css/styles.css" rel="stylesheet" media="screen">
+
+        <link href="<?php print $theme_path; ?>css/print.css" rel="stylesheet" media="screen">
 
 
         <!-- Owl Carousel -->

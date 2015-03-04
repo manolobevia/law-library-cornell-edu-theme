@@ -2976,45 +2976,8 @@ a.sandwich {
     }
 }
 
-//############################
-//############################
-//####### PRINT CSS ##########
-//############################
-//############################
 
-
-    
-@media print {
-
-    body: 1em;
-
-    .hero,
-    .search-home,
-    .cul-branding,
-    .main-nav,
-    #nav,
-    .search-slider,
-    .close-search,
-    .page-content .breadcrumb,
-    .page-content .sidebar-nav,
-    footer {
-        display: none;
-    }
-    
-    .page-content .main-content {
-
-        width: 100%;
-        font-size: 1em;
-
-        h2.title-content {
-
-            font-size: 1.3em;
-        }
-    }
-}
-
-
- .page-timeline .page-content .main-content .content img {
+.page-timeline .page-content .main-content .content img {
 
     margin-bottom: 0;
  }
