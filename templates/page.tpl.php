@@ -121,7 +121,7 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
     <div class="search-interior">
 
         <!-- Pay attention to METHOD -->
-        <form id="search" name="form1" method="get" action="https://search.library.cornell.edu">
+        <form id="search" name="form1" method="get" action="https://newcatalog.library.cornell.edu/search">
 
             <label for="name">Search <span class="search-filter-selected">Library Catalog</span></label>
 
