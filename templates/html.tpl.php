@@ -62,7 +62,6 @@ $theme_path = base_path() . 'sites/all/themes/law_library_bootstrap/';
 
      
     <!-- carousel -->
-    <script src="<?php print $theme_path; ?>js/owlcarousel/owl.carousel.min.js"></script>
     <!-- megamenus -->
     <script type="text/javascript" src="<?php print $theme_path; ?>js/main.js"></script>
     <script type="text/javascript" src="<?php print $theme_path; ?>js/doubletaptogo.js"></script>
