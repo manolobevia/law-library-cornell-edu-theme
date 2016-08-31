@@ -5207,9 +5207,6 @@ button.close {
 .row {
   margin: 0; }
 
-ul {
-  list-style-type: none !important; }
-
 @font-face {
   font-family: 'HeroRegular';
   src: url("/sites/all/themes/law_library_bootstrap/fonts/hero-webfont.eot");
